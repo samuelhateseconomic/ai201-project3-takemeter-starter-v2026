@@ -1,3 +1,80 @@
 text,label,note
 Paste one post here. Keep the whole post — don't trim it to fit.,your_label_here,cold
 Another post.,your_label_here,"pre-labelled, checked"
+
+"I've been talking to some math graduates at other schools and the recent OpenAI drop has quite literally squashed an entire professor's core work as well as his PhDs. There are many such stories across the world and I was wondering if any has hit home. If you have any insight or any personal stories, please comment below. It would be really interesting and eye opening to see how deep AI has excavated one of humanity's most prized form of mental endeavor.
+
+Has your research been personally affected? How much of your effort has been dedicated to the problem? Do you realistically see yourself pivoting to a different subfield in math ? Will you pivot careers entirely instead? How do you personally see the future of Math research?
+
+I'm particularly interested in knowing what gap exists between these models' capability and the horizon left unexplored. If such a gap exists where these AI models cannot solve future problems, will math PhDs even be smart enough to explore this space? Or will Mathematicians just become AI Agent orchestrators? Do you already see this transition at Berkeley today?
+
+There's so many ways the conversation can splinter so just yap as much as u want honestly",reaction, cold
+
+"AI is going to kill commercial software or software as a service.
+
+As weve seen with reverse engineering, I just dont think apps and software are going to make money anymore. Why would anyone buy or subscribe to ab app when AI is making it possible for it to be open source.
+
+Ive made so many apps and services that would typically require a subscription or purchase and I dont know a lick of code. But obviously Im beyond the average user, but when free, open source versions exist of apps that are as good or better then what is the point of buying a proprietary app?
+
+I started making an incredibly niche app as a commercial venture but ultimately bailed out 2/3rds the way through because what is the point when my prospective clients will either have it added as a feature to software they likely already use or have someone on their team create a custom app catered to their individual needs.
+
+In the not so distant future the only ones making money will be the AI companies.", hot_take, cold
+
+"Zuck said "Muse will Make You MONEY"- I Tested 5 Use Cases
+When Zuck said Muse could help people make money, I was skeptical, so I tested it myself. These arent get-rich-quick schemes lol These are use cases to try out, based on your niche, expertise and preferences. What I found is that the research and analysis Muse does on each of these saves so much time that it pays for itself. Here are the 5 that held up.
+
+Im not affiliated with Meta, just a guy who likes testing this stuff with real-world data.
+
+1. Used car arbitrage (Facebook Marketplace) - If cars are not your thing, find your niche, sneakers, old records, guitars, etc)
+Im a car guy and I have an independent mechanic who fixes all my cars, so this one fits me perfectly. I asked Muse to find used cars in my area under $6k that were priced below their Kelley Blue Book value. It came back with deals that honestly shocked me, and every pick was backed by data, which I love.
+
+2. Lead generation - (Roofing) But can work for any industry and you don't need $ to start.
+Muse pulled public posts from local Facebook groups where people were asking for roofing work. A roof job can run $10k+, so roofing companies will pay for hot leads. Have Muse run the search daily and send each company a report with the listings.
+
+3. Website and social media services for new businesses (no money needed just find the businesses and reach out)
+Most new business owners start with a Facebook or an Instagram page and no website. I asked Muse to find restaurants in my area that just opened or are about to open and dont have a site. It searched online, local publications, Instagram and Facebook, and found them. I actually recognized one from local influencers hyping its grand opening, and it had no website. Great use case to reach out while the opportunity is fresh and pitch your service. (This one I actually reached out to them and we have a meeting scheduled)
+
+4. Underpriced land to wholesale - Wholesaling doesnt require capital. You lock up a property under contract (say, 90 days), find a buyer at a higher price, and pocket the spread when the deal closes. The original owner gets paid their contract price at closing.
+Muse compared land listings in my area against recently sold parcels and flagged the ones priced under market. One was a 11-acre lot with a creek for under $60k and found another lot for under $4K. Insane! The listings came from Facebook Marketplace, Zillow, Craigslist and more, and Muse included the comp analysis. You could put one under contract and assign it to a home developer, or buy and hold.
+
+5. Undervalued businesses for sale - (This one you need capital and have to me more established)
+Muse found 5 local businesses for sale that looked cash-flow positive and underpriced. Youll need to dig into the real financials on this one, but the interesting part was that one seller was just retiring. Plenty of profitable small businesses go unsold every day. You could partner up or buy one that already has customers instead of starting from scratch.
+
+None of this is “be lazy and get rich.” But having Muse do the research portion is a game changer and the facebook/instagram piece is next level.
+
+I walk through all 5 in detail on YouTube, including how I set up each search. Ill drop the link in the comments.", analysis, cold
+
+"What is the reason humanities researchers aren't as worried as mathematicians due to AI?
+I'm sure many have heard about the 700 problems OpenAI claimed to solve this month, and mathematicians are understandably panicked. However, if I'm not wrong, AI could just as well replace many humanity academics: writing essays with knowing a lot more information than a human. So AI written essays on topics in humanities are much more valuable, since an AI is extremely more informed. However, I do not see any major panic in the humanities. Is it because mathematics has more prestige, and mathematical discoveries are deemed more useful? Did they worry a few years ago like the programmers?",analysis,cold
+
+"I had this gentle cousin who almost broke her spine due to an illness but is now recovering and taking up law in a prestigious school. We attend the same uni, im an undergrad.
+I noticed how laid back she was, so I asked for some tips and this is what she told me;
+Condense everything into a “law-school style” cheat sheet.
+Instead of making massive reviewers, reduce each topic to the main rule, key concepts, exceptions, and a few examples. The point isn’t to remove information - it’s to force yourself to identify what actually matters. When your reviewer is 3 pages instead of 30, it’s also much easier to revisit later.
+Recall first, check later.
+After studying a topic, close your notes and try to explain it from memory. Write what you remember, answer questions, or teach it out loud. Then check your notes for what you missed. I started doing this instead of rereading the same pages over and over, and the gaps in my knowledge became way more obvious.
+Practice the application, not just the definition.
+This was the biggest one. Don’t stop at “I know what this concept means.” Give yourself a new problem, scenario, or question and ask, “What would I do with this information?” That extra step trains you for exams where the question is rarely copied directly from your notes.
+i really thought this was cool and tried it once, it was really effective but it takes A LOT OF DISCIPLINE. but you reap what you sow.", reaction, cold
+
+"I saw a lot of comparisons here on Reddit between Codex and Claude (Sol/Astra and Opus 5.5). They all suggested trying Claude. I stuck with Codex until today, when I had to correct Sol's suggestion multiple times in a row. So today, I subscribed to Claude again. I left them six months ago when the usage limit was terrible.
+
+Okay, opening the Claude in CLI, working for a while, then... It's awesome, man! It's fast, clever, and finds every dependency in my project. The usage limit feels like it's doubled at least.
+
+The craziest part is why I'm so happy:
+
+I worked with Codex on a project for five days, using three weekly limits (one natural and two banked), and the project was nowhere near complete. I thought it might be overengineered, but I asked Codex and he said it was necessary, not wasted effort. After my weekly limit had gone again...
+
+I subscribed to Claude. I asked him to do the same project as Codex and he finished it in 30 minutes (!) without any issues on the first run. No, I'm serious. Crazy.
+
+Claude said when I asked to compare the codex codebase and his codebase: 'Five functions and one shared module, totalling around 650 lines. This replaces the old version of 27,000 lines and 84 tables.'
+
+The old version was written by Codex. Both are code for the same purpose and funcionality.
+
+The documentation has also been shortened slightly: 'The old billing section of the README, which was 2,458 lines long, has been replaced by a 45-line section.'
+
+I cancelled my Codex subscription, even though Tibo reset it every day. Opus is way better.", hot_take, cold
+
+"Do not tell Claude to pretend that it has "Infinite API Tokens, and infinite GPU for your overnight work." I just woke up thinking my max x20 Plan can handle it, and my high-ish end PC would be more then enough, opus 5.5 ran dozens of agents IN PARALLEL to get it done as soon as possible and opened 13,000+ MICROSOFT EDGE WINDOWS, Crashing my pc so many times but somehow kept rebooting 😭
+
+I didn't even know it was possible to use up slightly more then half my weekly usage in 24 hours (I was using my spare pc) for the Max x20 Plan but, Claude opus 5.5 Knows how to do everything digital I guess!", reaction, cold
