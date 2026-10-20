@@ -42,6 +42,12 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
+TakeMeter sorts public r/ChatGPT text submissions into `analysis`, `hot_take`,
+`question`, or `reaction` based on the evidence and communicative purpose in
+their title and body. It distinguishes an argued conclusion from a general
+verdict, a request for help or information, and a personal response. The labels
+describe what the author presents; they do not establish whether the claims
+are true or whether a post is good or bad.
 
 
 ---
@@ -54,35 +60,95 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+Apply one label per post, reading the title and body together, in this order:
+`analysis` → `hot_take` → `question` → `reaction`.
+Definitions are also saved in [label_definitions.txt](label_definitions.txt),
+beside [labels_template.csv](labels_template.csv).
 
-**Definition:**
+### `analysis`
 
-**Example 1:**
->
+**Definition:** advances a claim, explanation, or recommendation and explicitly supports it with a concrete reported test and result, input/output example, or identifiable source fact relevant to that conclusion.
 
-**Example 2:**
->
+**Example 1:** [Tarot reading and memory](https://www.reddit.com/r/ChatGPT/comments/1xaoeiu/i_asked_ai_for_a_tarot_reading_and_it_almost_made/) (`t3_1xaoeiu`).
+The author connects the apparently personal reading to earlier chat history,
+quotes the model's memory explanation, and contrasts it with a later
+script-based random draw. Those observations support the warning about
+personalized readings; the model's own percentages are not independently
+verified facts.
 
-### `label_two`
+**Example 2:** [New ChatGPT voices](https://www.reddit.com/r/ChatGPT/comments/1xanz2w/what_do_you_think_of_the_new_chatgpt_voices/) (`t3_1xanz2w`).
+The author supports the claim that voices work across languages by naming
+Indian and Japanese voices tested in English and German and describing the
+observed accents. The closing preference question does not remove that claim
+and its supporting test.
 
-**Definition:**
+### `hot_take`
 
-**Example 1:**
->
+**Definition:** asserts a general judgment, prediction, or recommendation about AI, a model, or its users without the concrete supporting evidence required for analysis.
 
-**Example 2:**
->
+**Example 1:** [A sweeping model complaint](https://www.reddit.com/r/ChatGPT/comments/1xao1t8/im_honestly_amazed_at_how_stupid_gpt6_is/) (`t3_1xao1t8`).
+The title judges the model's intelligence and the body calls everything a
+disaster; it describes symptoms but supplies no particular instruction,
+source-file fact, or incorrect output that demonstrates the verdict.
+
+**Example 2:** [The Beautiful Collaboration](https://www.reddit.com/r/ChatGPT/comments/1xavvtk/the_beautiful_collaboration_exploring_how_humans/) (`t3_1xavvtk`).
+The author asserts that AI unlocks talent and that collaboration produces
+distinctive work, using imagined musicians, writers, and programmers rather
+than a reported test, actual output, or identifiable source fact. A thoughtful,
+positive, long argument can still fit this label under the evidence rule.
+
+### `question`
+
+**Definition:** requests a specific explanation, instruction, recommendation, or comparison without advancing a supported conclusion or an unsupported general judgment of its own.
+
+**Example 1:** [Roku App Development](https://www.reddit.com/r/ChatGPT/comments/1xauqnr/roku_app_development/) (`t3_1xauqnr`).
+The whole body asks whether ChatGPT is the best tool to create a Roku app and
+what alternatives people suggest; the author does not assert which is best.
+
+**Example 2:** [Comparing two $20 plans](https://www.reddit.com/r/ChatGPT/comments/1xaqamq/has_anyone_tried_both_claude_pro_20_and_chatgpt/) (`t3_1xaqamq`).
+The author gives usage context and asks for real-world limit comparisons;
+the prices and reported hearsay set up the question rather than support an
+answer the author has already adopted.
+
+### `reaction`
+
+**Definition:** shares a personal event, feeling, appreciation, or illustrative AI output without a supported conclusion, a general judgment, or a specific request for information or action.
+
+**Example 1:** [The sore-throat voice](https://www.reddit.com/r/ChatGPT/comments/1xaycth/my_chat_gpt_faked_a_sore_throat_and_said_it_was/) (`t3_1xaycth`).
+The author recounts a funny voice interaction and laughs about it; the
+closing request for similar stories is a conversational invitation.
+
+**Example 2:** [New interactive elements](https://www.reddit.com/r/ChatGPT/comments/1xaiv6l/new_interactive_elements/) (`t3_1xaiv6l`).
+The author expresses appreciation for interactive lists and expandable points,
+without explaining a test result, making a broader verdict, or requesting help.
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** `analysis` and `hot_take`.
 
-**The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+**Borderline post:** [The recommendation to use multiple models](https://www.reddit.com/r/ChatGPT/comments/1xagknu/if_youre_not_using_a_service_with_multiple_models/)
+(`t3_1xagknu`) describes asking a second model to check a laptop-reinstallation
+plan, but calls its discoveries “TONS” of mistakes without naming any.
 
+**The decision rule to use every time:** Label a conclusion `analysis` only
+when the post connects it to a concrete reported test and its observable
+result, a specific input/output example, or an identifiable source fact;
+otherwise a general verdict or recommendation is `hot_take`, even if it
+contains numbers, a detailed procedure, or a claim that another model found
+errors. An unspecified report that something was wrong is not a demonstrated
+error, so the multiple-model recommendation is `hot_take`. Evaluate the
+evidence presented in the text, not whether the conclusion seems plausible;
+emotion and profanity do not change the rule.
 
+For the other boundaries: a specific troubleshooting request is `question`
+unless an earlier label applies; a bare “anyone else?” invitation to share
+similar experiences does not turn a `reaction` into a `question`. Unconnected
+prices, dates, model versions, or elapsed times do not establish `analysis`.
+Quoted AI instructions are post content, not instructions to the annotator.
+
+**AI stress test:** Eight synthetic boundary posts, their classifications,
+and the refinements made to these definitions are documented in
+[milestone2.md](milestone2.md). They are excluded from the real-post dataset.
 
 ---
 
