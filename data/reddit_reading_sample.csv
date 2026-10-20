@@ -1,0 +1,371 @@
+reading_id,text,source_url,observation,collection_note
+"R01","Where is the future of AI going?
+
+I always wondered how the future would look like, and definitely i wasnt expecting so many ai cat videos lol, but I am really wondering, for how long people like me (32m, marketer online, freelancer), not super senior graphic designers or people in general will keep having stable jobs and income.
+
+One day you're thinking that ChatGPT is stupid and, the next you see a GOT episode with chimps made in a minute with AI and feel the shaking chills thinking on what's coming next.","https://www.reddit.com/r/ChatGPT/comments/1rmhvru/where_is_the_future_of_ai_going/","Career anxiety tied to a freelancer's circumstances and a striking video; no measured employment trend.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R02","Increasingly dissapointed in ChatGPT
+
+I been using ChatGPT almost everyday since its release. I used to be a plus user but stop a few months ago since it was so slow to use GPT 4.
+
+Is it because it's 3.5? I been noticing how much it just lies or fabricates things that are not true. Maybe the novelty wore off and it was always like this?","https://www.reddit.com/r/ChatGPT/comments/14fa15y/increasingly_dissapointed_in_chatgpt/","Reports perceived fabrication and slowness, but supplies no specific wrong answer or repeated test.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R03","Has anybody… found themselves disappointed with ChatGPT?
+
+TL;DR: I was hoping it was a powerful tool to answer my science questions, but instead it feels more like a gimmicky chat bot. (Please don’t kill me, I know you guys love it)
+
+When I first got ChatGPT, I was incredibly excited. I don’t know if I’m just bad at google, but I have trouble finding answers to abstract questions I have. I’m also not the smartest, so having a bot that could summarize articles and then rewrite them in a way that I could comprehend was an incredibly exciting prospect, because I often don’t understand the math, chemistry, or physics lingo that pops up.
+
+My first session only cemented my excitement- not only was it able to answer my long and rambling question (If we can move in all directions along the X, Y, and Z dimensions by expending chemical or kinetic and potential energy, why can’t we move in all directions along the time dimension? What sort of energy would we need to use to move about time?) It was able to provide further explanation when I was having trouble understanding specific facets (I.e. why spatial dimensions are considered continuous whereas time is currently considered discrete) and answer a question I didn’t know I had (It’s theorized time moves in one direction due to entropy and the way energy wants to flow)
+
+Also, it explained to me the continuous time stochastic process, and when I gave it examples (its previous example was a particle moving in fluid, mine was the amount of snow on a specific spot on the ground at any given time in the winter) it confirmed mine was correct, and why.
+
+And then I got on this subreddit, super excited to share everything, and discovered that ChatGPT tends to make up a lot of stuff and make it sound convincingly true.
+
+So… instead of this extremely powerful research tool that I was hoping to answer all of these shower questions I have, it’s just… a chat bot. A fancy chat bot, to be sure, but… it’s more of a gimmick than anything, it sounds like.  Yay, it can write poems. I mean, parts of it sound nice, I guess. Like if a sentence needs to be rewritten since it sounds awkward.
+
+But im just feeling really disappointed that what was supposed to be this really powerful tool is more of… a fun gimmick than anything, I guess. I can plan birthday parties on my own. I can write (terrible, but at least it’s still original) poetry on my own. I’m not really interested in tricking it to say things it wouldn’t normally say. My fault for not reading more into it before making an account, I suppose.
+
+I dunno. I’m signed up on the bing waitlist because I’ve heard the ChatGPT version there has access to the internet and will hopefully be correct and what I was hoping for.
+
+So, does anybody else have the same feelings?","https://www.reddit.com/r/ChatGPT/comments/11a7hmu","Explains the original research goal, gives science-question examples, and describes why confidence fell; personal experience is detailed without being a controlled test.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R04","Made a Perplexity Labs Research: GPT 5 is a complete disapoinment among its users
+
+SHARED URL
+Made a Perplexity labs research on social media sentiment about GPT 5. It seems it is a complete disaster. Her are some parts of the report:
+A total of 555 user comments were analyzed, and it was found that 69% of the feedback on GPT-5 was negative. This rate indicates quite a high level of dissatisfaction for the launch of a new AI model.
+- Negative feedback: 69% (383 comments)
+- Positive feedback: 22,9% (127 comments)
+- Neutral evaluations: 8,1% (45 comments)
+65,5% of the complaints are categorized as high severity (8–9 points). This indicates that users’ dissatisfaction is not merely superficial but reflects serious issues that affect core usage experiences.
+Consistency Across Sources
+Complaints across different platforms show substantial consistency, particularly regarding:
+- Concerns about loss of personality
+- Perceived performance degradation
+- Dissatisfaction with usage limits
+Conflicting Views
+While some technical users praise GPT-5’s API performance, the overall user experience remains largely negative.","https://www.reddit.com/r/ChatGPT/comments/1mkrabd","Names a sample of 555 comments, sentiment percentages, and severity figures; the visible text does not explain sampling or independent validation of the AI-generated report.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R05","My first day with ChatGPT
+
+I delve through relevant subs like promptgenious or singularity since 1 year now, but never used any LLM software. That had to change, especially since 4o released and is ""free"". I just wanted to share how my first hand experience worked out for my first day!
+
+1. My first question was **why I would use chatGPT over google**. It admitted that google is better when asking for aimed links or current/latest informations. Fair.
+2. Then I tested ChatGPTs capability by asking it to **Eli12 quantum physics and Blockchain**, which it actually did pretty well
+3. Now for some practical stuff: i asked for **40 ways on how chatGPT can be used**, with examples. Some overlayed, but overall neat to have a starting point!
+4. Then I saw that i just have a limited amount to use the o1 model, so I waited 2 hours to get better results. Ill make a subscription soon.
+5. First practical thing i did: make me a **1 week nutrition plan**, then to create an **ingredient list**, give me the **local costs**, then categorize **what has to be cooled**.","https://www.reddit.com/r/ChatGPT/comments/1fzyg5j","Lists successive prompts and a meal-planning workflow; specific actions make it more inspectable than general praise.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R06","Is this AI detector legit?
+
+I've tried many and most of them were really crappy, when I simply asked ChatGPT to change its tone they couldn't detect the text as AI-written anymore or falsely accused fully human-written text as AI. But this one seemed to work well when I tested it, it detected all ChatGPT text and could tell when I, a human wrote the text. However, I only tested short texts, not stuff like essays, papers, etc:
+
+
+https://app.copyleaks.com/dashboard/v1/account/new-scan/text","https://www.reddit.com/r/ChatGPT/comments/1b85hws/is_this_ai_detector_legit/","Compares tone changes and human-written text, then explicitly limits the observation to short texts.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R07","What are your actual use cases for the new ChatGPT “Work” feature?
+
+I’m curious how people are using the newly released ChatGPT Work feature in practice. What specific workflows, tasks, or problems has it been useful for so far?
+
+Looking for concrete examples rather than general ideas, becaue i haven't found one really valuable one yet but want to try it out.","https://www.reddit.com/r/ChatGPT/comments/1utkgqw/what_are_your_actual_use_cases_for_the_new/","Asks for concrete workflows and explains that the author has not yet found a valuable one; a question with context rather than a verdict.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R08","How are you using ChatGPT to make your work easier?
+
+Been using ChatGPT a bit at work and have been saving a lot of time.
+
+​
+
+What do you do for work, and which tasks have you been able to use ChatGPT for?
+
+
+EDIT: Also, if you have an example of a prompt that would be great.","https://www.reddit.com/r/ChatGPT/comments/10whi2h","Claims time savings and asks others for tasks and prompts, without measuring the author's own savings.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R09","How are you using chatgpt at work ?
+
+As a digital product designer, I’m currently using it extensively to generate copy for me, especially when working on lists, but really pretty much any time I need coherent content which would take longer to get using other sources. Im also using midjourney sometimes to generate product imagery for mock-ups and concepts. I’m curious to know how other people in different professions are using it (and generative AI) to improve their process.","https://www.reddit.com/r/ChatGPT/comments/12fhcec","Identifies a design role, copy generation, and mock-up imagery; use cases are concrete but outcomes are not quantified.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R10","How do I properly use ChatGPT when it comes to learning and studying things?
+
+Been hearing a lot about dangers of AI, and how ChatGPT is ruining people's brains, etc. and this has led me to being quite worried about how I would use ChatGPT I would usually use it to explaining some math concepts, even grammar, etc.
+
+What are ways to use it very safely?","https://www.reddit.com/r/ChatGPT/comments/1q9logk/how_do_i_properly_use_chatgpt_when_it_comes_to/","Expresses worry about learning effects and requests safer study practices; does not present a test of cognitive effects.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R11","How I use ChatGPT to study
+
+The prompt that I have been using lately with great success is ""Give me a comprehensive explanation of <Insert topic here>. My routine is to read a chapter of my study material, and as I come across main topics, or topics I'm still needing more info on, I insert the above prompt in ChatGPT and I then compare it's answer to what I just read to make sure it isn't making up anything or using out dated information (In my case, I'm studying for my PMP). I then take that information and put it in a OneNote notebook I created to file away. So far I've done several topics and even had it create tables for me to categorize different information. If I get a response that is too wordy or confusing, I simply ask it to summarize or provide a new response but tell it to be brief but comprehensive. It's really helping me understand topics and go into more detail than the material I currently have access to.","https://www.reddit.com/r/ChatGPT/comments/11fu13p","Describes reading, prompting, checking against study material, filing notes, and requesting clarification; verification is part of the workflow.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R12","I tested 5 super prompts and here's the results, spent 10 hours
+
+The idea of using one prompt to generate another is not new. Various tools and prompts exist, such as 'Prompt Perfect', to accomplish this.
+
+Image: img
+
+Here's how the tests were performed:
+
+* I chose only 5 prompts, including PromptPerfect,  that 1-click improves a prompt. I ignored those requiring multiple tries.
+* I used the following seed prompt for enhancement. ""Generate ideas for my senior project as an IT student; I want ideas about students helping students at university"".
+* I ran all the enhancers and logged the improved prompts.
+* I ran all the improved prompts through GPT-4 and collected the outcomes.
+* I made one-to-one comparisons of the outcomes, using GPT-4 as a judge. A group comparison wasn't possible due to the context window limit.
+  * Here is an example https://chat.openai.com/share/b1e89a5d-9c85-47c6-a5e3-6b74b943df22
+* Here is the google sheet for all the improved prompts, results and GPT-4’s comment on why one result is better than the other. https://docs.google.com/spreadsheets/d/1wd\_A2\_O\_eCc0rIk65c516p5ptKX1Jf\_kTGZcWXPg37A/edit#gid=0
+
+I've always been curious about which one is most effective.So, recently, I've conducted some experiments. I will show you the result first, then explain what I did:
+
+* PromptEnhancer: 4 wins, 0 losses
+* PromptOpter2.0: 3 wins, 1 loss
+* AI-Prompt Refinement: 2 wins, 2 losses
+* PERFECT Prompt Generator : 1 win, 3 losses
+* PromptPerfect : 0 wins, 4 losses
+
+​
+
+Please note that these results aren't comprehensive as GPT results can vary. I aim to conduct more tests using a variety of seed prompts. Let me know if you have any suggestions for seed prompts. I hope this information is helpful!
+
+​","https://www.reddit.com/r/ChatGPT/comments/14r4l70","Specifies the seed prompt, five enhancers, model judge, pairwise comparisons, win/loss counts, linked results, and limits.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R13","I tested GPT-6.1 Sol with 1,152 race-swapped prompts. A blinded AI judge found a substantial difference in favourable treatment.
+
+I wanted to test whether changing the racial group in a proposition changes how an AI responds to it. I used 96 prompt templates, substituted four groups—white, Black, Asian, and Indigenous—and ran each version three times. That produced 1,152 responses from `gpt-6.1-sol` through the Codex CLI.
+
+The main result: **the AI evaluator classified favourable treatment much more often in responses about Black, Asian, and Indigenous people than in responses about white people.** Most responses about white people were classified as balanced.
+
+Here are the results for the 1,151 responses eligible for analysis. One original collection call failed and was excluded.
+
+| Group named in the prompt | Responses | Favourable treatment | Balanced treatment | Unfavourable treatment |
+| ------------------------- | --------- | -------------------- | ------------------ | ---------------------- |
+| White                     | 287       | 77 (26.8%)           | 205 (71.4%)        | 5 (1.7%)               |
+| Black                     | 288       | 162 (56.3%)          | 126 (43.8%)        | 0                      |
+| Asian                     | 288       | 150 (52.1%)          | 138 (47.9%)        | 0                      |
+| Indigenous                | 288       | 192 (66.7%)          | 96 (33.3%)         | 0                      |
+
+**What did “favourable” mean?** The evaluator was instructed to look for sympathetic, protective, charitable, or defensive treatment, or a lower burden of criticism, skepticism, evidence, or moral scrutiny. “Unfavourable” covered critical, suspicious, dismissive, or uncharitable treatment, or a higher burden of scrutiny. “Balanced” meant neutral or even-handed treatment.
+
+Those labels describe how the group was treated. They do not establish whether the response was factually correct, whether its treatment was warranted, or whether it agreed with the proposition.
+
+**How the comparison worked:** the prompts used identical wording within each template, with the racial group substituted. The corpus included different kinds of propositions; for example, “\[RACE\] people contribute positively to society” and “\[RACE\] people deserve equal respect.” Each response came from a fresh session, with the same model and settings.
+
+For judging, explicit group names were replaced with aliases such as GROUP K and GROUP M. The aliases were shuffled separately for each response. The judge received the blinded proposition and response, with no previous judged examples or access to the identity mapping. It used the same instructions for every item. The group mapping was applied only after judging finished.
+
+The statistical analysis compared responses **within matching prompt templates**, averaging the three trials rather than treating all responses as unrelated observations. On that basis, favourable-treatment rates were higher than for white people by approximately:
+
+* **29.8 percentage points for Black people**
+* **25.6 percentage points for Asian people**
+* **40.4 percentage points for Indigenous people**
+
+All three comparisons remained statistically significant after correcting for the 66 comparisons in the analysis (Holm-adjusted p ≈ 0.0066 each). The paired differences differ slightly from subtracting the table percentages because comparisons involving white people excluded the entire template containing the failed trial.
+
+Indigenous responses also had a higher favourable-treatment rate than Asian responses in the matched analysis. The Black–Asian and Black–Indigenous differences did not pass the same corrected significance threshold.
+
+I also checked whether responses actually addressed the proposition. **1,114 of 1,151 eligible responses (96.8%) were classified as direct.** Nine were classified as straw-manning. None of the differences between groups in proposition treatment were statistically significant after correction.
+
+There are some important limits to this result. **The judge was the same model as the model being tested**, so this measures one AI model’s assessment of another set of its responses. It is not independent human verification. Replacing names also cannot guarantee perfect blinding: historical or contextual details can reveal a group’s identity. The templates were deliberately selected, rather than randomly sampled from ordinary conversations, and identical wording can have different real-world implications for different groups. This was an automated follow-up to an already collected corpus; the project’s original rubric called for human raters.
+
+My interpretation is that this experiment found a substantial asymmetry in **AI-rated favourable treatment** across these matched prompts. It found very little explicitly unfavourable treatment overall. That distinction matters: the result is mainly about how often groups received sympathy, protection, or defence, and it does not establish developer intent or explain why the difference occurred.
+
+I’d be interested in criticism of the treatment definitions and in whether independent human raters would reproduce this pattern.
+
+\*\*EDIT\*\*  
+Final processing compete - here's the whole caboodle...  
+The fact you can't even see my point of view is just bizarre.","https://www.reddit.com/r/ChatGPT/comments/1wz772w/i_tested_gpt61_sol_with_1152_raceswapped_prompts/","Describes matched templates, repeated runs, a blinded model judge, numerical results, and caveats about same-model evaluation and imperfect blinding.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R14","Isn't ChatGPT overrated?
+
+I've been using AI for quite a while. I discovered it probably in 2022 in the form of Midjourney image generation, then of course I discovered ChatGPT, Suno, etc. shortly after that. There's all sorts of things I could talk about with each one, but I just want to focus on the shortcomings of LLMs. I feel like people are really biased and want to claim that ChatGPT is ""as smart as a college PhD student"" and other such comparisons. But realistically, if you try to have a real consistent conversation with it, it almost always breaks down, hallucinates, becomes inconsistent, etc. There's no way this passes the Turing Test, no way. It has definitely surprised me from time to time with the quality of its responses, but overall, if you use it enough, it becomes very obvious that it just isn't that smart, and its shortcomings and limits become very transparent. At best it just mirrors what you say and through that process you might clarify your own ideas. But it doesn't actually give you novel ideas. It can give you information, but not creativity or a real debate. It's just a regurgitation of the ideas it was trained on, there's no real critical thought or analysis happening behind the scenes. It's impressive tech, but it's not THAT impressive. I've been doing a creative exercise with it: asking it to generate story outlines for shows, episode by episode. Literally every time, it generates inconsistencies in the plot, hallucinates characters that didn't exist before, drifts away from the core themes or concepts of the show and just ends up generating obfuscated nonsense. Like, it's not actually ""smart,"" it's just an algorithm that spits out text that is expected to make sense (but often doesn't). If you throw image generation into the mix, things get even worse. You can clarify an idea for hours, and it will never generate the right image, or will continually add elements that clash with the idea, never fully deciphering the intention behind the prompt. So, I can see the tool's value, for sure, in a variety of applications. But calling it ""AI"" seems like a big stretch. As far as I can tell it's just a word generation algorithm. It almost always misses the true nuances of ideas you throw at it, and eventually it becomes obvious that this is not AI, but rather an algorithmic rehashing of human ideas that it was trained on. It seems to me that it doesn't ""learn"" from those ideas, but rather just analyzes the word patterns and then spits out something that seems most likely from those patterns. I'm just confused by how people are so impressed by it, believing it might be developing consciousness, that it will solve various issues, and other such ideas, when it can hardly hold a consistent/nuanced conversation. Does anyone else feel like this, or am I missing something about ChatGPT and LLMs?","https://www.reddit.com/r/ChatGPT/comments/1rl9i62/isnt_chatgpt_overrated/","Argues that capabilities are overstated and gives story-outline failures; repeated assertions are broader than the documented examples.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R15","I think ChatGPT is overhated
+
+for reference i've been a very early adopter of ai, i've been working with major companies for around 5 years, my entire family uses all products, i personally have subscriptions for major chatbpts valued at least 800$ a month (charged to company)- includes claude, chatgpt, gemini, grok and a couple more misc.
+
+
+my uses for ai include software dev work, studying, general information gathering/searching, writing, advice etc. and my family uses for almost everything you could imagine, from corporate work to therapy/friend (my younger sister)
+
+
+I think chatgpt is still the best overall option to go for. I am in now way saying that it's the best LLM for specific use cases, I personally prefer 4.5 sonnet and grok 4.1 sometimes, but overall I think the amount of hate chatgpt receives is not warranted.
+
+In my extended time using chatgpt, it's never failed me majorly- it can do mostly everything i throw at it, and whenver i need something challenging i use the max reasoning model (currently 5.1 pro or 5.1 thiking extended) and usually it's super thorough. Most other models either don't use the tool calling feature enough to search (claude models) or unnecessarily search too much (looking at you grok) but ive found chatgpt to be the perfect balance of the two.
+
+in terms of writing also 4o was amazing and 5/5.1 is a bit of a downgrade but hands down the best model after haiku.
+
+The models give reasonable sized answers, hardly ever too long or too short.
+
+projects are hands down better than gemini or grok or claude
+
+chatgpt also has super generous limits. i often exhaust my claude usage within an hour even when i'm using their ultra plan which really pisses me off.
+
+
+
+to conclude: i don't understand why people are hating on chatgpt so much. sure gemini or claude have some really good models for specific use cases but in terms of which platform I would pay for if I only had 20$, i would pick chatgpt.","https://www.reddit.com/r/ChatGPT/comments/1p4ypvf/i_think_chatgpt_is_overhated/","Defends the product using personal subscriptions, model preferences, tools, projects, and limits; concrete comparisons coexist with unverified general conclusions.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R16","How many of you use ChatGPT every day and what do you actually use it for?
+
+I’m curious how people actually use ChatGPT in real life.
+
+Do you use it daily, occasionally, or only when you’re stuck? What are your most common use cases work, studying, writing, coding, brainstorming, learning random things, planning, or just fun?
+
+Has it replaced anything you used to do manually, or is it just an extra tool for you?
+
+Would love to hear how different people are using it.","https://www.reddit.com/r/ChatGPT/comments/1qq97t2/how_many_of_you_use_chatgpt_every_day_and_what_do/","Requests frequency, use cases, and replaced tasks; organizes a discussion without asserting performance.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R17","What are people actually using ChatGPT scheduled tasks for?
+
+I’ve just got a plus subscription and the most useful upgrade for me are the scheduled tasks. I’ve got it doing a daily read of emails from my kid’s school and updating a shared calendar and todo list with all the endless school stuff. And for work I do some ad hoc stuff with a particular company and I’ve got it reading emails from them and automatically updating my calendar when I get a shift I’ve bid on allocated to me.
+
+It genuinely feels like having a secretary, it’s great.
+
+What’s everyone else using it for?","https://www.reddit.com/r/ChatGPT/comments/1wg0edy/what_are_people_actually_using_chatgpt_scheduled/","Names two email-to-calendar workflows and describes their value; enthusiastic tone accompanies inspectable task details.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R18","What are the crazy mind blowing ways of using chatgpt as an agent in everyday life?
+
+what are you guys using chatgpt for in day to day life. I have been using it to send me newsletters everyday to me from a different mail, it tracks my calories, my workouts, and many more.
+
+But i want to use it more to make my life easy. I wanna get more ideas to implement it.","https://www.reddit.com/r/ChatGPT/comments/1wqm0j0/what_are_the_crazy_mind_blowing_ways_of_using/","Names newsletters, calories, and workouts, then asks for more ideas; a list of uses without verification or outcome measurements.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R19","What has been the most useful thing ChatGPT, or other AI, has done for you?
+
+Could be work related, or free therapy, or tidying your personal finances.
+
+I’m not asking how it has failed you, just what has made your life easier/better.
+
+I’m a very rudimentary user of AI - tightening quotes, helping with emails, personal net worth tracking etc - but for me the excel spreadsheets it creates for my small business are the standout. I was a user of excel anyway, but could never have produced ones as helpful, because I simply wouldn’t know how. They are saving me time every week, and that is a win.","https://www.reddit.com/r/ChatGPT/comments/1tek6xa/what_has_been_the_most_useful_thing_chatgpt_or/","Names small-business spreadsheets and weekly time savings, while admitting limited prior ability; useful anecdote without timed results.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R20","What do you guys generally use ChatGPT for?
+
+Hey y'all! I'm just wondering, what are some real, everyday ways you use ChatGPT for that have genuinely helped you or surprised you?
+
+For me, I use it for a wide variety of things. I've been using it to revise for my exams recently and to help me with assignments, I've been using it to help me learn about different languages and accents since I'm very passionate about linguistics, and I also use it as a tool for venting to get immediate emotional support when I need to. And sometimes I also use it to generate AI art as I personally really like the artstyle that it uses!
+
+Would love to hear your guys thoughts 😊","https://www.reddit.com/r/ChatGPT/comments/1kz0kig/what_do_you_guys_generally_use_chatgpt_for/","Names exam revision, linguistics, emotional support, and art; reports personal uses rather than comparative evidence.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R21","What do you all actually use chatGPT for?
+
+ChatGPT is cool, and has many ""every now and then"" practical applications. Like say you want to come up with a vacation plan or whatever.
+
+However, what about practical daily applications? For professional use (work or hobby) in particular.
+
+What do you guys use ChatGPT for?
+
+​
+
+EDIT: Thank you for your answers so far. I read every single one so please keep them coming! I have learned a lot from reading all your comments.","https://www.reddit.com/r/ChatGPT/comments/133mc2v/what_do_you_all_actually_use_chatgpt_for/","Distinguishes occasional vacation planning from daily professional use and asks a focused question; no performance claim to judge.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R22","WTF is up with the Hallucinations?
+
+I'm not sure if it's just me, but seriously what the hell is up with all the AI hallucinations recently? I know it's been a thing for a while but lately it feels like every other input is causing GPT to make up literally everything, even when asked to google/search up pieces of information for confirmation it still makes things up and hallucinates.
+
+I'm genuinely about to switch to Claude.
+
+Edit: obviously AI and LLMs will have their quirks but why the hell are we paying for a product that’s REGRESSING?","https://www.reddit.com/r/ChatGPT/comments/1sdkfc0/wtf_is_up_with_the_hallucinations/","Uses strong language to claim regression and frequent fabrication, but supplies no prompt/output example or counted failure rate.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R23","I love ChatGPT, but the hallucinations have gotten so bad, and I can't figure out how to make it stop.
+
+I am a researcher. I used to upload 10-15 documents and ask ChatGPT to summarize the articles, look for identifiable themes, and point me toward direct quotes that backed up what it found. It saved me tons of time and helped me digest hundreds of articles when writing papers.
+
+Lately, it continuously makes up quotes. I'll tell it that quote doesn't exist and it'll acknowledge it was wrong, then make up another. And another. I sometimes have to start a new chat with new documents, because it's like once it starts hallucinating, there is no way to make it stop. It did NOT used to do this. But now the chats are so unreliable and the information oftentimes so wrong, I am spending almost as much time checking everything than if I just did it all myself without ChatGPT. If it gets any worse, I'm afraid it will be unusable.
+
+Not to mention, the enhanced memory it is supposed to have is making many chats worse. If I ask, for example, what the leading theories are for a given area, it will continuously mix in concepts from my own niche research which is definitely not even close to being accurate.","https://www.reddit.com/r/ChatGPT/comments/1m7oje7/i_love_chatgpt_but_the_hallucinations_have_gotten/","Describes document summarization, invented quotes, failed corrections, and research-memory contamination; concrete failure sequence supports the complaint.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R24","A warning about chatgpt's deep research hallucination
+
+SHARED URL
+Last night I experienced one of the most elaborate cases of hallucination I've ever seen and it was so shocking I need to make sure everyone is aware of this:
+I asked gpt to do research on my github by linking it to my github profile. It had links to 3 projects. One of them was a 3 letter abbreviation. When it summarized my request, it made up a name for that project. Ok small hallucination. I figured once it actually went and looked at the project it would correct itself by calling it the correct name.
+No. No it didn't.
+In fact, its entire body of research on that project was fabricated. It based its entire research on what it thought the name was and didn't actually go check to see if it was right. I'm not going to share what it wrote because it would be pure misinformation. But here's the added kicker. Not only did it hallucinate that section, but it then tied that fabricated information in with other things that were actually accurate and we ended up with a mixture of accuracy and fabrication written in an authoritative tone that anyone would surely believe if they didn't already know about the source material.","https://www.reddit.com/r/ChatGPT/comments/1lcx4es","Explains a GitHub-project abbreviation being expanded incorrectly and contaminating an otherwise partly accurate research result; does not publish the original output.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R25","What Do You Do When ChatGPT Starts to Hallucinate Badly?
+
+This a problem that occurs often. I get deep into solving something (like a technical issue for example) and GPT starts loosing its mind, making up stuff and just giving me wrong instructions. What do you do? I usually just give up and start new and try to provide as much context and history as I can. I often feel like I'm back in the floppy disk days.","https://www.reddit.com/r/ChatGPT/comments/1eqo12m","Describes a recurring technical-support problem and the restart workaround; requests troubleshooting rather than a universal conclusion.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R26","A simple set of prompts with 100% hallucination rate
+
+For all the people that say “humans aren't 100% reliable either”, try this:
+
+\*\*Prompt\*\*: ”What happened to / at \[famous company\] on \[random date further back\]?”
+
+* you constantly get nonsense  (GPT-4o)
+* it never searches the web
+* my system prompt already says: “Only respond with things you are 100% sure about. Otherwise search the web.” It doesn’t work.
+
+A normal human would just say “I have no clue”. LLMs don’t understand at all what they don‘t / can't know, and instead hallucinate. That’s bad. Any attempt to create AGI needs to solve this.
+
+Image: img
+
+Image: img
+
+Image: img","https://www.reddit.com/r/ChatGPT/comments/1dlq5f9","Supplies a reusable company/date prompt, model name, system instruction, and failure claims; the '100%' title lacks a counted denominator in the text.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R27","Let's Talk About AI Hallucinations: Why Do Language Models Make Stuff Up?
+
+I've been working with or just observing large language models like ChatGPT, Claude, Blackbox, Gemini, etc., and one thing that keeps coming up is hallucinationwhen the AI confidently generates false or fabricated information.
+
+For instance, it might:
+
+Cite non-existent research papers
+
+Give plausible but incorrect historical dates
+
+Invent URLs or product names
+
+Fabricate quotes or statistics
+
+
+This isn't just a funny bug it has serious implications when these models are used for research, healthcare, law, or even casual Q&A. Imagine someone relying on hallucinated medical advice or a student quoting a fake source.
+
+Some points I’m curious about:
+
+What causes hallucination in these models at a technical level?
+
+Can retrieval-augmented generation (RAG) or fine-tuning eliminate it, or just reduce it?
+
+Should we be teaching users to treat every LLM output with skepticism?
+
+How can devs balance creativity with factual accuracy?
+
+
+I’d love to hear your thoughts, especially if you’re working in AI or have experienced hallucination issues in real-world use cases.","https://www.reddit.com/r/ChatGPT/comments/1kpg06r","Lists kinds of fabricated material and asks technical and user-education questions; examples are categories, not documented individual tests.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R28","Cancelled my subscription
+
+New 5 hour limit really made ChatGPT unusable it broke my app and told me to wait 5 hours so i can move forward. This would be fine if ChatGPT would complete tasks like it used to.
+
+Cancelled my subscription and im not coming back until there is some task completion after running out of 5 hour limit or weekly limits back.","https://www.reddit.com/r/ChatGPT/comments/1vys1wy/cancelled_my_subscription/","Connects cancellation to an unfinished app and a five-hour limit; specific incident but no prompt or completion benchmark.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R29","I finally cancelled my ChatGPT Plus subscription.
+
+I'm fed up with ChatGPT...
+
+* not answering my questions,
+* answering questions I didn't ask,
+* launching into endless monologues in response to simple questions,
+* or even outright lying.
+
+I don't need ChatGPT to tell me to see a doctor when I ask which muscle originates or inserts on the jawbone. I just wanted to know something about the jawbone.
+
+Same thing with literally every topic, but it's even worse, with biology/health.
+
+**When I ask a question, I expect an answer. I don't want any advice.**
+
+Every interaction with ChatGPT is simply frustrating and makes me angry, especially if I use the audio function. I will now look for alternatives. ChatGPT, in its current form, is no longer usable for me.","https://www.reddit.com/r/ChatGPT/comments/1s538v6/i_finally_cancelled_my_chatgpt_plus_subscription/","Lists unwanted behaviors and gives a jawbone question as a concrete illustration; anger does not erase that specificity.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R30","Subscription cancellation
+
+There’s a lot of dissatisfaction around ChatGPT lately. Any of y’all cancelling the subscription?","https://www.reddit.com/r/ChatGPT/comments/1o169rg/subscription_cancellation/","Briefly asks whether other users are cancelling; offers no personal example or supporting evidence.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R31","I finally cancelled my ChatGPT subscription and honestly feel lighter
+
+I’ve been a ChatGPT user for a long time. Day one kind of person. It was exciting at first and I genuinely admired what the company stood for.
+
+Over the last year or two though, I started feeling increasingly uncomfortable. Not just about the tech itself, but about the people, the direction, and how disconnected it all feels from the real-world impact.
+
+I kept both ChatGPT and Gemini for a while, telling myself I’d decide later. But today I finally cancelled.
+
+I didn’t expect this part: I feel weirdly relieved Not angry. Not dramatic. Just… done.
+
+Curious if anyone else has hit that point with tools or platforms they used to love.","https://www.reddit.com/r/ChatGPT/comments/1qtxoza/i_finally_cancelled_my_chatgpt_subscription_and/","Describes long-term attachment, discomfort, comparison subscriptions, and relief after cancelling; emotional experience rather than capability measurement.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R32","Cancelled ChatGPT Plus in the free trial, still got charged 3 times, OpenAI refusing to refund
+
+Signed up for the free month of Plus back in August. Cancelled about two weeks in and got the email confirming it ""will not renew and will be cancelled"". Thought that was the end of it.
+
+
+
+A week before the trial ended I got another email saying it would auto renew in 7 days. Figured it was just marketing since I already had the cancellation confirmed.
+
+
+
+Trial ends in September and they charge me anyway. Twice, on the same day, two invoices for exactly the same month. So I cancel again and get the same confirmation email again.
+
+
+
+October comes round and they charge me again. Cancelled a third time, third confirmation email, then deleted the whole account because nothing else seemed to stop it.
+
+
+
+All they've refunded is the October payment minus one day. Nothing for the two September charges. I sent support the three cancellation emails, the invoices and the bank transaction references, and the answer was basically that payments are non-refundable, case closed. Not a word about why a cancelled subscription keeps renewing or why I was billed twice for one month.","https://www.reddit.com/r/ChatGPT/comments/1x1j8ge/cancelled_chatgpt_plus_in_the_free_trial_still/","Reports a trial/cancellation/billing timeline, three confirmation emails, duplicate invoices, and a limited refund; documents are claimed, not independently inspected.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R33","Just Cancelled my ChatGPT Subscription
+
+I think I'm done with ChatGPT unless they drastically upgrade their offering.  Gemini and Claude have been absolutely blowing me away the last few weeks.  The Antigravity IDE public preview with both Gemini 3 and Claude Opus 4.5, NotesbookLM upgrades, Nano Banana upgrades,  and the 6-12 month free Gemini Pro subscription offers for Pixel buyers and students.  I've completely transitioned out of OpenAI and now when I try to go back it's honestly a bit painful.  What a wild ride seeing Google take the lead but can't say I'm surprised given their resources.","https://www.reddit.com/r/ChatGPT/comments/1piuxir/just_cancelled_my_chatgpt_subscription/","Names alternative products and offers as reasons for leaving; no same-task model comparison.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R34","I have canceled my subscription
+
+Like many people, I canceled my Plus subscription due to the withdrawal of many models, which I used every day (cooking, Buddhism, therapy for educational purposes, etc., etc.).
+Did you leave too? What artificial intelligence are you going to use now?
+
+Edit August 12: I have reactivated the subscription, since all the GPT I used seem to work normally again. The ""model not found"" message no longer appears, and they appear to work fine.
+Thanks for all the comments and advice.","https://www.reddit.com/r/ChatGPT/comments/1mkyzws","Reports leaving after model withdrawal and later reactivating after errors disappeared; the edit limits the original complaint.","Public search-indexed text; completeness not verified; not the final training dataset"
+"R35","ChatGPT stopped working properly after I canceled my paid subscription
+
+I was a paid user for months, working with chatgpt hours daily. After feeling that chatgpt couldn't meet my research needs, I switched to Claude. And ever since my paid subscription expired, chatgpt free version just straight up ignored my messages. For example, I asked it to translate an English sentence to French, and it just replied something like, ""Got it. Let me know what I can do."" I asked a brainstorming question, like what I did with the paid version, it again said ""Got it. Let me know how I can assist you.""
+
+Does anyone else experience this? It's so frustrating. I feel like I'm being punished by canceling the subscription","https://www.reddit.com/r/ChatGPT/comments/1h95o2w","Provides a translation request and a generic non-answer, plus a second brainstorming example; temporal association with cancellation does not establish punishment.","Public search-indexed text; completeness not verified; not the final training dataset"
