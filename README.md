@@ -165,7 +165,7 @@ and the refinements made to these definitions are documented in
 
 **How I labelled them:** The current CSV has 24 labeled posts marked `cold`: 17 in the initial collection and seven imported from labels_template.csv. All existing annotations were preserved when the missing 42 posts were restored. Three initial reserved rows remain `cold_pending`, but the 20-post cold-count requirement is already exceeded if all 24 were independently labeled without AI help. There are 176 blank labels. No dataset AI pre-labeling has occurred; every later AI-proposed label needs human reading and correction. Original research decisions remain preserved for the honesty check.
 
-**Counts per label:** Across 200 collected rows, treating surrounding label whitespace as formatting: reaction 13, hot_take 6, analysis 5, question 0, and unlabeled 176. Three current label cells have leading spaces and still need cleanup before training. These 24 labels do not establish final dataset balance. The final majority check remains pending until annotation is complete: no class may exceed 70%, and the repository criterion further requires each class to represent 15%–45%.
+**Counts per label:** Across 200 collected rows, treating surrounding label whitespace as formatting: reaction 13, hot_take 6, analysis 5, question 0, and unlabeled 176. Leading spaces in three label cells were removed during notebook setup; their classifications were preserved. These 24 labels do not establish final dataset balance. The final majority check remains pending until annotation is complete: no class may exceed 70%, and the repository criterion further requires each class to represent 15%–45%.
 
 **Collection target and stop rule:** The file now meets the 200-row collection count after adding 42 distinct English-language text submissions through Chrome. Every new post was checked on its full public r/ChatGPT submission page, with title and complete body retained. One repost with identical text under a different ID was excluded and replaced. No stop-rule exception is needed for the row count. The eight earlier imports still need their documented source/completeness checks; replace any that fail. Keep one file, and let the notebook perform the 70/15/15 split.
 
@@ -209,16 +209,21 @@ annotation decisions. Row numbers below count data rows, excluding the header.
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** `distilbert-base-uncased`. A practice fine-tune completed successfully on the supplied fictional running-forum dataset; the r/ChatGPT project dataset has not been trained.
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Settings:** 3 epochs, learning rate 2e-5, batch size 16, maximum sequence length 128 tokens, seed 42. Training defaults retained.
 
-**Anything I changed from the defaults, and why:**
+**Hardware and kernel:** Ran locally on `cpu` (`CPU`), using PyTorch `2.14.1+cpu` and this project's `.venv/Scripts/python.exe` Jupyter kernel, named `TakeMeter (.venv)`. CUDA is unavailable. Processor identifier: `Intel64 Family 6 Model 170 Stepping 4, GenuineIntel`. Device details are also stored in the practice results. Hardware can affect numerical results even with the same data and seed; report the device beside later multi-seed results.
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+**What I trained on:** `PRACTICE = True` selects the supplied `data/practice_labels.csv`: 60 already-labeled fictional running-forum posts, with 20 each of `analysis`, `hot_take`, and `reaction`. Practice uses those three classes; the project's four-label map still includes `question`. This is a workflow rehearsal, not evidence of classifier performance on r/ChatGPT.
 
+**Anything I changed from the defaults, and why:** No training hyperparameters changed. Filled in the results name/email from the repository's Git identity and selected the project virtual-environment kernel. Added an explicit practice switch to choose the appropriate label map, dataset, and separate output paths. Fixed the checker to reject missing labels and surrounding label whitespace, and added a guard before splitting if section 2 reports problems. The original checker silently ignored empty label cells. Removed leading spaces from three project label cells without changing classifications, notes, or post text; that formatting fix was committed before this practice run. The fine-tuned model and tokenizer are now saved for reuse.
+
+**Data checks and split sizes:** Practice data passed all blocking checks; its 60-row size warning is expected. The notebook performed one stratified 70/15/15 split: **42 train / 9 validation / 9 test**, with **14 / 3 / 3 per class**. Every class has only three test examples, below the roughly eight-example guideline, so practice metrics are especially sensitive to seed and individual predictions. Checks verified no shared post text across the three splits. Sections 1–5 completed; sections 6–7 were not run.
+
+**Saved practice artifacts:** [practice_results.json](practice_results.json) and [practice_test_split.csv](practice_test_split.csv) are the practice evidence. The reusable model and tokenizer are saved locally under `takemeter_out/practice/model/`, which Git ignores. The completed notebook retains its execution outputs. Results were generated but have not been interpreted against the project's acceptance criteria.
+
+**Project dataset status:** `labels.csv` remains at 200 posts, with 24 cold labels and 176 blank labels. The previous project-data check stopped correctly on those blanks and reported no labeled `question` examples. The practice run did not change this file or produce project `results.json` or `test_split.csv`. After project labeling, review, and verification are complete, set `PRACTICE = False`, rerun from section 1, resolve section 2 findings, and record the actual project split and device. Project results will use the normal filenames.
 
 
 ---
