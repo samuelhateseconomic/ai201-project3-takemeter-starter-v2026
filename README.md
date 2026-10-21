@@ -42,12 +42,15 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-TakeMeter sorts public r/ChatGPT text submissions into `analysis`, `hot_take`,
-`question`, or `reaction` based on the evidence and communicative purpose in
-their title and body. It distinguishes an argued conclusion from a general
-verdict, a request for help or information, and a personal response. The labels
-describe what the author presents; they do not establish whether the claims
-are true or whether a post is good or bad.
+TakeMeter is designed to classify public r/ChatGPT text submissions as
+`analysis`, `hot_take`, `question`, or `reaction`, using the title and body
+together. It distinguishes conclusions supported by concrete reported evidence,
+general judgments without that evidence, specific requests for information,
+and personal responses. These labels describe the post's evidence and purpose;
+they do not establish whether its claims are true or whether it is a good post.
+The notebook has completed a practice training run on the supplied fictional
+running-forum dataset; training on the 200 collected r/ChatGPT and research
+texts still awaits complete labeling, review, and source checks.
 
 
 ---
@@ -237,19 +240,19 @@ annotation decisions. Row numbers below count data rows, excluding the header.
      workflow and disclosing it costs you nothing. Not disclosing it is the
      problem. -->
 
-**Moment 1**
+**Moment 1 — combining the collections without counting duplicates**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked the assistant to add the earlier 50-post collection and my research examples from labels_template.csv to labels.csv, then find 42 more valid posts through Chrome.
+- *What came back:* The assistant found that 49 of the earlier 50 posts were already included. It recovered seven research examples from malformed CSV quoting, preserved their existing labels, and added only the missing earlier post. During the additional collection, a text-duplicate check caught a repost under a different Reddit ID; the assistant replaced it and checked all 42 new posts on full submission pages.
+- *What I changed:* I kept one unsplit, deduplicated 200-row file instead of adding the collection sizes together. The merge preserved my original cold labels and recorded source links and verification flags. Eight earlier imports remain flagged for source/completeness review; I have not treated those checks as finished.
 
-**Moment 2**
+**Moment 2 — checking the notebook before training**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked the assistant to run notebook sections 1–5 in this project's .venv, then authorized the supplied practice dataset when the project data was not ready. I clarified that sections 6–7 should wait and that section 5 should write results.json and test_split.csv.
+- *What came back:* The assistant found that the original checker ignored missing labels, even though 176 project posts were unlabeled and no posts were labeled question. It added a missing-label check and a guard before splitting, removed leading spaces from three label cells, and ran the practice workflow on CPU with the default training settings. The practice split was 42 train / 9 validation / 9 test, with only three test examples per class.
+- *What I changed:* I used practice mode to check the complete workflow while keeping the project dataset unfinished. The notebook and README now identify the practice dataset, CPU and PyTorch version, unchanged hyperparameters, and small-test-set limitation. I kept the required result filenames, committed both files, and disclosed that they must be regenerated on the project data before the project baseline comparison.
 
-**Pre-labelling disclosure:** The assistant collected and formatted the initial 150 public posts through Chrome, then merged one missing earlier collection record and seven research examples from labels_template.csv after checking overlap, and collected 42 more full-page-verified public posts in Chrome. All 24 current labels marked cold were preserved without relabeling; 176 rows remain unlabeled. The assistant also drafted three hard-case reviews from existing cold-labeled posts, proposing two different labels under the current definitions without changing labels.csv. These rationales await human review. No batch AI pre-labeling has occurred. Imported provenance, completeness, and cold-pass eligibility still need confirmation.
+**Pre-labelling disclosure:** No batch AI pre-labeling has been applied to the project dataset. The assistant collected and formatted posts and preserved the 24 existing labels marked cold; 176 rows remain unlabeled. It also drafted three hard-case reviews from already-labeled posts: it agreed with analysis for the Muse use-case post, proposed analysis instead of the original hot_take for the coding-tool comparison, and proposed question instead of the original reaction for the Voynich Manuscript post. These are AI annotation suggestions, not independent cold decisions. They remain in the README for human review and have not replaced the original CSV labels. Removing surrounding whitespace from three label cells changed formatting only. No completed human review of the AI suggestions or of every project row is claimed; any future AI-pre-labeled rows must be marked and individually read and corrected before final training.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
