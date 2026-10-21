@@ -1,0 +1,90 @@
+{
+  "seed": 42,
+  "n_test": 9,
+  "accuracy": 0.6666666666666666,
+  "f1_macro": 0.5555555555555555,
+  "per_label": {
+    "analysis": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1": 0.6666666666666666,
+      "support": 3
+    },
+    "hot_take": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 3
+    },
+    "reaction": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    }
+  },
+  "confusion": {
+    "analysis": {
+      "analysis": 3,
+      "hot_take": 0,
+      "reaction": 0
+    },
+    "hot_take": {
+      "analysis": 3,
+      "hot_take": 0,
+      "reaction": 0
+    },
+    "reaction": {
+      "analysis": 0,
+      "hot_take": 0,
+      "reaction": 3
+    }
+  },
+  "confidence": {
+    "mean_when_right": 0.36515310406684875,
+    "mean_when_wrong": 0.358113557100296,
+    "accuracy_most_confident_third": 0.6666666666666666,
+    "accuracy_least_confident_third": 0.6666666666666666,
+    "n_per_third": 3
+  },
+  "device": "cpu",
+  "device_name": "CPU",
+  "torch_version": "2.14.1+cpu",
+  "max_length": 128,
+  "run_kind": "practice",
+  "dataset": "data/practice_labels.csv",
+  "name": "Samuel Do",
+  "email": "samueldo.trung03@berkeley.edu",
+  "labels": [
+    "analysis",
+    "hot_take",
+    "reaction"
+  ],
+  "n_train": 42,
+  "n_val": 9,
+  "base_model": "distilbert-base-uncased",
+  "settings": {
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "batch_size": 16,
+    "max_length": 128
+  },
+  "split_label_counts": {
+    "train": {
+      "analysis": 14,
+      "hot_take": 14,
+      "reaction": 14
+    },
+    "val": {
+      "analysis": 3,
+      "hot_take": 3,
+      "reaction": 3
+    },
+    "test": {
+      "analysis": 3,
+      "hot_take": 3,
+      "reaction": 3
+    }
+  },
+  "model_dir": "takemeter_out\\practice\\model"
+}
