@@ -157,45 +157,51 @@ and the refinements made to these definitions are documented in
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** [labels.csv](labels.csv) now contains 200 unique collected texts in one unsplit file. The initial 150 are public r/ChatGPT text submissions collected through Chrome from the New feed on October 20, 2026, using title plus the complete loaded body without length truncation. The longest of those rows has 25,365 characters. Comments, scores, usernames, and flairs are excluded from model input. This is a chronological convenience sample, not a random sample.
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**Earlier collection and research merged:** 49 of the earlier 50 posts were already in the 150-row collection. Only the missing post, `t3_1xa76q7`, was appended; its earlier feed text is retained with `completeness_verification_pending`, because the later detail-page check did not verify it. Seven research examples were recovered from malformed quoting in labels_template.csv and appended with their original labels and `cold` notes unchanged. The two illustrative placeholder rows were excluded, and labels_template.csv itself was left unchanged. One research example has a previously recorded r/ChatGPT URL; six still require public-community/source verification, and all seven require a full-post completeness check. The 35 search-indexed exploratory texts in data/reddit_reading_sample.csv remain excluded until their completeness is checked.
 
-**Counts per label:**
+**Source verification:** Source URLs, import origins, and verification flags are recorded in [data/labels_sources.json](data/labels_sources.json), with source or pending-verification notes in the CSV. Among the initial 150 posts, 89 were checked on full submission pages (44 earlier and 45 during the later collection), and 61 were captured from complete article-body elements loaded in the public feed. All 89 feed/detail comparisons matched after whitespace normalization. Feed-only records are not claimed as independently detail-page verified. The eight earlier imported records are retained for review and are not yet verified additions toward the final community-specific target. The subsequent 42-post batch was fully checked on submission pages, bringing detail-page-verified records to 131. All existing 158 rows and seven original labels were preserved unchanged.
 
-| Label | Count | Share |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-| **Total** |  | 100% |
+**How I labelled them:** The current CSV has 24 labeled posts marked `cold`: 17 in the initial collection and seven imported from labels_template.csv. All existing annotations were preserved when the missing 42 posts were restored. Three initial reserved rows remain `cold_pending`, but the 20-post cold-count requirement is already exceeded if all 24 were independently labeled without AI help. There are 176 blank labels. No dataset AI pre-labeling has occurred; every later AI-proposed label needs human reading and correction. Original research decisions remain preserved for the honesty check.
+
+**Counts per label:** Across 200 collected rows, treating surrounding label whitespace as formatting: reaction 13, hot_take 6, analysis 5, question 0, and unlabeled 176. Three current label cells have leading spaces and still need cleanup before training. These 24 labels do not establish final dataset balance. The final majority check remains pending until annotation is complete: no class may exceed 70%, and the repository criterion further requires each class to represent 15%–45%.
+
+**Collection target and stop rule:** The file now meets the 200-row collection count after adding 42 distinct English-language text submissions through Chrome. Every new post was checked on its full public r/ChatGPT submission page, with title and complete body retained. One repost with identical text under a different ID was excluded and replaced. No stop-rule exception is needed for the row count. The eight earlier imports still need their documented source/completeness checks; replace any that fail. Keep one file, and let the notebook perform the 70/15/15 split.
 
 **Three hard cases**
 
-<!-- Any post that made you pause: what it was, which two labels it could have
-     been, and what you chose. These are worth more than the easy 190. -->
+These writeups were drafted by the AI assistant after reading the full stored
+posts and the current definitions in label_definitions.txt. They document
+AI review decisions, not the student's original reasoning or a claim that
+the student paused on these exact posts. Original cold labels in labels.csv
+are preserved unchanged. The student still needs to review these rationales
+and adjudicate the two proposed changes before treating them as final
+annotation decisions. Row numbers below count data rows, excluding the header.
 
-**1.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+**1. A coding comparison with an emotional verdict**
 
-**2.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+- **The post:** Data row 157, `research_06`, begins “I saw a lot of comparisons here on Reddit between Codex and Claude.” The author reports that one tool left a project unfinished after five days, while another completed the same project in 30 minutes, and includes reported code-size comparisons. Its public source and completeness checks remain pending.
+- **Could have been:** `hot_take` or `analysis`.
+- **Original cold choice:** `hot_take`.
+- **AI review choice:** `analysis`. The broad praise makes `hot_take` tempting, but the author connects the verdict to a named task and observable completion outcomes. Those details satisfy the current definition of a concrete reported test and result. The comparison is uncontrolled, and some size claims are quoted from the model, but the taxonomy does not require independent verification or rigorous experimental design. The reason is the connection between task, outcome, and conclusion—not merely the presence of numbers.
+- **Review status:** Proposed change; the CSV still retains the original `hot_take` cold label.
 
-**3.**
-> *The post:*
->
-> *Could have been:*
->
-> *I chose, because:*
+**2. A money-making recommendation with a reported result**
+
+- **The post:** Data row 154, `research_03`, titled “Zuck said \"Muse will Make You MONEY\"- I Tested 5 Use Cases.” It describes using a model to find newly opened restaurants without websites, recognizing one result from local coverage, contacting the business, and scheduling a meeting. Its public source and completeness checks remain pending.
+- **Could have been:** `analysis` or `hot_take`.
+- **Original cold choice:** `analysis`.
+- **AI review choice:** `analysis`. Much of the post sounds promotional and makes unverified claims, but the restaurant example reports a particular search task, an identified result checked against the author's knowledge, and a concrete follow-up outcome. This supports the narrower conclusion that the tool can help identify business leads. It does not establish that the suggested ventures earn money or that the headline's promise is true. Under the current taxonomy, the relevant reported outcome is enough; the promotional tone does not override it.
+- **Review status:** AI review agrees with the original label; human review of this rationale remains pending.
+
+**3. Curiosity that asks for specific information**
+
+- **The post:** Data row 1, `t3_1xb9hhz`, [using ChatGPT to decipher the Voynich Manuscript](https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/). After mentioning a possible page-order problem, the author asks whether anyone has heard of attempts to use AI to decode it.
+- **Could have been:** `reaction` or `question`.
+- **Original cold choice:** `reaction`.
+- **AI review choice:** `question`. The personal curiosity supplies context, but the post seeks specific information about whether an experiment has been attempted. That differs from a bare invitation to share similar feelings or stories. The mention of researchers and page order does not establish `analysis`: the author does not present a test result supporting a conclusion that ChatGPT can decipher the manuscript.
+- **Review status:** Proposed change; the CSV still retains the original `reaction` cold label.
 
 ---
 
@@ -238,7 +244,7 @@ of next unit's variance. -->
 - *What came back:*
 - *What I changed:*
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** The assistant collected and formatted the initial 150 public posts through Chrome, then merged one missing earlier collection record and seven research examples from labels_template.csv after checking overlap, and collected 42 more full-page-verified public posts in Chrome. All 24 current labels marked cold were preserved without relabeling; 176 rows remain unlabeled. The assistant also drafted three hard-case reviews from existing cold-labeled posts, proposing two different labels under the current definitions without changing labels.csv. These rationales await human review. No batch AI pre-labeling has occurred. Imported provenance, completeness, and cold-pass eligibility still need confirmation.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
