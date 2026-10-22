@@ -1,9 +1,4 @@
-# Milestone 2 taxonomy for public r/ChatGPT submissions.
-# Exact definitions also appear in README.md; baseline.py reads these lines.
-# Apply one label in this order: analysis, hot_take, question, reaction.
-# Full examples, boundary rules, and synthetic stress test: milestone2.md.
-
 analysis: advances a claim, explanation, or recommendation and explicitly supports it with a concrete reported test and result, input/output example, or identifiable source fact relevant to that conclusion.
 hot_take: asserts a general judgment, prediction, or recommendation about AI, a model, or its users without the concrete supporting evidence required for analysis.
 question: requests a specific explanation, instruction, recommendation, or comparison without advancing a supported conclusion or an unsupported general judgment of its own.
-reaction: shares a personal event, feeling, appreciation, or illustrative AI output without a supported conclusion, a general judgment, or a specific request for information or action.
+reaction: shares a personal event, most important - feeling, appreciation, or illustrative AI output without a supported conclusion, a general judgment.

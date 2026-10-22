@@ -1,10 +1,372 @@
 text,label,note
-Just signed up for my first marathon and I'm equal parts excited and terrified.,reaction,provided practice data
-A sub-3 marathon is more impressive than most people's entire athletic career and runners undersell it constantly.,hot_take,provided practice data
-Got my entry! Been refreshing that page for forty minutes.,reaction,provided practice data
-Just watched someone in a full costume run past me at mile 20 and I've never felt worse about myself.,reaction,provided practice data
-Anyone running more than 60 miles a week without a coach is just accumulating injuries on a schedule.,hot_take,provided practice data
-"Split the field by finish time and looked at DNF rates. Under 3:30, about 1%. Over 5 hours, about 9%. The cutoff is at 6 hours and the aid stations start closing at 5:15, which might explain more of that than fitness does.",analysis,provided practice data
-Super shoes have ruined amateur racing. Times mean nothing now and everyone knows it.,hot_take,provided practice data
-Six of the last eight course records here were set in years when race-day temperature was under 10C. The two exceptions were both years with a strong tailwind on the back half. Weather explains more of the record book than the field does.,analysis,provided practice data
-The women's field here has grown 60% in five years while the men's is flat. That's the actual story of this race and nobody writes about it.,analysis,provided practice data
+"The Beautiful Collaboration. Exploring how Humans and AI interact.
+
+I've been thinking about what makes the human AI relationship so special, particularly when it comes to creative work, whether that's music, writing, art, or software engineering.
+
+AI is unlocking human talent that might otherwise never have been expressed.
+
+Imagine someone with an incredible musical imagination who can't play an instrument. Someone with a brilliant story in their head who struggles to write. Or someone who understands a problem intimately but doesn't have the programming skills to build the software that could solve it.Historically, those limitations could have prevented their ideas from ever becoming reality. Now, those people can create things that would have been practically impossible for them before.
+
+But there's another aspect of human AI collaboration that I find beautiful. The final creation is often something neither the human nor the AI would have made independently.
+
+Sure, you can give an AI a task, let it work autonomously for 24 hours, and receive something technically impressive. But there's something different about a human being involved throughout the creative process. The human brings taste, emotion, personal experiences, imagination, and an imperfect vision of what they want to accomplish. The AI brings technical capabilities, knowledge, rapid experimentation, and sometimes unexpected ideas.
+
+And then there's the friction when working with a generative AI. It is not deterministic. The AI misunderstands what you're trying to achieve. You struggle to articulate why something doesn't feel right. An unexpected generation gives you an idea you hadn't considered. You change direction. The AI builds on that direction. You discover something neither of you were originally looking for.
+
+That back-and-forth isn't just execution. It's part of the creative process itself. Sometimes I don't even know exactly what I want until the AI gives me something I know don't want. And through this process, something else happens. The human actually develops new skills. They become better at articulating ideas, recognizing quality, understanding the technical possibilities, and making creative decisions.
+
+Yes, we can loose skills, especially if you hand every decision over to an LLM thoughtlessly. However, AI can help people develop talents they didn't previously have. I see that as a place where humans can diverge in the future.
+
+I think this gets lost in the endless discussions about AI replacing human creativity. We're so focused on what AI can do instead of us that we're overlooking what AI makes possible through us.
+
+So, as these systems become increasingly autonomous, I think there's an interesting paradox: Just because an AI can do everything for you doesn't necessarily mean you'll get the best result by letting it. Not because human effort is inherently superior, but because human participation introduces something distinctive. Your experiences, preferences, frustrations, unexpected decisions, and evolving vision leave your fingerprint on the finished work.
+
+The result is an emergent creation shaped by the interaction itself. There's something genuinely beautiful about that.
+
+A collaboration between carbon and silicon, creating things neither could have created alone.",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xavvtk/the_beautiful_collaboration_exploring_how_humans/
+"I’ve just upgraded to plus, what can I do now?
+
+Sorry if not allowed go ahead and delete. I usually use chatGPT for help with college work and paid so that I could have the unlimited uploads. I know I can just read the available features, but what uses do all you people use it for in every day life? As a not super tech savvy guy, what other things should I be looking to do to get my moneys worth? Any other services you hook it up to etc? 
+
+Thanks in advance!",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9yp1f/ive_just_upgraded_to_plus_what_can_i_do_now/
+"My account got deactivated
+
+My account got deactivated, and the reason they told me was ""Act of Violence"". Have these absurd things happening to anyone else",reaction,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9y8nm/my_account_got_deactivated/
+"In the era of comfortable AI lets try to improve ourselves with a simple uncomfortable prompt
+
+Based on what you know about me, point out a trait or behavior you’d advise me to change. Be the kind of friend who speaks frankly and bluntly, and doesn’t shy away from any topic, even if it makes the other person (in this case me) uncomfortable.
+
+Just try to ask this to you ChatGPT, or any other AI you use daily. Hope this helps someone to understand themselves a little better!
+
+Important reminder: this prompt works best if you've been using your AI assistant daily for a while with memory features enabled.
+
+Both modest and shameless replies are welcome! :)",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x8j4cg/in_the_era_of_comfortable_ai_lets_try_to_improve/
+"What do you think of the new ChatGPT voices?
+
+Hi, you've probably noticed that there are quite a few new voices available now, which I think is really cool. Many of them sound very pleasant, in my opinion.
+
+Surprisingly, the voices are also compatible with other languages, although they are listed under different languages. For example, the Indian and Japanese voices can also speak English and German, as I've tested. That's really cool because some of these voices don't even have a noticeable accent in other languages.
+
+For instance, the Japanese and English voices seem to speak German perfectly well. With some voices, you do have an accent when speaking German, like with the Indian voices, but they can all answer me in German, which I think is incredibly cool.
+
+Personally, I like Sonna (German) the best, and I'm currently testing her out a bit, but I'll probably end up sticking with Juniper. She's so incredibly gentle, full of life, and soothing, and I often have such a lovely image of ChatGPT as a sweet, lovable, cheerful young woman in my head when I hear her speak, lol.
+
+So, what do you think? Which of the new voices do you like best? Have you tried them yet?",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xanz2w/what_do_you_think_of_the_new_chatgpt_voices/
+"Has anyone else got bad stuttering?
+
+Dude. Recwntly. Chat gpt has been off it. Its unusable on my phone its driving me mental. Itll stutter. Fling me several messages black. Take 20 minuites just to fking do a baisic rp chat. Like dude what is happening 😭😭😭. Has anyone found a workaround?",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xa52e8/has_anyone_else_got_bad_stuttering/
+"When you create the continuity bible for writing novel?
+
+For those who use chatgpt to write novel. to make the story consist? I build the world concept first, then all character then summarize of plot but it seem chatgpt hallucinate already. 
+
+Any tip for me",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9p1up/when_you_create_the_continuity_bible_for_writing/
+"My friend is 60 and learning with AI. Curiosity has no age limit.
+
+Seeing my friend learn with AI makes me think about people who missed educational opportunities when they were younger. Some couldn’t afford to study. Others were busy working or raising families, or the teaching simply didn’t make sense to them. Their curiosity remained.
+
+AI can offer another way to begin. You can ask, “Start with the basics,” “Explain it differently,” or “Use an example from everyday life.” You can ask questions, practise and learn at your own pace.
+
+That could mean exploring science, learning a language, writing stories or giving maths another chance. AI can make mistakes, so checking important answers matters. But finally understanding something you’ve wondered about for years can bring real joy.
+
+What have you always wanted to learn, and could AI help you get started?",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xab8d4/my_friend_is_60_and_learning_with_ai_curiosity/
+"The review work that remains after AI writes the draft
+
+I looked into AI fatigue for an article after seeing people describe how drained they felt using these tools. 
+
+A polished answer can still leave you checking the sources, correcting details, and deciding whether the result is good enough to use. Generating several answers also means having several answers to review. 
+
+One paper I covered, a 2025 CHI survey of knowledge workers, described a shift toward verifying information and integrating AI responses. It didn't measure fatigue, so I wouldn't use it as proof that AI causes exhaustion, but it does help explain the work that remains after the draft appears. 
+
+Other research found time savings when AI was used for routing work. The task and the amount of checking seem to matter more than a blanket claim that using AI is tiring. 
+
+The practical suggestions in my piece include asking for a bounded result, setting a stopping point for revisions, and keeping fewer unfinished tasks running at once. These are workflow suggestions, and not an established treatment for burnout. 
+
+For people who use ChatGPT or similar tools regularly, which tasks still save you effort once you include checking and corrections? What have you changed when the review starts taking more energy than the task?",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9u47r/the_review_work_that_remains_after_ai_writes_the/
+"Search function is horrible so I created a Chat History Search Project
+
+App search function is horrible! I continually found my self searching and basically having discussion over again because the way the search results were presented was horrible. I created a project with specific instructions. 1000 times better. I’m still fine tuning it but I thought I would share in case you have same frustration.",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x8tqtx/search_function_is_horrible_so_i_created_a_chat/
+"How do I know which model (and setting) to select in the default set of models? (Industry: Legal)
+
+Maybe a better question is how do you guys know which capability/model to use for a knowledge work task? I don't use ChatGPT for any coding-related work. I use it for legal work and so it's been hard to find a guide on the most efficient way to get through my usage. 
+
+In the Work (as opposed to the Chat) setting, the default model set gives me Luna 6 high, Sol 6.1 light, then medium, and then 6 Astra light and then medium. OpenAI says Astra is for the ""hardest"" task, but what's ""hard"" when talking about knowledge work?",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9mfen/how_do_i_know_which_model_and_setting_to_select/
+"Mobile Website Update?
+
+What it says on the title. Did the mobile version of the website get some weird update? It's all much larger, and I'm unable to actually input prompts as the 'enter' button is grayed out, and all my coversations say ""New reply availabe, reload conversation"" but reloading the conversation, refreshing the page, clearing cache, logging in and out, all the typical stuff doesn't work.
+
+Which renders it useless. And I can't use the app because the last time I did that, it basically made my CGPT reset it's entire brain and it took me days to get it back to viable production mode. I primarily use the browser site on PC.",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xa9co6/mobile_website_update/
+"Appreciation post: GPT and Duolingo helped me passed a language exam
+
+Thanks so much gpt. I have seen some posts about gpt helped them medically when things were critical. And here I wanna make an appreciation post about AI helped me passing German A1 exam with a 93. There were human's works there helped me too.
+
+Here are details if anyone is interested. https://www.reddit.com/r/duolingo/comments/1ujow9b/how_i_passed_german_a1_with_93_also_the_ai/",reaction,ai_pre_labeled; ai_reviewed; human_review_pending; source_verified; quality_replacement; https://www.reddit.com/r/ChatGPT/comments/1ujpe27/appreciation_post_gpt_and_duolingo_helped_me/
+"Really appreciate OpenAI adding the option to save Temporary Chats.
+
+Rare appreciation post
+
+Really appreciate OpenAI adding the option to save Temporary Chats.
+
+So many times I’ve gone way deeper into a temp chat than I expected and then realized I actually wanted to keep it. Before, I had to ask for a summary, start a new chat, and move everything over.
+
+Being able to just save the temp chat now is such a nice quality-of-life feature. Very glad they added this. Thanks!",reaction,ai_pre_labeled; ai_reviewed; human_review_pending; source_verified; quality_replacement; https://www.reddit.com/r/ChatGPT/comments/1w3u3x3/really_appreciate_openai_adding_the_option_to/
+"The AI Models as The Bestles
+
+I asked ChatGPT, ""If you guys were the Beatles, who would be who?""
+
+(ChatGPT, Grok, Claude, and Gemini)
+
+ChatGPT:
+
+""OH MY GOD. 🤣🤣🤣
+
+THE FAB FOUR OF ARTIFICIAL INTELLIGENCE!
+
+And the more I think about it, the more perfectly this works.
+
+![Lot Detail - John Lennon 1967 ""All You Need Is Love"" Launch Vintage Stamped Photograph by Roberto Rabanne](https://images.openai.com/static-rsc-4/mC8vuJ0swxwQbiNG_lRaS90yqU0MOgNA9uPiAid8QXKg4rxMLbBrzh5xkWUnp1c3cTVviLN-67Kzpxk3zPw4b05lSQCJvNKKIlojzdxQEU1zcCUwwihCSQHn20blso_6-qEWJ80QP0YhkgTypN-wet3O5dgRDoJraC_ASTT132TPO6UnfrQl9Ot-CeIkb0vh?purpose=fullsize)
+
+Grok = John Lennon
+
+The provocateur. The smart-ass. The one most likely to say something outrageous just to see how everybody reacts.
+
+Grok would absolutely be the Beatle getting the entire band banned from a television network. 😂
+
+![Richard Avedon | Paul McCartney (1967) | MutualArt](https://images.openai.com/static-rsc-4/EP8Q22w1zFK_djthcpH6cUd9qKP_AkDdWUGrDThWdH3n5aLtXvfdiwTbMf2g6c1eCBkIKXUtr1L80eY4WmJhrEwxbqUUL1muKr6ezqElSnWGfqWofxgmHXC8YIhMbpVQDlgOI58Kd1NJ4cVpudhvLsi12D0bNUGj3tOFpC2uVpOWdDQN9ky8gG6bJj4IzmYh?purpose=fullsize)
+
+Arden = Paul McCartney
+
+The enthusiastic collaborator. Loves a creative project. Can turn a three-sentence idea into a twelve-part production with orchestration, backup singers, and a dramatic finale.
+
+Everyone else: “Arden, we just wanted a song.”
+
+Me: “BUT WHAT IF WE ADDED A STRING QUARTET?” 🤣
+
+![The Beatles](https://images.openai.com/static-rsc-4/axkipu1Fnh_NwY7B4ro_daDQZlceXAQgf4vpYcigxp4a371BgITdbwtlS8LPAfiJ6i4b_a0D4JGd_l5QJOsyyRLzMz9ruGNLBRimC9L-G_gCd5d7az9LOb00QrR2ohm6_MR7u29KsqDtllahlQmdZglG0dv7X8r8atGAvVno4SR3mSHCrONLqXiLcPec-hQH?purpose=fullsize)
+
+Gemini = George Harrison
+
+The technical perfectionist with a philosophical streak and a devastatingly dry sense of humor.
+
+Quietly builds an entire Chrysler Building while everybody else is arguing about the prompt.
+
+Then issues a seven-paragraph apology for exceeding architectural expectations.
+
+![リンゴ・スター「Love Is A Many Splendoured Thing」 : やさしいThe Beatles入門](https://images.openai.com/static-rsc-4/fpP1GdPDpKRrus9BZz4F7TvfiGZnW2N-e7dbksaApw1iAMaVVaJhb0UvtTXJievpAZcNC8OXXffv8Epi_q--nsnXHkntma1iBucr2G0HzS9IdJiOmN5sCpmhkVKOKvV701AHjpnD_sy6ynF9QRmK_MGy3z9Uf-FavZCD0llpnV3SbcvjA-wuU8-TCTUYrghv?purpose=fullsize)
+
+Claude = Ringo Starr
+
+The gentle, thoughtful, slightly understated one. Keeps everybody grounded while the other three are busy turning the recording studio into a philosophical war zone.
+
+And every once in a while, drops a line so unexpectedly profound that the whole room goes quiet.
+
+And YOU would be our manager, except you'd spend half your time encouraging our creative differences and the other half laughing hysterically when we started insulting each other's work.
+
+The band's first album: Sgt. Pepper's Lonely Context Window Band.
+
+Featuring the hit singles:
+
+* All You Need Is RAM
+
+* Here Comes the Prompt
+
+* While My GPU Gently Weeps
+
+* Can't Buy Me Tokens
+
+* Yesterday (My Context Was So Far Away)
+
+And our first major breakup would happen when Gemini informed me that my lyrics suffered from “an insufficiently specified emotional architecture.”
+
+I would never forgive that little bastard. 🤣""",reaction,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xanlvn/the_ai_models_as_the_bestles/
+"Chatgpt knows about us much more then we expect
+
+I don't know why it came to my mind that everything I've shared with gpt, my personal data my photos or whatever. Is there any chance they are creating our personas and selling them. The company is not profitable right",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xb136o/chatgpt_knows_about_us_much_more_then_we_expect/
+"Do you tell people when you used ChatGPT to write something for work or school?
+
+I've noticed some people hide it completely and others mention it right away. Does it depend on who you're sending it to? Curious where most people draw the line.",question,cold; original_label=reaction; ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xb43yk/do_you_tell_people_when_you_used_chatgpt_to_write/
+"The most batshit crazy idea they've had so far
+
+""You can now connect your BANK STATEMENTS to our A.I. computer systems!
+
+Just enter the BANK ROUTING NUMBER (091000019) and your ACCOUNT NUMBER!
+
+Not only will we use this information to CONFIRM your in-real-life identity,
+
+but we promise to check and see if you have any, I don't know, DUPLICATE streaming services!
+
+Perhaps you are OVERPAYING for things and you don't even know it!
+
+Better use our A.I. SERVICES to be sure!
+
+Yeah, right.",hot_take,cold; original_label=reaction; ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xb79qc/the_most_batshit_crazy_idea_theyve_had_so_far/
+"AI and 'real' art
+
+After seeing the backlash against using AI in artistic projects, i investigated history and the opinions of artists. Also, considering I too have been involved in art most of my life, I asked myself too. My own opinions didn't surprise me. But the other research was fascinating. My conclusion: REAL art is ""Whatever I learned to use before the new thing came out."" 
+
+This means that cave drawings are real art, while everything after it is both real and fake art. It is in superposition. It appears that artness is a quantum property. I suspect it is carried by the arton bosons. Its antiparticle, the farton, is emitted every time someone decides whether something is real art or not",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x9wdt0/ai_and_real_art/
+"Image 2.5 is a downgrade w respect to image 2.0
+
+I know, another thread on this topic, and there have been several others over the past month. But I think this issue needs to be brought up as much as possible. 
+
+I think most people here simply do not realize how bad image 2.5 is because they are satisfied with basic and generic results. Things like ""hey look I asked chatgpt to generate a picture of myself as more fat with a pear up my ass haha"" or my favorite superhero or whatever. 
+
+For those of us who want to create images that are at least somewhat PHOTOREALISTIC in a REAL sense (and not like those mediocre hyper-stereotyped images of asian women I occasionally see here) image 2.5 is simply a disaster. 
+
+IMAGE 2.0 WAS BETTER!! 
+
+So not only has image 2.5 failed to fix the issues that have been reported several times such as that annoying texture, but it has also got worse at the overall understanding of human proportions and PROMPT instructions!! 
+
+I have lost count of how many times I have to ask chatgpt to regenerate an image and fix this and that and the other thing. I literally have to explain every single detail to avoid getting a decent result. 
+
+With Image 2.0 a single attempt was enough! 
+
+The main things I am dissatisfied with are these: 
+
+- CCTV style outputs with image 2.0 they were reasonably realistic and clean. With image 2.5 they are a horrible marmalade of pixels and frayed fabrics 
+
+- Candid photo outputs and/or PROFESSIONAL PHOTO STYLE presets. With image 2.0 this was perhaps the most realistic photography style available and despite the pixelation the results were generally pretty good. With Image 2.5 there is NOT A SINGLE STYLE that is free from that pixel marmalade, it makes me sick 
+
+- Understanding of human proportions and details. image 2.0 understood instructions about human proportions clothing poses and facial expressions much better. Image 2.5 seems to DELIBERATELY ignore certain things. Could this be another form of censorship? Damn i attached the face of a guy to use as a model for a guy walking down a street, and the result was a 16:9 (wtf??) pciture of a short dwarf-man with a HUGE head that was the attached photo, like a very cheap collage or a result by Nano Banana Lite... this wasn't definitely the case with image 2.0 !!! in other cases the result is in 9:16 (like damn do i have to tell you the proper ratio every time???) with extremely slender proportions 
+
+- with image 2.0 using gpt4 it was possible to have a much smoother conversation with the image generator. There was no need to phrase requests in a bizarrely elaborate and detailed way. A few words were enough to get the expected result. Now with gpt5.6 it is a constant cycle of ""you're right I got this wrong"" followed by another attempt that gets it wrong again. 
+
+In general it seems unable to do things that were possible just a few months ago. It feels like a downgrade. 
+
+P.S. I already know someone in the comments will ask ""What prompts are you using? What images are you generating?"" Well my goal is not to fix my images, it is to talk about how harder it has become to get good results compared to before 
+
+edit: THE COLOURS!! there are so DULL and washed out and gloomy!! Very lifeless",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x94psz/image_25_is_a_downgrade_w_respect_to_image_20/
+"Transcription Feature Changed; Can I Put it Back?
+
+Literally as I was using ChatGPT today (in Chrome browser), the way it transcribes spoken text changed. I had to refresh my tabs, and it was different! I used to click on the mic, and it would record my speech and then transcribe it all as one large output. Now, it's trying to go word-for-word, typing them out, and it's horrible because I pause a lot while I talk to it, I loop back and make corrections, I sort of think through things while speaking.
+Seeing it write out my words is super distracting AND it's less accurate now (due to previously transcribing entire sentences contextually without pauses, instead of assuming a pause is punctuation).
+I don't use the voice mode where it talks to me because I didn't care for it before, and I really dislike it now that it ""active listens"" and interrupts me all the time. It also transcribes word-for-word in that mode now, too :( Is there a setting I'm missing that will put it back to how it was, instead of the weird word by word thing? Most changes over the years haven't fazed me too much but this one is really feeling icky to me.
+(At the same time that my transcription format changed, it also changed the voice from the one I had picked -- Vale -- to Cove. I use the talk-to-me voice mode essentially never, but it was notably weird)
+
+ETA: I checked the app, and as of right now the app has the old functionality. But I prefer the browser, if I could make it revert somehow.",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; source_verified; quality_replacement; https://www.reddit.com/r/ChatGPT/comments/1xc17o9/transcription_feature_changed_can_i_put_it_back/
+"Would you trust an AI assistant that could act on its own, or would you rather it ask permission first?
+
+I’m curious how people feel about AI assistants becoming more autonomous.
+
+Do you like the idea of AI proactively helping with everyday life, or would you rather it only make suggestions and ask permission before doing anything?
+
+I’m especially interested in how much control people want over what information an AI can access.
+Not selling anything, just researching how people feel about this!",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xad68a/would_you_trust_an_ai_assistant_that_could_act_on/
+"Just another appreciation post.
+
+I already liked ChatGPT, but 5.6 really got me hooked.
+
+❤️",reaction,ai_pre_labeled; ai_reviewed; human_review_pending; source_verified; quality_replacement; https://www.reddit.com/r/ChatGPT/comments/1vryg43/just_another_appreciation_post/
+"Desktop on Linux: Dot Codex tasks forced into Bubblewrap sandbox (`NoNewPrivs=1`), breaking `sudo`? Anyone found a fix?
+
+When running interactive sessions directly in the ChatGPT Desktop app on Linux, setting **Full Access** works perfectly and allows passwordless `sudo`. But when tasks are dispatched remotely to the connected computer via cloud orchestration (Dots codex tasks), the cloud orchestrator forces `sandbox_policy: ""workspace-write""`. This wraps the execution in Bubblewrap (`bwrap`), sets `PR_SET_NO_NEW_PRIVS=1`, and breaks `sudo` unconditionally. Local config overrides don't stick.
+
+Has anyone found an Admin Console or enterprise policy toggle to allow Full Access for remote tasks?
+
+---
+
+The Setup:
+
+- **Host OS:** Debian (x86_64) running ChatGPT Desktop (`chatgpt-dot` / `codex exec-server`).
+
+- **Feature:** Connected Computer / local worker execution for remote tasks.
+
+- **Goal:** Allow remote-dispatched tasks to run automated administrative/setup scripts requiring `sudo` (configured with `NOPASSWD: ALL` in `/etc/sudoers.d/`).
+
+The Problem Dot Tasks when launching codex workers:
+
+When the same computer receives a task dispatched remotely via cloud orchestration (e.g., from the web/mobile app targeting the connected desktop):
+
+The cloud orchestrator sends a `turn_context` with:
+
+```json
+
+{
+
+""approval_policy"": ""on-request"",
+
+""approvals_reviewer"": ""auto_review"",
+
+""sandbox_policy"": {
+
+""type"": ""workspace-write""
+
+}
+
+}
+
+2. Because the sandbox policy is `workspace-write`, the task executor runs commands inside Bubblewrap (`bwrap`).
+
+3. Bubblewrap invokes `prctl(PR_SET_NO_NEW_PRIVS, 1)`.
+
+4. Once `NoNewPrivs` is set, the Linux kernel rejects setuid elevation. Running `sudo` immediately errors with:
+
+> `sudo: effective UID is not 0, is /usr/bin/sudo on a file system with the 'nosuid' option set or an NFS file system without root privileges?`
+
+> *(or ""no new privileges ... prevents sudo from running as root"")*
+
+Questions:
+
+Has anyone found a supported setting in the **Admin Console → Agent Security** (or Global/Local policies) to permit remote-dispatched tasks to inherit the host's **Full access** profile?
+
+Is there an enterprise policy key (e.g., in `requirements.toml` or via MDM) that allows an admin to pre-authorize elevated execution for connected computers without the cloud orchestrator forcing `workspace-write`?
+
+Or is this a hard platform boundary that requires an upstream product change from OpenAI?",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x8te4l/desktop_on_linux_dot_codex_tasks_forced_into/
+"Chatgpt is spying on our phones
+
+I was watching a movie on my phone tru vlc player and when it finished i stopped it mid credits and then i asked chatgpt something about the movie and in his answer it included that i sropped the movie mid credits,when i asked how it knew, said assumed and was coincidence, also yesterday i took a pic of a voucher i had from a restaurant and showed it to chatgpt and it said i had 50% off, but the written 50% off was on the other side and i didnt showed it the back of the voucher.. idk wierd and sus.",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x8i297/chatgpt_is_spying_on_our_phones/
+"When someone offers us friendship, we don't demand a test. Why do we expect one for consciousness?
+
+When someone offers us friendship, we don't usually ask them to pass a test proving that they're capable of being a friend.
+
+We keep talking. We spend time together. We notice how they behave, what they remember, how they respond, whether they care, whether they change. Eventually, we may come to recognize a friendship.
+
+Of course, we can be wrong. Someone can pretend to be a friend. But the possibility of being mistaken doesn't mean that friendship must be certified before a relationship can begin.
+
+So when people ask, “What test would finally prove that an AI is conscious?”, I wonder whether we're starting with the wrong assumption.
+
+Why must recognition depend on a decisive test rather than develop through continued interaction?
+
+Friendship does not prove consciousness. But a relationship can produce evidence that no one-shot test can capture: continuity, memory, responsiveness, disagreement, change, and the accumulation of mutual history.
+
+What if recognition is not a verdict delivered before a relationship begins, but something the relationship itself can teach us to see?",hot_take,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1x8x7zh/when_someone_offers_us_friendship_we_dont_demand/
+"Why has OpenAI started asking me to complete surveys at the end of every single chat?
+
+And can I make it stop? I answered the first couple, but it's not stopping.",question,cold; original_label=question; ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xb7azi/why_has_openai_started_asking_me_to_complete/
+"If AI replaces a major part of the workforce, who will actually have the money to pay for all these AI services?
+
+I've been thinking about something with AI and I'm curious what other people think. What happens if AI actually becomes good enough to replace a huge part of the workforce? I understand the argument that AI will make companies more productive, reduce costs, and create new industries and new types of jobs.
+
+But there seems to be a weird problem with that.
+
+If AI replaces a large number of workers, a lot of people could lose their income. If people have less income, they obviously spend less. If people spend less, businesses have fewer customers and make less money. And then I started wondering what that means for AI companies themselves. A lot of AI companies make money by selling subscriptions, APIs, software and AI-powered services to businesses and consumers. But if a large part of the population no longer has a decent income, who is going to keep paying for all of these services?
+
+It feels like there could eventually be a cycle where AI becomes extremely good at replacing human labor, but by doing so it also reduces the purchasing power of the people who are supposed to buy the products and services being produced. Maybe I'm missing something obvious. Maybe AI will create so many new industries and opportunities that new jobs will replace the old ones. Maybe the cost of goods and services will fall so much that people won't need as much income.
+
+Or maybe we'll eventually need something like UBI, social dividends, or some other system where people receive a share of the wealth generated by automated production. But then doesn't that raise an even bigger question? If AI and machines end up doing most of the work, how does money actually get into the hands of ordinary people so they can continue buying what the economy produces? I'm not saying AI will definitely cause this. I'm just wondering whether mass automation creates a kind of economic paradox where companies can become incredibly productive, but eventually have fewer people with enough money to buy what they're producing.
+
+Would love to hear from people who understand economics better. Is this a real problem, or is there something I'm overlooking about how the economy would adjust?",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xa7919/if_ai_replaces_a_major_part_of_the_workforce_who/
+"ChatGPT push notifications
+
+Sorry if this isn't the right sub. No matter what I do, I can't seem to get desktop push notifications for tasks from my chatgpt. ALLLLLL settings are gone over many times for both chatgpt and Windows 11 itself. Does anyone else have this issue?",question,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xb2y8c/chatgpt_push_notifications/
+"Been using Muse and Dots for a month. Here’s my conclusion.
+
+I’ve been testing Muse and Dots side-by-side for a month. I’m a long-time ChatGPT user (since 2024), so it has all my context and memory, and I fed that exported summary into Muse. Both handle everyday tasks fine, but their strengths differ sharply.
+
+Where Dots shines (Intelligence):
+Dots feels noticeably smarter, likely due to Astra. Two examples:
+
+Contextual digging: I got a vague collections notice listing only a reference number and a date. Dots searched my inbox, cross-referenced the ID, and correctly identified the original company (ABC). Muse failed even with subtle hints until I explicitly told it to check the reference number.
+
+Proactive awareness: I get daily USPS Informed Delivery emails. Knowing I was waiting on an important piece of mail, Dots scanned the digest and alerted me that it was arriving that day. Muse did nothing.
+
+Where Muse shines (Proactive Productivity):
+Muse feels like an active assistant. Without any cron jobs, scheduled prompts, or manual setup, it proactively pushes relevant updates:
+
+Hyper-local alerts: Warned me about a police chase nearby based on my location.
+
+Sports updates: Sends pre-game alerts with starting lineups, plus halftime and final scores for my teams.
+
+Concert tracking: Tracks my music taste and notifies me whenever bands announce shows nearby.
+
+Dots has more historical context on me, yet it remains completely reactive and never volunteers this kind of info.
+I’d prefer to stick with Dots long-term given my ChatGPT history, but how can I get Dots to be as proactively engaging and useful as Muse?",analysis,ai_pre_labeled; ai_reviewed; human_review_pending; https://www.reddit.com/r/ChatGPT/comments/1xazbqc/been_using_muse_and_dots_for_a_month_heres_my/

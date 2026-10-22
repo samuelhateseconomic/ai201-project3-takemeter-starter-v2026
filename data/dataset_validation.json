@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-21",
+  "dataset": "labels.csv",
+  "dataset_sha256": "9f612b5d8bd0e9901a53ab87c717d49cfc5118d97503feb54fac2688903c1a8c",
+  "rows": 200,
+  "columns": [
+    "text",
+    "label",
+    "note"
+  ],
+  "label_counts": {
+    "question": 56,
+    "analysis": 54,
+    "hot_take": 60,
+    "reaction": 30
+  },
+  "minimum_class_share": 0.15,
+  "maximum_class_share": 0.3,
+  "invalid_or_blank_labels": 0,
+  "duplicate_source_ids": 0,
+  "normalized_duplicate_texts": 0,
+  "normalization": "Unicode NFKC, casefold, whitespace collapse",
+  "pending_source_or_completeness_flags": 0,
+  "detail_page_verified": 140,
+  "complete_feed_captures_without_separate_detail_verification": 60,
+  "excluded_rows": 7,
+  "quality_replacements": 7,
+  "original_cold_annotations_archived": 24,
+  "cold_origin_rows_retained": 18,
+  "cold_origin_labels_changed_by_ai": 9,
+  "annotation_status": "ai_pre_labeled_user_approved",
+  "human_review_completed": false,
+  "independent_human_agreement": "NOT EVALUATED",
+  "split_preview_only": false,
+  "training_executed": true,
+  "baseline_comparison_executed": true,
+  "notebook_code_syntax": "passed",
+  "baseline_preflight_tests": "passed: compatible fixture accepted; practice label mismatch, stale hash, mismatched test count and ordered records rejected",
+  "remaining_blocker": null,
+  "provisional_training_authorized": true,
+  "human_review_waived_for_demonstration": true,
+  "training_device": "cpu",
+  "training_settings": {
+    "epochs": 3,
+    "learning_rate": 0.00002,
+    "batch_size": 16,
+    "max_length": 128
+  },
+  "actual_split_sizes": {
+    "train": 139,
+    "val": 31,
+    "test": 30
+  },
+  "truncated_posts": {
+    "train": 66,
+    "val": 16,
+    "test": 16
+  },
+  "baseline_model": "facebook/bart-large-mnli",
+  "comparison_verification": "passed: same 30 ordered texts/gold labels, four-class maps, dataset and held-out hashes, recomputed accuracy and per-class/macro F1",
+  "actual_split_label_counts": {
+    "train": {
+      "analysis": 38,
+      "hot_take": 42,
+      "question": 39,
+      "reaction": 20
+    },
+    "val": {
+      "analysis": 8,
+      "hot_take": 9,
+      "question": 9,
+      "reaction": 5
+    },
+    "test": {
+      "analysis": 8,
+      "hot_take": 9,
+      "question": 8,
+      "reaction": 5
+    }
+  },
+  "user_approval_status": "user_approved",
+  "user_approval_date": "2026-10-21",
+  "approval_record": "data/annotation_review.json",
+  "approval_timing": "After training; frozen CSV and recorded run provenance unchanged"
+}

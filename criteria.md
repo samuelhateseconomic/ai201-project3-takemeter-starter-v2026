@@ -5,9 +5,10 @@ These targets apply to the four labels in `label_definitions.txt`:
 `analysis`, `hot_take`, `question`, and `reaction`.
 
 The planned dataset contains at least 200 unique public r/ChatGPT posts;
-200 collected texts are currently retained (eight appended imports still need
-source/completeness review); 24 current cold labels are preserved, and
-final label counts are not yet known.
+200 eligible texts are retained after source review and seven quality replacements.
+Current AI-reviewed counts are analysis 54, hot_take 60, question 56, reaction 30.
+All 24 original cold annotations are archived; 18 cold-origin sources remain in
+the current dataset. Human review of final gold labels is still outstanding.
 The notebook uses a stratified 70% training / 15% validation / 15% test split,
 so 200 posts produce approximately 140 / 30 / 30 examples.
 

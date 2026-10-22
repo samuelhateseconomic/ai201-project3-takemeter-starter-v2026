@@ -29,6 +29,7 @@ during.
 """
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -183,6 +184,27 @@ def markdown_table(baseline_scores, labels, trained=None):
     return "\n".join(rows)
 
 
+def validate_comparison(trained, labels, texts, gold, data_path):
+    """Reject incompatible evidence before loading the zero-shot model."""
+    recorded_labels = set(trained.get("labels", trained.get("per_label", {})))
+    if recorded_labels != set(labels):
+        raise ValueError(
+            f"Trained labels {sorted(recorded_labels)} do not match dataset labels {sorted(labels)}. "
+            "Rerun notebook sections 1–5 on the project dataset; practice results are not comparable."
+        )
+    if trained.get("dataset") and Path(trained["dataset"]).resolve() != Path(data_path).resolve():
+        raise ValueError("Trained results use a different dataset. Rerun sections 1–5 with PRACTICE = False for labels.csv.")
+    if trained.get("dataset_sha256"):
+        import hashlib
+        if hashlib.sha256(Path(data_path).read_bytes()).hexdigest() != trained["dataset_sha256"]:
+            raise ValueError("Dataset changed after training. Regenerate trained results and the held-out split together.")
+    if trained.get("n_test") != len(texts):
+        raise ValueError("Trained results and held-out posts have different counts; compare the complete same test split.")
+    predictions = trained.get("predictions")
+    if predictions is not None and [(p["text"], p["gold"]) for p in predictions] != list(zip(texts, gold)):
+        raise ValueError("Held-out texts or labels differ from the trained evaluation records.")
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Zero-shot baseline for TakeMeter. Runs locally, no API key.",
@@ -257,6 +279,15 @@ def main():
     texts = posts["text"].tolist()
     gold = posts["label"].astype(str).str.strip().tolist()
 
+    trained = None
+    if args.trained:
+        try:
+            trained = json.loads(Path(args.trained).read_text(encoding="utf-8"))
+            validate_comparison(trained, labels, texts, gold, args.data)
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            print(f"Cannot compare baseline and trained results: {exc}", file=sys.stderr)
+            sys.exit(1)
+
     print(f"\nClassifying {len(texts)} posts across {len(labels)} labels.")
     print("A few seconds each — this is what no fine-tuning costs at runtime.\n")
 
@@ -268,15 +299,18 @@ def main():
     for label, values in scores["per_label"].items():
         print(f"  {label:<16} F1 {values['f1']:.3f}   (n={values['support']})")
 
-    trained = None
-    if args.trained and Path(args.trained).exists():
-        trained = json.loads(Path(args.trained).read_text())
-
     print("\n\nPaste this into your README under **Baseline vs. Trained**:\n")
     print(markdown_table(scores, labels, trained))
 
     Path(args.out).write_text(json.dumps({
         "model": ZERO_SHOT_MODEL,
+        "dataset": args.data,
+        "dataset_sha256": hashlib.sha256(Path(args.data).read_bytes()).hexdigest(),
+        "held_out_file": str(held_out),
+        "held_out_sha256": hashlib.sha256(held_out.read_bytes()).hexdigest() if like_for_like else None,
+        "labels": labels,
+        "trained_results_sha256": hashlib.sha256(Path(args.trained).read_bytes()).hexdigest() if args.trained else None,
+        "annotation_status": trained.get("annotation_status") if trained else None,
         "n": len(texts),
         "seed": args.seed,
         "held_out": like_for_like,

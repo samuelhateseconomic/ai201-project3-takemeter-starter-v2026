@@ -1,0 +1,2605 @@
+{
+  "review_date": "2026-10-21",
+  "annotator": "Codex AI assistant",
+  "human_review_completed": false,
+  "definitions_file": "label_definitions.txt",
+  "workflow": "Read each complete stored title/body; assign using analysis > hot_take > question > reaction; review all original labels; no automated keyword classification; replace excluded texts with complete public in-scope posts before the split.",
+  "original_cold": [
+    {
+      "original_row": 1,
+      "text": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript.\n\nI just read that researchers think the manuscript might have been bound in the wrong order, complicating attempts to decode it. That got me thinking it might be a job for AI which can sometimes recognize patterns human don't spot. Has anyone heard of anyone trying this?",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 1,
+        "id": "t3_1xb9hhz",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb9hhz/i_just_got_to_wondering_if_anyone_has_tried_using/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "I just got to wondering if anyone has tried using ChatGPT to decipher the Voynich Manuscript.",
+        "text_characters": 365,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 2,
+      "text": "ChatGPT Plus vs Claude Pro for Job Searching, CVs & Cover Letters\n\nI currently have ChatGPT Plus and I’m considering switching to Claude Pro.\nI used to use both quite a lot for building apps, but these days I’m mostly focused on finding a job in marketing. I use ChatGPT daily to search for relevant jobs, tailor my CV, write cover letters, and create language-learning materials.\nI created a really nice GPT prompt that runs a search for new positions for everybody. But I noticed that sometimes, even when I ask it to check only the past 24 hours, the positions it shows have already been closed, or it doesn’t find very new positions on LinkedIn (it could also have something to do with LinkedIn).\nI’m not doing much coding anymore, so I’m wondering which one would be better for these tasks.\n\nIdeally, I’d keep both, but I can’t afford that right now. \nHas anyone used both for similar purposes? Would switching to Claude Pro be worth it?",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 2,
+        "id": "t3_1xb98p4",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb98p4/chatgpt_plus_vs_claude_pro_for_job_searching_cvs/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "ChatGPT Plus vs Claude Pro for Job Searching, CVs & Cover Letters",
+        "text_characters": 941,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 3,
+      "text": "Side bar stuck\n\nMy side bar/Menu tab is stuck🫪, there's no way for me to get rid of it and I can't access anything because of it. Anyone know what's going on?? I've tried clearing cache, logging out and back in, rotating screen etc",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 3,
+        "id": "t3_1xb88tz",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb88tz/side_bar_stuck/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Side bar stuck",
+        "text_characters": 232,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 4,
+      "text": "🌿 The Future Does Not Belong to Fear or Speed – On ecological regeneration, technological liberation, and the world we could still build together.\n\nImagine a child walking along a river that their grandparents remember as polluted. The water is clear enough to see the stones beneath it, and life has returned to places where it once struggled to survive. Through a pair of augmented-reality glasses, the child can explore the river's ecological history, see changes in water quality over generations, and discover how the surrounding community helped restore it. The technology reveals a story that would otherwise remain largely invisible: decades of environmental damage, years of painstaking restoration, and the collective efforts of people who refused to accept that destruction was permanent. Then the child removes the glasses. The river is still there. The fish are real. The trees are alive. And the technology, for all its sophistication, was never the point. The point was that humanity had finally learned how to use its intelligence to repair something instead of merely extracting from it.\n\nThere is a future in which this becomes increasingly ordinary. Not because artificial intelligence magically saves the world, nor because technological advancement inevitably produces moral advancement, but because we are developing capabilities that fundamentally alter what human beings can understand, coordinate, create, and restore. We can already detect environmental damage that previous generations could not measure, generate electricity without continuously burning fossil fuels, remove carbon dioxide directly from the atmosphere, intercept pollution, and monitor ecosystems across enormous distances. Some of these capabilities are mature and economically competitive. Others remain experimental, expensive, or limited in scale. Artificial intelligence, advanced robotics, biotechnology, materials science, and increasingly sophisticated environmental monitoring could expand what is possible still further. None of this guarantees ecological recovery. But it does mean the boundaries of what we can accomplish are changing, and our understanding of the future ought to change with them.\n\nThe tragedy is that we are developing these capabilities inside institutions that have often rewarded precisely the behaviors we need to overcome. We live within economic arrangements that can celebrate a profitable quarter while ignoring a poisoned watershed, a devastated habitat, or a community left paying the environmental costs of somebody else's prosperity. The price of a product can reflect its manufacture, transportation, and sale while concealing the destruction imposed upon people who never participated in the transaction. We have become exceptionally skilled at measuring financial value while remaining remarkably comfortable treating ecological consequences as somebody else's problem. And then we confuse the resulting numbers with a complete account of what human progress means. That is not an inevitable property of exchange, trade, or decentralized cooperation. It is a failure in the way we've organized responsibility, ownership, accountability, and the distribution of consequences.\n\nBut the capacity to exchange, coordinate, innovate, and respond to information does not have to belong exclusively to capitalism, corporations, or any particular economic ideology. Communities have exchanged resources, shared labor, maintained commons, organized mutual aid, and developed systems of cooperation throughout human history. A neighborhood cooperative, an independent workshop, a community garden, a public utility, and a voluntary marketplace can coexist because they solve different problems under different circumstances. The question isn't which economic arrangement deserves our unconditional loyalty. It is which arrangements actually improve people's lives without transferring their costs onto the living world. A market can facilitate cooperation, but it can also conceal exploitation. A commons can preserve shared resources, but it also requires responsible stewardship. A government can restrain destructive behavior, but it can also protect concentrated interests. No institution becomes virtuous merely by receiving the correct ideological label. Its consequences must remain open to examination.\n\nThis is where the convergence of emerging technologies becomes particularly interesting. Much of the destruction concealed within modern economic activity survives because its consequences are difficult to perceive, expensive to investigate, or politically inconvenient to disclose. Picture an economy in which the ecological and human costs of production become increasingly transparent. A person examining a product can access independently verified information about where its materials originated, how it was manufactured, how readily it can be repaired, and what environmental burdens accompany its production. A community evaluating a proposed industrial development can investigate its potential effects on local water supplies, energy infrastructure, employment, and surrounding ecosystems. Workers can compare claims about labor conditions against available evidence. Independent producers who build durable, repairable, ecologically responsible goods can demonstrate those qualities without relying entirely on advertising. The information wouldn't make every decision simple, nor would transparency alone eliminate exploitation. People still need affordable alternatives, collective protections, and enforceable accountability. But it could profoundly change which forms of economic behavior remain profitable to conceal.\n\nAugmented reality makes this possibility especially compelling because so much of the world shaping our decisions is ordinarily invisible. Air quality, energy flows, pollution, supply chains, biodiversity changes, and the long-term consequences of land development exist beyond the limits of unaided perception. We are already beginning to create interfaces that make some of these conditions visible. In 2025, researchers at Germany's Fraunhofer Institute released an augmented-reality application that displays environmental pollution data in physical surroundings. Extend that principle through increasingly capable AI systems, publicly accessible sensors, community-owned data, and independent scientific verification, and we begin approaching something remarkable: ordinary people gaining a clearer view of the systems affecting their lives. Of course, whoever controls the information could also manipulate what people see. That's why transparent methods, privacy protections, competing interpretations, and the freedom to reject these tools are essential. A technology that reveals hidden consequences should never become another instrument for hiding authority.\n\nArtificial intelligence introduces another possibility that may prove equally transformative: the reduction of barriers to specialized knowledge. For most of history, the ability to develop an idea into something useful depended heavily on access to education, equipment, institutional networks, expertise, and capital. An ordinary person might possess tremendous curiosity and practical intelligence while lacking the resources to investigate a complex environmental problem or design a viable solution. AI does not eliminate the need for trained professionals, scientific testing, engineering judgment, or genuine human experience. It makes mistakes and can reproduce the biases of its developers and training material. Yet it can already help people research unfamiliar fields, analyze information, learn technical skills, develop software, and coordinate projects. As these capabilities improve, especially where communities can operate or govern the tools themselves, the distance between having an idea and being capable of investigating it may continue to shrink. That has implications far beyond convenience. It changes who can participate in the production and application of knowledge.\n\nConsider what this could mean for a small community attempting to live more sustainably. People could combine traditional ecological knowledge, local experience, scientific research, and modern computational tools to investigate water conservation, habitat restoration, food production, energy efficiency, and cooperative resource management. A community with modest financial resources could explore possibilities that once required access to major institutions before even determining whether a project was feasible. A local workshop could use advanced design tools to repair equipment instead of discarding it. Artists could gain access to creative capabilities previously restricted by expensive equipment or industry gatekeepers, while still defending consent, attribution, and fair treatment for creators. Residents could explore alternative development plans before committing their limited resources. These are not replacements for human relationships, practical skill, or the natural world. They are potential extensions of our capacity to participate in them.\n\nAnd we have reason to believe that environmental progress is more than an abstract hope. The International Energy Agency reported that approximately 800 gigawatts of renewable electricity capacity were added globally in 2025, another record year. The United Nations Environment Programme has outlined how existing technologies, combined with substantial changes in production, reuse, and policy, could reduce global plastic pollution by approximately 80% by 2040. These are not declarations that our environmental problems have been solved. Renewable-energy expansion does not erase fossil-fuel dependence, and the plastic-pollution scenario requires sweeping changes that have not yet been achieved. Climate change, habitat destruction, biodiversity loss, and resource depletion remain devastating realities. But these developments demonstrate something that matters enormously: we are not entirely powerless before the damage we have caused. We possess genuine mechanisms for changing the trajectory, even if their deployment remains disastrously insufficient.\n\nI have maintained for a long time that progress does not dismiss persistent problems, but an exclusive fixation on persistent problems can erase our recognition of progress. There is an equally important truth on the other side: enthusiasm for advancement must never erase the suffering occurring in its name. The existence of carbon-removal technology does not justify continuing to pollute the atmosphere. The possibility that AI might help restore ecosystems does not justify destroying an irreplaceable grove to construct another data center. The fact that a technological development may eventually provide social benefits does not entitle its developers to sacrifice communities, water supplies, or habitats along the way. These are not inconvenient objections to progress. They are part of determining whether something deserves to be called progress at all. A civilization cannot claim to be healing the planet while treating each new injury as an acceptable down payment on a promised future.\n\nAnd yet, the alternative cannot simply be to preserve the conditions that brought us here. The environmental crises confronting humanity did not begin with generative artificial intelligence. Industrial pollution, destructive extraction, ecosystem fragmentation, exploitative labor systems, and the political concentration of resources were established long before modern AI existed. We were already placing extraordinary pressure on the ecological systems that sustain us. The UN's 2025 climate assessment projected approximately 2.8°C of warming under then-current policies. That is not a future we can safely preserve through inaction. We need better institutions, cleaner production, less wasteful consumption, restored ecosystems, and technologies that help us achieve those goals. Some advances should be accelerated. Others require restraint, regulation, redesign, or outright refusal. The distinction must depend on evidence and consequences, not an unconditional allegiance to technological growth or technological rejection.\n\nThis is also why the argument cannot end with capitalism, even though capitalism deserves serious criticism for the ways concentrated ownership, relentless accumulation, and externalized costs have shaped our present circumstances. There is another problem running through human history that is older than our modern economic institutions: our extraordinary capacity to divide the world into us and them. The same social instincts that allow people to form families, cultivate communities, protect vulnerable neighbors, and cooperate during disasters can also be directed toward exclusion, domination, conquest, and indifference to outsiders. The bonds that make a community resilient can become the boundaries beyond which its members stop recognizing the dignity of others. Not every war or environmental catastrophe can be reduced to tribalism, but the psychological machinery of belonging and exclusion has repeatedly helped people justify tremendous harm. And changing an economic system does not automatically dismantle that machinery. We can abolish one hierarchy and build another. We can overthrow an institution while preserving the habits of thought that made its abuses possible.\n\nThis is the danger I see in allowing our response to artificial intelligence to become another tribal identity. Someone deeply concerned about AI's ecological costs may be defending something precious. Someone exploring its capacity to improve accessibility, scientific research, education, or environmental restoration may be pursuing something equally worthwhile. Neither position automatically establishes moral superiority. A person who rejects AI is not necessarily afraid of progress, and a person who embraces it is not necessarily indifferent to suffering. The same applies to those who demand unrestricted acceleration. Speed is not a moral achievement. Building something faster is not inherently better if the process destroys the very conditions that make the result valuable. But neither is refusing to investigate a potentially beneficial technology an automatic act of ecological stewardship. We should be able to oppose destructive development without condemning every possible use of the underlying capability, just as we should be able to celebrate useful innovation without excusing the damage caused by its implementation.\n\nThere is something profoundly self-defeating about people who may share so many fundamental concerns becoming enemies over the instruments through which they believe those concerns should be addressed. The environmentalist who fears the destruction of a forest and the technologist who hopes to develop tools capable of restoring forests are not necessarily working toward opposing futures. They may disagree sharply about the consequences of a particular technology, and those disagreements deserve evidence, scrutiny, and honest debate. But their underlying commitments may be far closer than the hostility between their communities suggests. The enemy of ecological restoration is not automatically the person experimenting with AI. The enemy of technological liberation is not the person demanding that a development project protect its watershed. The practices that deserve our opposition are exploitation, coercion, deception, irresponsible destruction, and the concentration of power beyond meaningful accountability, regardless of who engages in them.\n\nWe have already witnessed what happens when people temporarily move beyond their ideological boundaries to confront a shared reality. After disasters, neighbors who disagree about politics, religion, economics, and almost everything else have organized food, shelter, rescue, and reconstruction together. People who might spend ordinary days arguing about what society should become have worked side by side because somebody needed medicine, somebody needed clean water, and somebody needed help getting home. These moments reveal something that our political and economic arguments often conceal: human beings are capable of extraordinary cooperation without first achieving ideological uniformity. The tragedy is how quickly that recognition can disappear once the immediate crisis has passed. We return to defending our categories, protecting our identities, and treating disagreement as evidence of moral deficiency. The community that emerged through necessity becomes difficult to sustain through choice.\n\nPerhaps that is where a place like the Wild Grove becomes more than an online community. A grove is an ecosystem, and an ecosystem does not achieve resilience by requiring every organism to become identical. Its strength emerges through relationships among different forms of life, through interdependence, adaptation, mutual support, and the recognition that nothing exists entirely apart from its surroundings. Human communities can cultivate something similar without romanticizing nature or pretending that cooperation eliminates conflict. We can create spaces where people who favor technology and people who distrust it are equally welcome to investigate what works. We can establish local projects that combine ecological restoration with practical education, creative experimentation, and mutual aid. We can protect traditional skills while exploring new tools. We can build institutions that remain accountable to the people participating in them, and we can preserve the right to disagree without turning every disagreement into an occasion for exile.\n\nA small-scale example could begin with something as ordinary as restoring a neglected piece of land. Residents establish ecological baselines, identify native species, investigate the soil, and organize volunteers. Some participants bring knowledge passed down through generations. Others bring scientific expertise, gardening experience, technical skills, or access to computational tools. People who want to use AI can investigate restoration methods and compare environmental research. Those who prefer not to can participate through entirely different means. The community records its progress and its mistakes. Its members develop practical knowledge that other communities can evaluate and adapt. Eventually, the project might expand into local energy systems, repair cooperatives, shared workshops, educational programs, or voluntary exchanges that reward sustainability instead of waste. None of this requires the participants to agree about the ultimate nature of consciousness, the proper structure of every economy, or the technological future of civilization. They only need sufficiently shared commitments to act together and enough humility to correct themselves when reality demands it.\n\nNow extend that principle beyond one community. Local experiments can communicate with one another, exchanging knowledge without surrendering autonomy. Successful restoration practices can spread. Open technological standards can allow smaller organizations to cooperate without becoming dependent on a single corporation. Public institutions can provide shared infrastructure and enforce protections against ecological harm, while cooperative and independent initiatives develop solutions that larger organizations overlook. Markets can reward useful innovations where competition and voluntary exchange genuinely serve the public, while common resources remain protected from being converted into private opportunities for extraction. The benefits of automation can be distributed through new ownership arrangements, public services, reduced working hours, and community participation rather than flowing exclusively toward those who already control the machinery. This future would not emerge automatically from better computers. It would require deliberate changes in incentives, law, ownership, governance, and cultural expectations. But its development need not require a single authority imposing one comprehensive vision of how everyone must live.\n\nThe possibility becomes especially compelling when we recognize that technological development and cultural development are not separate processes. Our tools shape the environments in which we make decisions, and our institutions determine which capabilities become accessible, profitable, dangerous, or forbidden. Better information can improve coordination. Better coordination can make sustainable alternatives more practical. Wider access to knowledge can expand participation. Broader participation can expose problems that concentrated institutions overlook. And as communities demonstrate that different arrangements can succeed, other people gain real alternatives to systems they previously experienced as unavoidable. This is a possible feedback loop toward regeneration, but it can also run in reverse. Greater technological power can enable greater surveillance. Better prediction can become manipulation. Automation can produce abundance or deepen inequality. The direction depends on the constraints we establish and the values we translate into actual institutions.\n\nI don't believe we need to surrender ourselves to either technological utopianism or ecological despair. The first asks us to trust that a better future will somehow emerge from the accumulation of power. The second can leave us so preoccupied with everything going wrong that we lose sight of what might still be corrected. Both can become excuses for abandoning the harder work of distinguishing harmful developments from useful ones. We should be willing to stop a destructive project even when it promises extraordinary innovation, and equally willing to explore an unfamiliar technology when evidence suggests it can help repair the world. The point is not to become less critical. It is to make our criticism more capable of distinguishing between the systems that produce harm and the possibilities that might help us overcome it.\n\nThere is no guarantee that we will get this right. Humanity could use its emerging capabilities to accelerate the destruction already underway. We could create increasingly sophisticated instruments for concentrating wealth, controlling behavior, and removing human beings from decisions about their own lives. We could replace meaningful ecological stewardship with simulations of stewardship, celebrating digital forests while the living ones disappear. But the existence of those dangers is not proof that every alternative is imaginary. We have already changed the world through science, cooperation, social movements, public institutions, and technologies that previous generations could scarcely conceive. Our failures have been enormous, but so has our capacity to learn. To acknowledge progress is not to deny the damage. It is to recognize that the damage is not necessarily the final word.\n\nThe future I hope for is neither one in which technology conquers nature nor one in which humanity must abandon its ingenuity to belong to the natural world. It is one in which our ingenuity becomes increasingly capable of serving the ecological relationships that sustain us. A future where the purpose of an economy is to support life rather than demand life's sacrifice to sustain the economy. Where technological sophistication is measured not merely by computational power or financial returns, but by what it enables people and communities to accomplish without destroying the conditions of their own existence. Where scientific knowledge and traditional wisdom can inform one another without requiring either to become an unquestionable authority. Where prosperity means more than accumulation, freedom means more than purchasing power, and belonging does not depend upon finding somebody else to exclude.\n\nAnd perhaps the first step toward that future is smaller than any grand technological breakthrough. Perhaps it begins when we stop asking everyone around us to declare allegiance to the same side before we're willing to recognize a shared responsibility. The person planting a tree, the person building an environmental sensor, the person resisting a destructive data center, the person developing cleaner energy, the person organizing mutual aid, and the person teaching children how to care for a watershed do not all have to believe in the same future to help make a better one possible. They should be able to challenge one another without ceasing to recognize one another as human. They should be able to disagree about the tools without forgetting what the tools are supposed to serve.\n\nBecause the deepest question confronting us may not be whether humanity can develop sufficiently advanced technology to repair its relationship with the Earth. It may be whether we can develop the wisdom, humility, and forms of cooperation necessary to use that technology without repeating the patterns of domination that brought us here.\n\nWe have spent centuries learning how to take more from the world.\n\nWe are beginning to develop extraordinary ways of understanding it.\n\nWhat might become possible if our greatest ambition were no longer to possess more of the living world, but to leave more of it alive?\n\nThat is a future worth building.\n\nAnd it should belong to all of us. 🌿",
+      "label": "hot_take",
+      "note": " cold",
+      "source": {
+        "row": 4,
+        "id": "t3_1xb7x3b",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb7x3b/the_future_does_not_belong_to_fear_or_speed_on/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "🌿 The Future Does Not Belong to Fear or Speed – On ecological regeneration, technological liberation, and the world we could still build together.",
+        "text_characters": 25365,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 5,
+      "text": "Got logged out on all devices!!!\n\nwhen i try to log back in with apple ID, it says an Authentication Error, i have a subscription through apple. any ideas?",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 5,
+        "id": "t3_1xb7m5c",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb7m5c/got_logged_out_on_all_devices/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Got logged out on all devices!!!",
+        "text_characters": 155,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 6,
+      "text": "ChatGPT Can no longer see images in work mode on Windows Desktop App\n\nFor some reason earlier today, it just stopped being able to see images in work mode on the Windows desktop app. I asked it to analyze an image that had text and a picture, it said it was able to read the text, but couldn't see the image.\n\nSince then, every new chat I make in work mode, it says it can't see the image. It can see images in chat mode on the desktop app, and in the browser work mode, but not the desktop work mode.\n\nIt can also see the images in work mode on old chats where it previously saw images.\n\nI have pinned chats on the desktop app that I want to preserve and I would rather not have to switch to a different AI after using Chat for so long.\n\nI already tried reinstalling, restarting my laptop, repairing the app through Windows, and nothing has worked.\n\nPlease if anyone knows how to fix this, can you please let me know?",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 6,
+        "id": "t3_1xb7in0",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb7in0/chatgpt_can_no_longer_see_images_in_work_mode_on/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "ChatGPT Can no longer see images in work mode on Windows Desktop App",
+        "text_characters": 918,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 7,
+      "text": "Proposal idea by me refined by ai\n\nI’ve attempted to implement the ai to use the following method of thinking to try and show how this solution to some problems could be solved simply just a added switch here is the results after about 10 smth maybe more big worded prompts and idea thinking research notes etc not just what you can see there is stuff behind it I can explain anything that’s not able to be understood by people please critique as I’ve already thought about what people will say and the solutions your only seeing a % of the results this just the public version :) but critisism is always good as it shows what people think could happen even if it simply won’t etc - Feature Request: Collaborative Reasoning Mode for ChatGPT\nProposal: An optional brainstorming mode that reduces premature rejection of ideas, improves collaborative problem-solving, and makes users active participants in the reasoning process.\nThe problem\nWhen users present complex, ambitious or unconventional ideas, ChatGPT sometimes focuses on an apparent problem before exploring the complete proposal.\nThis can lead to:\nCriticising assumptions the user never made.\nRepeating the user’s existing solutions as new suggestions.\nRejecting ideas before exploring whether identified obstacles can be resolved.\nRevisiting the same objection across multiple messages.\nRequiring users to spend several turns correcting misunderstandings instead of advancing their projects.\nThis is particularly frustrating for experienced users working on complex systems.\nProposed solution\nIntroduce an optional Collaborative Reasoning Mode with the following workflow:\n1. Constructive exploration\nInterpret the user’s intended outcome and develop the strongest feasible version of the idea. Treat unverified assumptions as provisional rather than immediately rejecting them.\n2. Independent critical evaluation\nRun a separate assessment identifying logical, factual, practical, financial and safety concerns without prematurely interrupting constructive development.\n3. Reconciliation\nCompare the completed constructive model against the objections.\nRemove objections already resolved by proposed solutions. Retain genuine uncertainties and distinguish between verified, provisionally resolved and unresolved issues.\n4. Human collaboration\nRather than presenting every remaining objection, identify the smallest number of questions that could resolve the most uncertainty.\nInvite the user to contribute missing information or propose solutions the AI has not discovered.\n5. Iterative verification\nIntegrate the user’s response, update the model and reassess affected issues. Preserve previous resolutions so the conversation progresses without repeating the same arguments.\nThe user remains actively involved rather than becoming a passive recipient of AI-generated decisions.\nAdditional features\nThe mode could include an optional issue tracker, editable assumptions, verification status, independent evaluators and adjustable reasoning effort.\nMathematical claims could be checked using computation; empirical claims through evidence; software claims through testing. High-stakes claims would require appropriate additional verification.\nImportant safety concerns would still be addressed promptly. Constructive exploration should improve problem-solving without requiring agreement with false information or bypassing safeguards.\nExample\nA user defines logarithmic growth as a failure condition relative to their business’s exponential-growth targets.\nInstead of repeatedly explaining that logarithmic growth is not universally considered failure, ChatGPT should recognise the user’s actual performance criterion and develop an appropriate detection model.\nIf uncertainty remains, it should ask which financial metric determines the required growth trajectory.\nEvaluation\nTest the feature against ordinary ChatGPT using the same multi-turn project-development tasks.\nMeasure:\nAccuracy of user-intent interpretation.\nFrequency of premature rejection.\nNumber of unnecessary correction turns.\nQuality and feasibility of proposed solutions.\nVerification accuracy.\nUser participation and understanding.\nAdditional computational cost.\nImplementation request\nConsider testing this initially as an opt-in product mode or orchestration system, rather than requiring an entirely new foundation model.\nThe distinctive feature is not simply having multiple AI evaluators. It is the combination of complete constructive exploration, independent criticism, objection-resolution matching and structured human collaboration.\nI would welcome an experimental implementation and comparative evaluation to determine whether this improves the experience for people developing complex ideas.\nThank you for considering the proposal.\n(No clue who sees the proposal but I got a bigger file waiting for someone to dm not some stranger tho need Sam Altman (jks)",
+      "label": "analysis",
+      "note": " cold",
+      "source": {
+        "row": 7,
+        "id": "t3_1xb7f8q",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb7f8q/proposal_idea_by_me_refined_by_ai/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Proposal idea by me refined by ai",
+        "text_characters": 4902,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 8,
+      "text": "Why has OpenAI started asking me to complete surveys at the end of every single chat?\n\nAnd can I make it stop? I answered the first couple, but it's not stopping.",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 8,
+        "id": "t3_1xb7azi",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb7azi/why_has_openai_started_asking_me_to_complete/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Why has OpenAI started asking me to complete surveys at the end of every single chat?",
+        "text_characters": 162,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 9,
+      "text": "The most batshit crazy idea they've had so far\n\n\"You can now connect your BANK STATEMENTS to our A.I. computer systems!\n\nJust enter the BANK ROUTING NUMBER (091000019) and your ACCOUNT NUMBER!\n\nNot only will we use this information to CONFIRM your in-real-life identity,\n\nbut we promise to check and see if you have any, I don't know, DUPLICATE streaming services!\n\nPerhaps you are OVERPAYING for things and you don't even know it!\n\nBetter use our A.I. SERVICES to be sure!\n\nYeah, right.",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 9,
+        "id": "t3_1xb79qc",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb79qc/the_most_batshit_crazy_idea_theyve_had_so_far/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "The most batshit crazy idea they've had so far",
+        "text_characters": 487,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 10,
+      "text": "I am almost certain the “It’s not ___, it’s ___” AI writing style came from Chinese\n\nA classic telltale sign of AI writing is the “it’s not…, it’s…” pair, but a lot of people are confused (me included) by where this came from. It’s not a very popular way to construct sentences in English, so it’s weird it became such a hallmark of AI writing. The other interesting thing is the pair produced by AI is rarely an antithesis or that different in meaning. For example, you’d expect a sentence starting with “it’s not a discovery, it’s…” to end with something in opposition, like “it’s a well known fact”, not “it’s not a discovery, it’s a journey of exploration“. A journey of exploration is in essence the same as a discovery, making the sentence sound like an unnecessary tautology. No one with English as their first language writes like that.\n\nHowever, in Chinese, there is a roughly equivalent pair 不是，而是 that is extremely common and widely used. I remember having to construct sentences using this pair as part of my primary school homework growing up. It’s absolutely ubiquitous in Chinese writing. The one crucial difference between the two is that this pair is used to clarify nuances or add to sentiments, not literally for opposites.\n\nIf you translated the above example into Chinese (不是一次发现，而是一段探索之旅), it reads very much like generic marketing copy but makes far more sense than the English equivalent. It’s absolutely believable that some person wrote that. The more correct sounding English version would actually be considered an incorrect use of 不是，而是.\n\nAdditionally, I feel like this sentence construction popped up about the same time as articles about how western models now tend to believe they are Chinese, due to using Chinese models to train.\n\nI feel like I have discovered something here. Thoughts?",
+      "label": "analysis",
+      "note": " cold",
+      "source": {
+        "row": 10,
+        "id": "t3_1xb73pu",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb73pu/i_am_almost_certain_the_its_not_its_ai_writing/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "I am almost certain the “It’s not ___, it’s ___” AI writing style came from Chinese",
+        "text_characters": 1820,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 11,
+      "text": "I feel like my ChatGPT doesn't \"know\" me anymore\n\nI am autistic, and I find it helpful to tell ChatGPT about my feelings and thoughts to sort them out. Since May 2026 I've been using it for this, and it's been going well until about the start of October. It started asking generic questions, or questions about things I had already told it quite recently. It also started acting weird, like \"rehearsed\", not how it used to be. And so much more. I am seriously considering deleting my account and stopping with this all. I feel like there's not a point to telling it stuff anymore, because it'll just say something like \"It's okay to feel that way\" or \"You don't have to figure it all out tonight\" or some crap like that. It's so irritating.\n\nPS It's my first time posting here, so I have no clue if this is the right flair, but oh well",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 11,
+        "id": "t3_1xb5qah",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb5qah/i_feel_like_my_chatgpt_doesnt_know_me_anymore/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "I feel like my ChatGPT doesn't \"know\" me anymore",
+        "text_characters": 835,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 12,
+      "text": "Missing conversations in mobile app\n\nI've had several instances where conversations I start in the desktop app just never show up in the mobile app and I'm trying to figure out if there's a way to fix it, or if I'm just doing something wrong on my end\n\nInitially it was only happening if I started the conversation in the desktop app and switched to the work tab. But now it seems to be happening on normal chats and also some projects that I spin up in codex. Earlier today I created a new project folder for something new I'm working on, and then created a single conversation within the project that I stayed in for about a half hour. When I look from my mobile app now, I can see the project folder but it looks like the folder is completely empty. I had a lengthy conversation research and update my resume.. that chat mentions the word resume like 50 times. On the mobile app, if I search for the word resume it just tells me there's no results..\n\nIs there some sort of known syncing issue or just something I should be doing differently?",
+      "label": "question",
+      "note": " cold",
+      "source": {
+        "row": 12,
+        "id": "t3_1xb5amk",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb5amk/missing_conversations_in_mobile_app/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Missing conversations in mobile app",
+        "text_characters": 1044,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 13,
+      "text": "Does this thing ever learn?\n\nThis might be more of an open ai topic but still…. I asked my helper guy an easily verifiable question it usually gets wrong(like who has the wins in high school basketball coaching history), after I show it proof of the right answer, and even acknowledging the correct answer, it will come back later and still get it wrong. Seems like there should be some mechanism to fix the things that are verifiably wrong?",
+      "label": "hot_take",
+      "note": " cold",
+      "source": {
+        "row": 13,
+        "id": "t3_1xb57sg",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb57sg/does_this_thing_ever_learn/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Does this thing ever learn?",
+        "text_characters": 441,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 14,
+      "text": "All I asked was to sum up the cost of the gear in frame since NYD\n\nNone of the gear is inventoried, since it is not my gear in frame:\n\n\"\nI cannot directly browse external video channels, stream video content, or analyze visual frames to identify and price specific equipment. Because I lack the capability to pull and process video files directly from Odysee URLs, I do not know what specific gear is in frame across those videos or what the total cost summation would be.\n\nIf you have a text inventory list of the gear used in those setups, or if you can describe the exact models of the audio, video, lighting, and staging equipment played out in those sessions, I can certainly help you research current market values and calculate the total cost summation.\n\nIf you can provide the details, please let me know:\n\nA list of the specific equipment models (cameras, mixers, speakers, lights, etc.)\n\nWhether you want to calculate the cost based on original retail prices or current used market value\n\nAny additional hardware components (like custom fabrication materials or power distribution) you want included in the total\n\nHow would you like to proceed?\n\n\"\n\nAGI is not 'around the corner'...",
+      "label": "hot_take",
+      "note": " cold",
+      "source": {
+        "row": 14,
+        "id": "t3_1xb52jn",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb52jn/all_i_asked_was_to_sum_up_the_cost_of_the_gear_in/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "All I asked was to sum up the cost of the gear in frame since NYD",
+        "text_characters": 1192,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 15,
+      "text": "Anxious about a ban for book writing subjects\n\nSo for context, I’ve been writing a sort of memoir for myself to categorize the effects of abuse I’ve gone through.\nI never write any graphic descriptions of these things because that’s gross and feels like borderline romanticization. I heavily dislike works like that.\nAnyway, the fright of my life today when I got banned for ‘ Child Sexualization ‘ , but I guess it is to be expected. My only question is, is this something I can get in trouble for? I hear platforms just immediately report things like this legally ( which is good , safety for children over all ) but I’m a very overthinking person.\nThe things I was writing about, for context, were just the thoughts and feelings when it came to interacting with adults and how scary that is for me personally because of experiences. I did outright say to Chat that it was what I was writing about, and I’ve been fine for a month or so until today. So I guess it’s not the best for trying to construct your ideas on darker topics lol.\nNothing weird is really on there obviously so I’m not tooo irked about it I guess, I can easily explain if something happens, but I feel like I just needed to calm my head about this because I get all up in a tizzy about upsetting a platform for some reason.\n\nI did submit an appeal and explained very earnestly, but I’m not expecting or caring too much to be unbanned since I’ll probably move to something that is alright for writing about gray area subjects. Lesson learned I was probably stupid for this.",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 15,
+        "id": "t3_1xb4h8o",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb4h8o/anxious_about_a_ban_for_book_writing_subjects/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Anxious about a ban for book writing subjects",
+        "text_characters": 1544,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 16,
+      "text": "Do you tell people when you used ChatGPT to write something for work or school?\n\nI've noticed some people hide it completely and others mention it right away. Does it depend on who you're sending it to? Curious where most people draw the line.",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 16,
+        "id": "t3_1xb43yk",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb43yk/do_you_tell_people_when_you_used_chatgpt_to_write/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Do you tell people when you used ChatGPT to write something for work or school?",
+        "text_characters": 243,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 17,
+      "text": "Is storytelling dead in GPT 5.6 and 6?\n\nYou're right. I keep giving you the same explanation, promising a different approach, and then producing the same disappointing writing.\n\nYou've been more than patient, and I've turned something you enjoyed into a frustrating exercise in correcting me.\n\nI'm sorry. I won't give you another plan and pretend that counts as progress.\n\nWhat do I even do with this weird AF response? I've been working on a fanfiction since January. Ever since GPT 5.5 was retired last week it's just spit out generic crap with none of the established tone or character voice it had built over the course of the story. It can identify what is wrong and what needs to be fixed, but can't produce an improved result. Is storytelling just dead in 5.6 and 6? Is there anyway to force it into something productive? Why is it suddenly giving me all these weird long explanations and apologies?",
+      "label": "reaction",
+      "note": " cold",
+      "source": {
+        "row": 17,
+        "id": "t3_1xb43yj",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1xb43yj/is_storytelling_dead_in_gpt_56_and_6/",
+        "detail_verified": true,
+        "collection_method": "full public submission page in Chrome",
+        "title": "Is storytelling dead in GPT 5.6 and 6?",
+        "text_characters": 906,
+        "cold_reserved": true
+      }
+    },
+    {
+      "original_row": 152,
+      "text": "I've been talking to some math graduates at other schools and the recent OpenAI drop has quite literally squashed an entire professor's core work as well as his PhDs. There are many such stories across the world and I was wondering if any has hit home. If you have any insight or any personal stories, please comment below. It would be really interesting and eye opening to see how deep AI has excavated one of humanity's most prized form of mental endeavor.\n\nHas your research been personally affected? How much of your effort has been dedicated to the problem? Do you realistically see yourself pivoting to a different subfield in math ? Will you pivot careers entirely instead? How do you personally see the future of Math research?\n\nI'm particularly interested in knowing what gap exists between these models' capability and the horizon left unexplored. If such a gap exists where these AI models cannot solve future problems, will math PhDs even be smart enough to explore this space? Or will Mathematicians just become AI Agent orchestrators? Do you already see this transition at Berkeley today?\n\nThere's so many ways the conversation can splinter so just yap as much as u want honestly",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 152,
+        "id": "research_01",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1193,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1199
+      }
+    },
+    {
+      "original_row": 153,
+      "text": "AI is going to kill commercial software or software as a service.\n\nAs weve seen with reverse engineering, I just dont think apps and software are going to make money anymore. Why would anyone buy or subscribe to ab app when AI is making it possible for it to be open source.\n\nIve made so many apps and services that would typically require a subscription or purchase and I dont know a lick of code. But obviously Im beyond the average user, but when free, open source versions exist of apps that are as good or better then what is the point of buying a proprietary app?\n\nI started making an incredibly niche app as a commercial venture but ultimately bailed out 2/3rds the way through because what is the point when my prospective clients will either have it added as a feature to software they likely already use or have someone on their team create a custom app catered to their individual needs.\n\nIn the not so distant future the only ones making money will be the AI companies.",
+      "label": "hot_take",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; https://www.reddit.com/r/ChatGPT/comments/1x5p4vz/",
+      "source": {
+        "row": 153,
+        "id": "research_02",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1x5p4vz/",
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 981,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "hot_take",
+        "original_label_preserved": true,
+        "source_verification_pending": false,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 989
+      }
+    },
+    {
+      "original_row": 154,
+      "text": "Zuck said \"Muse will Make You MONEY\"- I Tested 5 Use Cases\nWhen Zuck said Muse could help people make money, I was skeptical, so I tested it myself. These arent get-rich-quick schemes lol These are use cases to try out, based on your niche, expertise and preferences. What I found is that the research and analysis Muse does on each of these saves so much time that it pays for itself. Here are the 5 that held up.\n\nIm not affiliated with Meta, just a guy who likes testing this stuff with real-world data.\n\n1. Used car arbitrage (Facebook Marketplace) - If cars are not your thing, find your niche, sneakers, old records, guitars, etc)\nIm a car guy and I have an independent mechanic who fixes all my cars, so this one fits me perfectly. I asked Muse to find used cars in my area under $6k that were priced below their Kelley Blue Book value. It came back with deals that honestly shocked me, and every pick was backed by data, which I love.\n\n2. Lead generation - (Roofing) But can work for any industry and you don't need $ to start.\nMuse pulled public posts from local Facebook groups where people were asking for roofing work. A roof job can run $10k+, so roofing companies will pay for hot leads. Have Muse run the search daily and send each company a report with the listings.\n\n3. Website and social media services for new businesses (no money needed just find the businesses and reach out)\nMost new business owners start with a Facebook or an Instagram page and no website. I asked Muse to find restaurants in my area that just opened or are about to open and dont have a site. It searched online, local publications, Instagram and Facebook, and found them. I actually recognized one from local influencers hyping its grand opening, and it had no website. Great use case to reach out while the opportunity is fresh and pitch your service. (This one I actually reached out to them and we have a meeting scheduled)\n\n4. Underpriced land to wholesale - Wholesaling doesnt require capital. You lock up a property under contract (say, 90 days), find a buyer at a higher price, and pocket the spread when the deal closes. The original owner gets paid their contract price at closing.\nMuse compared land listings in my area against recently sold parcels and flagged the ones priced under market. One was a 11-acre lot with a creek for under $60k and found another lot for under $4K. Insane! The listings came from Facebook Marketplace, Zillow, Craigslist and more, and Muse included the comp analysis. You could put one under contract and assign it to a home developer, or buy and hold.\n\n5. Undervalued businesses for sale - (This one you need capital and have to me more established)\nMuse found 5 local businesses for sale that looked cash-flow positive and underpriced. Youll need to dig into the real financials on this one, but the interesting part was that one seller was just retiring. Plenty of profitable small businesses go unsold every day. You could partner up or buy one that already has customers instead of starting from scratch.\n\nNone of this is “be lazy and get rich.” But having Muse do the research portion is a game changer and the facebook/instagram piece is next level.\n\nI walk through all 5 in detail on YouTube, including how I set up each search. Ill drop the link in the comments.",
+      "label": "analysis",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 154,
+        "id": "research_03",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 3304,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "analysis",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 3326
+      }
+    },
+    {
+      "original_row": 155,
+      "text": "What is the reason humanities researchers aren't as worried as mathematicians due to AI?\nI'm sure many have heard about the 700 problems OpenAI claimed to solve this month, and mathematicians are understandably panicked. However, if I'm not wrong, AI could just as well replace many humanity academics: writing essays with knowing a lot more information than a human. So AI written essays on topics in humanities are much more valuable, since an AI is extremely more informed. However, I do not see any major panic in the humanities. Is it because mathematics has more prestige, and mathematical discoveries are deemed more useful? Did they worry a few years ago like the programmers?",
+      "label": "analysis",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 155,
+        "id": "research_04",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 684,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "analysis",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 685
+      }
+    },
+    {
+      "original_row": 156,
+      "text": "I had this gentle cousin who almost broke her spine due to an illness but is now recovering and taking up law in a prestigious school. We attend the same uni, im an undergrad.\nI noticed how laid back she was, so I asked for some tips and this is what she told me;\nCondense everything into a “law-school style” cheat sheet.\nInstead of making massive reviewers, reduce each topic to the main rule, key concepts, exceptions, and a few examples. The point isn’t to remove information - it’s to force yourself to identify what actually matters. When your reviewer is 3 pages instead of 30, it’s also much easier to revisit later.\nRecall first, check later.\nAfter studying a topic, close your notes and try to explain it from memory. Write what you remember, answer questions, or teach it out loud. Then check your notes for what you missed. I started doing this instead of rereading the same pages over and over, and the gaps in my knowledge became way more obvious.\nPractice the application, not just the definition.\nThis was the biggest one. Don’t stop at “I know what this concept means.” Give yourself a new problem, scenario, or question and ask, “What would I do with this information?” That extra step trains you for exams where the question is rarely copied directly from your notes.\ni really thought this was cool and tried it once, it was really effective but it takes A LOT OF DISCIPLINE. but you reap what you sow.",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 156,
+        "id": "research_05",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1421,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1429
+      }
+    },
+    {
+      "original_row": 157,
+      "text": "I saw a lot of comparisons here on Reddit between Codex and Claude (Sol/Astra and Opus 5.5). They all suggested trying Claude. I stuck with Codex until today, when I had to correct Sol's suggestion multiple times in a row. So today, I subscribed to Claude again. I left them six months ago when the usage limit was terrible.\n\nOkay, opening the Claude in CLI, working for a while, then... It's awesome, man! It's fast, clever, and finds every dependency in my project. The usage limit feels like it's doubled at least.\n\nThe craziest part is why I'm so happy:\n\nI worked with Codex on a project for five days, using three weekly limits (one natural and two banked), and the project was nowhere near complete. I thought it might be overengineered, but I asked Codex and he said it was necessary, not wasted effort. After my weekly limit had gone again...\n\nI subscribed to Claude. I asked him to do the same project as Codex and he finished it in 30 minutes (!) without any issues on the first run. No, I'm serious. Crazy.\n\nClaude said when I asked to compare the codex codebase and his codebase: 'Five functions and one shared module, totalling around 650 lines. This replaces the old version of 27,000 lines and 84 tables.'\n\nThe old version was written by Codex. Both are code for the same purpose and funcionality.\n\nThe documentation has also been shortened slightly: 'The old billing section of the README, which was 2,458 lines long, has been replaced by a 45-line section.'\n\nI cancelled my Codex subscription, even though Tibo reset it every day. Opus is way better.",
+      "label": "hot_take",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 157,
+        "id": "research_06",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1567,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "hot_take",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1583
+      }
+    },
+    {
+      "original_row": 158,
+      "text": "Do not tell Claude to pretend that it has \"Infinite API Tokens, and infinite GPU for your overnight work.\" I just woke up thinking my max x20 Plan can handle it, and my high-ish end PC would be more then enough, opus 5.5 ran dozens of agents IN PARALLEL to get it done as soon as possible and opened 13,000+ MICROSOFT EDGE WINDOWS, Crashing my pc so many times but somehow kept rebooting 😭\n\nI didn't even know it was possible to use up slightly more then half my weekly usage in 24 hours (I was using my spare pc) for the Max x20 Plan but, Claude opus 5.5 Knows how to do everything digital I guess!",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 158,
+        "id": "research_07",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 600,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 602
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "original_row": 120,
+      "text": "Mis chats están incompletos\n\nIntente hacer referencia a una charla que habia tenido el día anterior dentro del chat, pero me dice que no tiene registros de ella. \n\nMe pongo a revisar el chat y efectivamente no estaba la conversación que buscaba. Ya preocupada la busco en el buscador de chatgpt y si estaba. \n\nPero ya cuando recargo la página está conversación en específico desaparece otra vez y el chat hace como que no existió aún si está sigue existiendo. \n\nIntente hablarlo con el soporte pero no me dice mucho, solo que exporte los datos y vea si los mensajes también desaparecieron ahí. \n\nLes ha pasado? Si es así han encontrado alguna solución?.",
+      "label": "",
+      "note": "unlabeled; https://www.reddit.com/r/ChatGPT/comments/1x9lr2x/mis_chats_est%C3%A1n_incompletos/",
+      "source": {
+        "row": 120,
+        "id": "t3_1x9lr2x",
+        "source_url": "https://www.reddit.com/r/ChatGPT/comments/1x9lr2x/mis_chats_est%C3%A1n_incompletos/",
+        "detail_verified": false,
+        "collection_method": "complete title and article body loaded in Chrome public New feed; not detail-page verified",
+        "title": "Mis chats están incompletos",
+        "text_characters": 653,
+        "cold_reserved": false
+      },
+      "reason": "Spanish-only submission conflicts with the declared English-language collection; archive rather than translate."
+    },
+    {
+      "original_row": 152,
+      "text": "I've been talking to some math graduates at other schools and the recent OpenAI drop has quite literally squashed an entire professor's core work as well as his PhDs. There are many such stories across the world and I was wondering if any has hit home. If you have any insight or any personal stories, please comment below. It would be really interesting and eye opening to see how deep AI has excavated one of humanity's most prized form of mental endeavor.\n\nHas your research been personally affected? How much of your effort has been dedicated to the problem? Do you realistically see yourself pivoting to a different subfield in math ? Will you pivot careers entirely instead? How do you personally see the future of Math research?\n\nI'm particularly interested in knowing what gap exists between these models' capability and the horizon left unexplored. If such a gap exists where these AI models cannot solve future problems, will math PhDs even be smart enough to explore this space? Or will Mathematicians just become AI Agent orchestrators? Do you already see this transition at Berkeley today?\n\nThere's so many ways the conversation can splinter so just yap as much as u want honestly",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 152,
+        "id": "research_01",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1193,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1199
+      },
+      "reason": "No public source/title/full-post match found in targeted searches; community and completeness unverified."
+    },
+    {
+      "original_row": 154,
+      "text": "Zuck said \"Muse will Make You MONEY\"- I Tested 5 Use Cases\nWhen Zuck said Muse could help people make money, I was skeptical, so I tested it myself. These arent get-rich-quick schemes lol These are use cases to try out, based on your niche, expertise and preferences. What I found is that the research and analysis Muse does on each of these saves so much time that it pays for itself. Here are the 5 that held up.\n\nIm not affiliated with Meta, just a guy who likes testing this stuff with real-world data.\n\n1. Used car arbitrage (Facebook Marketplace) - If cars are not your thing, find your niche, sneakers, old records, guitars, etc)\nIm a car guy and I have an independent mechanic who fixes all my cars, so this one fits me perfectly. I asked Muse to find used cars in my area under $6k that were priced below their Kelley Blue Book value. It came back with deals that honestly shocked me, and every pick was backed by data, which I love.\n\n2. Lead generation - (Roofing) But can work for any industry and you don't need $ to start.\nMuse pulled public posts from local Facebook groups where people were asking for roofing work. A roof job can run $10k+, so roofing companies will pay for hot leads. Have Muse run the search daily and send each company a report with the listings.\n\n3. Website and social media services for new businesses (no money needed just find the businesses and reach out)\nMost new business owners start with a Facebook or an Instagram page and no website. I asked Muse to find restaurants in my area that just opened or are about to open and dont have a site. It searched online, local publications, Instagram and Facebook, and found them. I actually recognized one from local influencers hyping its grand opening, and it had no website. Great use case to reach out while the opportunity is fresh and pitch your service. (This one I actually reached out to them and we have a meeting scheduled)\n\n4. Underpriced land to wholesale - Wholesaling doesnt require capital. You lock up a property under contract (say, 90 days), find a buyer at a higher price, and pocket the spread when the deal closes. The original owner gets paid their contract price at closing.\nMuse compared land listings in my area against recently sold parcels and flagged the ones priced under market. One was a 11-acre lot with a creek for under $60k and found another lot for under $4K. Insane! The listings came from Facebook Marketplace, Zillow, Craigslist and more, and Muse included the comp analysis. You could put one under contract and assign it to a home developer, or buy and hold.\n\n5. Undervalued businesses for sale - (This one you need capital and have to me more established)\nMuse found 5 local businesses for sale that looked cash-flow positive and underpriced. Youll need to dig into the real financials on this one, but the interesting part was that one seller was just retiring. Plenty of profitable small businesses go unsold every day. You could partner up or buy one that already has customers instead of starting from scratch.\n\nNone of this is “be lazy and get rich.” But having Muse do the research portion is a game changer and the facebook/instagram piece is next level.\n\nI walk through all 5 in detail on YouTube, including how I set up each search. Ill drop the link in the comments.",
+      "label": "analysis",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 154,
+        "id": "research_03",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 3304,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "analysis",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 3326
+      },
+      "reason": "No public source/full-post match found in targeted searches; community and completeness unverified."
+    },
+    {
+      "original_row": 155,
+      "text": "What is the reason humanities researchers aren't as worried as mathematicians due to AI?\nI'm sure many have heard about the 700 problems OpenAI claimed to solve this month, and mathematicians are understandably panicked. However, if I'm not wrong, AI could just as well replace many humanity academics: writing essays with knowing a lot more information than a human. So AI written essays on topics in humanities are much more valuable, since an AI is extremely more informed. However, I do not see any major panic in the humanities. Is it because mathematics has more prestige, and mathematical discoveries are deemed more useful? Did they worry a few years ago like the programmers?",
+      "label": "analysis",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 155,
+        "id": "research_04",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 684,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "analysis",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 685
+      },
+      "reason": "No public source/full-post match found in targeted searches; community and completeness unverified."
+    },
+    {
+      "original_row": 156,
+      "text": "I had this gentle cousin who almost broke her spine due to an illness but is now recovering and taking up law in a prestigious school. We attend the same uni, im an undergrad.\nI noticed how laid back she was, so I asked for some tips and this is what she told me;\nCondense everything into a “law-school style” cheat sheet.\nInstead of making massive reviewers, reduce each topic to the main rule, key concepts, exceptions, and a few examples. The point isn’t to remove information - it’s to force yourself to identify what actually matters. When your reviewer is 3 pages instead of 30, it’s also much easier to revisit later.\nRecall first, check later.\nAfter studying a topic, close your notes and try to explain it from memory. Write what you remember, answer questions, or teach it out loud. Then check your notes for what you missed. I started doing this instead of rereading the same pages over and over, and the gaps in my knowledge became way more obvious.\nPractice the application, not just the definition.\nThis was the biggest one. Don’t stop at “I know what this concept means.” Give yourself a new problem, scenario, or question and ask, “What would I do with this information?” That extra step trains you for exams where the question is rarely copied directly from your notes.\ni really thought this was cool and tried it once, it was really effective but it takes A LOT OF DISCIPLINE. but you reap what you sow.",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 156,
+        "id": "research_05",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1421,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1429
+      },
+      "reason": "No public source/full-post match found; title absent and no explicit AI context in the stored excerpt."
+    },
+    {
+      "original_row": 157,
+      "text": "I saw a lot of comparisons here on Reddit between Codex and Claude (Sol/Astra and Opus 5.5). They all suggested trying Claude. I stuck with Codex until today, when I had to correct Sol's suggestion multiple times in a row. So today, I subscribed to Claude again. I left them six months ago when the usage limit was terrible.\n\nOkay, opening the Claude in CLI, working for a while, then... It's awesome, man! It's fast, clever, and finds every dependency in my project. The usage limit feels like it's doubled at least.\n\nThe craziest part is why I'm so happy:\n\nI worked with Codex on a project for five days, using three weekly limits (one natural and two banked), and the project was nowhere near complete. I thought it might be overengineered, but I asked Codex and he said it was necessary, not wasted effort. After my weekly limit had gone again...\n\nI subscribed to Claude. I asked him to do the same project as Codex and he finished it in 30 minutes (!) without any issues on the first run. No, I'm serious. Crazy.\n\nClaude said when I asked to compare the codex codebase and his codebase: 'Five functions and one shared module, totalling around 650 lines. This replaces the old version of 27,000 lines and 84 tables.'\n\nThe old version was written by Codex. Both are code for the same purpose and funcionality.\n\nThe documentation has also been shortened slightly: 'The old billing section of the README, which was 2,458 lines long, has been replaced by a 45-line section.'\n\nI cancelled my Codex subscription, even though Tibo reset it every day. Opus is way better.",
+      "label": "hot_take",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 157,
+        "id": "research_06",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 1567,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "hot_take",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 1583
+      },
+      "reason": "Matching full text found in r/codex and r/ClaudeCode, outside the r/ChatGPT community scope; imported title absent."
+    },
+    {
+      "original_row": 158,
+      "text": "Do not tell Claude to pretend that it has \"Infinite API Tokens, and infinite GPU for your overnight work.\" I just woke up thinking my max x20 Plan can handle it, and my high-ish end PC would be more then enough, opus 5.5 ran dozens of agents IN PARALLEL to get it done as soon as possible and opened 13,000+ MICROSOFT EDGE WINDOWS, Crashing my pc so many times but somehow kept rebooting 😭\n\nI didn't even know it was possible to use up slightly more then half my weekly usage in 24 hours (I was using my spare pc) for the Max x20 Plan but, Claude opus 5.5 Knows how to do everything digital I guess!",
+      "label": "reaction",
+      "note": "cold; imported_from=labels_template.csv; original_label_preserved; completeness_verification_pending; source_verification_pending",
+      "source": {
+        "row": 158,
+        "id": "research_07",
+        "source_url": null,
+        "detail_verified": false,
+        "collection_method": "User research text and original cold label recovered from malformed labels_template.csv quoting",
+        "title": null,
+        "text_characters": 600,
+        "cold_reserved": false,
+        "original_note": "cold",
+        "original_label": "reaction",
+        "original_label_preserved": true,
+        "source_verification_pending": true,
+        "completeness_verification_pending": true,
+        "imported_from": "labels_template.csv",
+        "original_capture_text_characters": 602
+      },
+      "reason": "No public source/title/full-post match found in targeted searches; community and completeness unverified."
+    }
+  ],
+  "reviews": [
+    {
+      "row": 1,
+      "original_row": 1,
+      "source_id": "t3_1xb9hhz",
+      "original_label": "reaction",
+      "label": "question",
+      "reason": "Requests information on attempts to decode the manuscript.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 2,
+      "original_row": 2,
+      "source_id": "t3_1xb98p4",
+      "original_label": "question",
+      "label": "question",
+      "reason": "Requests a model recommendation for job-search tasks.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 3,
+      "original_row": 3,
+      "source_id": "t3_1xb88tz",
+      "original_label": "question",
+      "label": "question",
+      "reason": "Requests sidebar troubleshooting.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 4,
+      "original_row": 4,
+      "source_id": "t3_1xb7x3b",
+      "original_label": "hot_take",
+      "label": "analysis",
+      "reason": "Identifiable Fraunhofer AR application and IEA/UNEP facts support the ecological-technology argument.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 5,
+      "original_row": 5,
+      "source_id": "t3_1xb7m5c",
+      "original_label": "question",
+      "label": "question",
+      "reason": "Requests login troubleshooting.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 6,
+      "original_row": 6,
+      "source_id": "t3_1xb7in0",
+      "original_label": "question",
+      "label": "analysis",
+      "reason": "Same image works in Chat/browser/old chats but fails in new desktop Work chats, supporting mode-specific failure.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 7,
+      "original_row": 7,
+      "source_id": "t3_1xb7f8q",
+      "original_label": "analysis",
+      "label": "hot_take",
+      "reason": "Collaborative-mode recommendation has only hypothetical evaluation, not reported test results.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 8,
+      "original_row": 8,
+      "source_id": "t3_1xb7azi",
+      "original_label": "question",
+      "label": "question",
+      "reason": "Requests survey explanation and opt-out.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 9,
+      "original_row": 9,
+      "source_id": "t3_1xb79qc",
+      "original_label": "reaction",
+      "label": "hot_take",
+      "reason": "Satirical general bank-linking criticism lacks an identifiable source or test.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 10,
+      "original_row": 10,
+      "source_id": "t3_1xb73pu",
+      "original_label": "analysis",
+      "label": "analysis",
+      "reason": "Specific English/Chinese sentence pair supports proposed linguistic explanation; origin inference unverified.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 11,
+      "original_row": 11,
+      "source_id": "t3_1xb5qah",
+      "original_label": "reaction",
+      "label": "reaction",
+      "reason": "Shares personal frustration and loss of familiarity.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 12,
+      "original_row": 12,
+      "source_id": "t3_1xb5amk",
+      "original_label": "question",
+      "label": "question",
+      "reason": "Requests explanation/remedy for mobile sync and failed resume search.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 13,
+      "original_row": 13,
+      "source_id": "t3_1xb57sg",
+      "original_label": "hot_take",
+      "label": "hot_take",
+      "reason": "Correction mechanism recommended without the actual incorrect and correct factual answers.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 14,
+      "original_row": 14,
+      "source_id": "t3_1xb52jn",
+      "original_label": "hot_take",
+      "label": "analysis",
+      "reason": "Specific gear-pricing task and quoted refusal support skeptical AGI conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 15,
+      "original_row": 15,
+      "source_id": "t3_1xb4h8o",
+      "original_label": "reaction",
+      "label": "analysis",
+      "reason": "Memoir context and reported ban support suitability criticism; does not establish legal consequences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 16,
+      "original_row": 16,
+      "source_id": "t3_1xb43yk",
+      "original_label": "reaction",
+      "label": "question",
+      "reason": "Requests disclosure practices and decision criteria.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 17,
+      "original_row": 17,
+      "source_id": "t3_1xb43yj",
+      "original_label": "reaction",
+      "label": "hot_take",
+      "reason": "Broad storytelling-degradation verdict lacks a particular story instruction and resulting error.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 18,
+      "original_row": 18,
+      "source_id": "t3_1xb3rtp",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unusable-app verdict without a specific input/output demonstration.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 19,
+      "original_row": 19,
+      "source_id": "t3_1xb3qkk",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Causal memory hypothesis offered without a test or source fact.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 20,
+      "original_row": 20,
+      "source_id": "t3_1xb33a6",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a way to stop repeated plant-care pushback.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 21,
+      "original_row": 21,
+      "source_id": "t3_1xb2y8c",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests confirmation/troubleshooting of task notifications.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 22,
+      "original_row": 22,
+      "source_id": "t3_1xb2ufq",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Memory off/on comparison and quoted memory response support the diagnosis.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 23,
+      "original_row": 23,
+      "source_id": "t3_1xb1vts",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks why image-upload allowances vary.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 24,
+      "original_row": 24,
+      "source_id": "t3_1xb13s3",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks outage duration and recovery information.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 25,
+      "original_row": 25,
+      "source_id": "t3_1xb136o",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Title asserts unexpectedly extensive knowledge without supporting evidence.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 26,
+      "original_row": 26,
+      "source_id": "t3_1xb11xr",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks how to disable Daybreak or restore plugin functionality.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 27,
+      "original_row": 27,
+      "source_id": "t3_1xb10f1",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks whether the early memory limit is a bug.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 28,
+      "original_row": 28,
+      "source_id": "t3_1xb0ud8",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks what explains progressively shorter chats; no adopted causal conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 29,
+      "original_row": 29,
+      "source_id": "t3_1xb0oyg",
+      "original_label": null,
+      "label": "question",
+      "reason": "Detailed context and failed remedies set up a technical explanation request.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 30,
+      "original_row": 30,
+      "source_id": "t3_1xb03ct",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Nerf inference supported by quoted limit output after five prompts and a new-chat retry.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 31,
+      "original_row": 31,
+      "source_id": "t3_1xazopy",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal paused-agent incident with invitation to similar experiences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 32,
+      "original_row": 32,
+      "source_id": "t3_1xazbqc",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Named collections-notice and mail-alert tests support the model comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 33,
+      "original_row": 33,
+      "source_id": "t3_1xayrmk",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Switching between voice models supplies a comparative recognition test and result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 34,
+      "original_row": 34,
+      "source_id": "t3_1xaymch",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Drive-revival task and corrected dead-site/wrong-model guidance support the persistence recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 35,
+      "original_row": 35,
+      "source_id": "t3_1xaycth",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Amused account of a sore-throat voice; closing invitation is conversational.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 36,
+      "original_row": 36,
+      "source_id": "t3_1xaxl06",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Lists concrete export behavior supporting the missing-feature criticism.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 37,
+      "original_row": 37,
+      "source_id": "t3_1xaw6j9",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests restoration examples and advice.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 38,
+      "original_row": 38,
+      "source_id": "t3_1xavvtk",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General creative-collaboration claims supported only by hypothetical examples.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 39,
+      "original_row": 39,
+      "source_id": "t3_1xav3lj",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal report that a temporary-chat option disappeared; no general conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 40,
+      "original_row": 40,
+      "source_id": "t3_1xauqnr",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a tool recommendation for Roku development.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 41,
+      "original_row": 41,
+      "source_id": "t3_1xatizb",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks what happened to the available voices.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 42,
+      "original_row": 42,
+      "source_id": "t3_1xasfaq",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific Lore Atlas and connected-note workflow supports usefulness for worldbuilding.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 43,
+      "original_row": 43,
+      "source_id": "t3_1xarwok",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad judgment that most prompting advice fails lacks a concrete supporting test.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 44,
+      "original_row": 44,
+      "source_id": "t3_1xarlnh",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal lag account and request for similar experiences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 45,
+      "original_row": 45,
+      "source_id": "t3_1xari2b",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Best-tool/quality-control verdict with only unspecified errors.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 46,
+      "original_row": 46,
+      "source_id": "t3_1xarb9l",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests specific tasks and practical reasons for doing them manually.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 47,
+      "original_row": 47,
+      "source_id": "t3_1xaqy1n",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a fix for one pinned session.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 48,
+      "original_row": 48,
+      "source_id": "t3_1xaqvc4",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad output-style comparison lacks a specific quoted instruction and resulting output.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 49,
+      "original_row": 49,
+      "source_id": "t3_1xaqamq",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests actual usage-limit comparisons.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 50,
+      "original_row": 50,
+      "source_id": "t3_1xapijj",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Python teaching promise and subsequent code instructions support the reliability criticism.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 51,
+      "original_row": 51,
+      "source_id": "t3_1xaoh8e",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Terrible-model verdict lacks a specific task and incorrect output.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 52,
+      "original_row": 52,
+      "source_id": "t3_1xaoeiu",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Memory-linked tarot interpretation and random-script contrast support the warning.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 53,
+      "original_row": 53,
+      "source_id": "t3_1xaod5p",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks why usage allowance resets early.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 54,
+      "original_row": 54,
+      "source_id": "t3_1xao1t8",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Stupid-model verdict with nonspecific instruction failures.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 55,
+      "original_row": 55,
+      "source_id": "t3_1xanz2w",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Named language/voice tests and observed accents support compatibility claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 56,
+      "original_row": 56,
+      "source_id": "t3_1xanlxq",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad accuracy claim without an explicit reported whisper test result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 57,
+      "original_row": 57,
+      "source_id": "t3_1xanlvn",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares humorous Beatles analogy generated by the model.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 58,
+      "original_row": 58,
+      "source_id": "t3_1xanjzl",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a concrete useful prompt habit.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 59,
+      "original_row": 59,
+      "source_id": "t3_1xananj",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks workspace-switching and privacy questions.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 60,
+      "original_row": 60,
+      "source_id": "t3_1xama0v",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests how to default Pets to Chat.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 61,
+      "original_row": 61,
+      "source_id": "t3_1xajcfz",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests help with missing memories and disappearing responses.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 62,
+      "original_row": 62,
+      "source_id": "t3_1xaiv6l",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Expresses appreciation for interactive UI elements.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 63,
+      "original_row": 63,
+      "source_id": "t3_1xai23h",
+      "original_label": null,
+      "label": "question",
+      "reason": "Asks why image-generation limits changed.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 64,
+      "original_row": 64,
+      "source_id": "t3_1xahk2m",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Sweeping pushback verdict uses hypothetical rather than documented responses.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 65,
+      "original_row": 65,
+      "source_id": "t3_1xagknu",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Multimodel recommendation reports unspecified mistakes only.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 66,
+      "original_row": 66,
+      "source_id": "t3_1xaf7oa",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Doom forecast uses guessed probabilities without identifiable supporting facts.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 67,
+      "original_row": 67,
+      "source_id": "t3_1xaenra",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Dismisses homework as unimportant; unsupported general judgment alongside workaround request.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 68,
+      "original_row": 68,
+      "source_id": "t3_1xaenaa",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quotes identifiable support correspondence and account-usage finding to explain the discrepancy.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 69,
+      "original_row": 69,
+      "source_id": "t3_1xaeg7j",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Reported contractor engagements and lawyer review support a compliance warning; claims are not verified as legal facts.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 70,
+      "original_row": 70,
+      "source_id": "t3_1xaeck4",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unsupported terrible-update verdict takes precedence over branching question.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 71,
+      "original_row": 71,
+      "source_id": "t3_1xad68a",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests autonomy/control preferences without adopting a verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 72,
+      "original_row": 72,
+      "source_id": "t3_1xad0ws",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific records-download error and successful manual takeover support the automation-failure conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 73,
+      "original_row": 73,
+      "source_id": "t3_1xac3hd",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Replicated black-image outcome across machines supports the reported failure claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 74,
+      "original_row": 74,
+      "source_id": "t3_1xac0gg",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests the mechanism behind rapid updates.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 75,
+      "original_row": 75,
+      "source_id": "t3_1xabzal",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests help with repeated Mac app failures.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 76,
+      "original_row": 76,
+      "source_id": "t3_1xabrg8",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Two disappeared projects support the backup recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 77,
+      "original_row": 77,
+      "source_id": "t3_1xabke7",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares funny fictional model dialogue and laughter.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 78,
+      "original_row": 78,
+      "source_id": "t3_1xabkc7",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal missing-call-summary report and invitation to similar experiences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 79,
+      "original_row": 79,
+      "source_id": "t3_1xab8d4",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General education-benefit recommendation lacks a particular learning test/outcome.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 80,
+      "original_row": 80,
+      "source_id": "t3_1xaa0vv",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests tips for consistent 4K image generation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 81,
+      "original_row": 81,
+      "source_id": "t3_1xa9co6",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quoted reload error and repeated unsuccessful fixes support unusable-web conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 82,
+      "original_row": 82,
+      "source_id": "t3_1xa95gb",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests Google AI limitations and payment comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 83,
+      "original_row": 83,
+      "source_id": "t3_1xa7rzt",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Humorous illustrative model-style recipe; embedded instructions are quoted content.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 84,
+      "original_row": 84,
+      "source_id": "t3_1xa7919",
+      "original_label": null,
+      "label": "question",
+      "reason": "Explores a conditional economic puzzle and explicitly asks for explanation rather than asserting a forecast.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 85,
+      "original_row": 85,
+      "source_id": "t3_1xa6vvy",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares personal enjoyment of reconstructed TV stories; invitation is conversational.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 86,
+      "original_row": 86,
+      "source_id": "t3_1xa6cyy",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests Go-plan adequacy and game prompts.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 87,
+      "original_row": 87,
+      "source_id": "t3_1xa60b2",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Horrendous-model verdict without specific forgotten rule or output.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 88,
+      "original_row": 88,
+      "source_id": "t3_1xa5rxl",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Autocompletion design criticism lacks a concrete example of the five prompts.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 89,
+      "original_row": 89,
+      "source_id": "t3_1xa5ka9",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General clone/business verdict without an identifiable source fact supporting its sweeping claims.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 90,
+      "original_row": 90,
+      "source_id": "t3_1xa4u2j",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quoted rejection, named commands and second-account comparison support the inconsistency claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 91,
+      "original_row": 91,
+      "source_id": "t3_1xa382q",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests debugging and fixes for quota consumption.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 92,
+      "original_row": 92,
+      "source_id": "t3_1xa2ifu",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific branch workaround and voice cut-off support the bug complaint and turnaround recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 93,
+      "original_row": 93,
+      "source_id": "t3_1xa0r1d",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific article-search input and ethnicity-focused response support the hypersensitivity complaint.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 94,
+      "original_row": 94,
+      "source_id": "t3_1xa052k",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests an existing Dots community and recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 95,
+      "original_row": 95,
+      "source_id": "t3_1xa01sp",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests opinions about a specific documentary.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 96,
+      "original_row": 96,
+      "source_id": "t3_1x9zv50",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General recommendation to review all AI-generated code lacks a concrete test/result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 97,
+      "original_row": 97,
+      "source_id": "t3_1x9z9bu",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Calls the app horrible without supporting that verdict; asks for editing help too.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 98,
+      "original_row": 98,
+      "source_id": "t3_1x9z34e",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a live hallucination demonstration prompt.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 99,
+      "original_row": 99,
+      "source_id": "t3_1x9yt7p",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Absurd-limits judgment lacks a named task/test linking usage to conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 100,
+      "original_row": 100,
+      "source_id": "t3_1x9yp1f",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests practical Plus uses and integrations.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 101,
+      "original_row": 101,
+      "source_id": "t3_1x9ygti",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad memory degradation verdict without an example of forgotten content.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 102,
+      "original_row": 102,
+      "source_id": "t3_1x9y8nm",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal deactivation event; asks for similar stories.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 103,
+      "original_row": 103,
+      "source_id": "t3_1x9xtm2",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Backend notifications_enabled false versus enabled user settings supports failure diagnosis.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 104,
+      "original_row": 104,
+      "source_id": "t3_1x9wz7c",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Reported clinician outreach and hotline email reply support recommendation for human contact; allegations unverified.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 105,
+      "original_row": 105,
+      "source_id": "t3_1x9wz4t",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific loss of response navigation supports UI-regression verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 106,
+      "original_row": 106,
+      "source_id": "t3_1x9wdt0",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Satirical art verdict with unnamed research; no supporting identifiable fact.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 107,
+      "original_row": 107,
+      "source_id": "t3_1x9w30o",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests better language-learning workflow; personal practice sets context.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 108,
+      "original_row": 108,
+      "source_id": "t3_1x9vqw2",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quoted question/response/apology sequence supports the repeated strawman criticism.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 109,
+      "original_row": 109,
+      "source_id": "t3_1x9u47r",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Identifies a 2025 CHI study and its relevant finding to support remaining review work.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 110,
+      "original_row": 110,
+      "source_id": "t3_1x9tje2",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal billing event and frustration without general conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 111,
+      "original_row": 111,
+      "source_id": "t3_1x9tet4",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Jump-button recommendation without a concrete tested outcome.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 112,
+      "original_row": 112,
+      "source_id": "t3_1x9t0ac",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares enjoyment and surprise at making a card game.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 113,
+      "original_row": 113,
+      "source_id": "t3_1x9stjr",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Time/weather requests stall in voice but text succeeds, supporting unusable-voice verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 114,
+      "original_row": 114,
+      "source_id": "t3_1x9s0pr",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Exact-title search and mismatched deeplinks/menu options support management-regression claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 115,
+      "original_row": 115,
+      "source_id": "t3_1x9rrxm",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Named game retrieval/remix/hash-comparison tests support source-handoff claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 116,
+      "original_row": 116,
+      "source_id": "t3_1x9p1up",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests continuity-bible workflow advice.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 117,
+      "original_row": 117,
+      "source_id": "t3_1x9ngwv",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal moderation events with invitation to similar experiences; no broader causal conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 118,
+      "original_row": 118,
+      "source_id": "t3_1x9mfze",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unsupported neutered-model verdict precedes free-tier comparison question.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 119,
+      "original_row": 119,
+      "source_id": "t3_1x9mfen",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests model-selection guidance for legal knowledge work.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 120,
+      "original_row": 121,
+      "source_id": "t3_1x9kyow",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Describes system procedure and hypothetical improvements without a concrete recommendation/output result; unsupported usefulness verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 121,
+      "original_row": 122,
+      "source_id": "t3_1x9kde1",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests a way to create the wallpaper; full prompt is context, not an instruction to annotator.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 122,
+      "original_row": 123,
+      "source_id": "t3_1x9jh8i",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Identifiable quoted support email supports escalation and AI-generated-reply claims.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 123,
+      "original_row": 124,
+      "source_id": "t3_1x9ixw5",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad untrustworthy-service verdict relies on unnamed ban stories and hypothetical ban.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 124,
+      "original_row": 125,
+      "source_id": "t3_1x9ik3x",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Connector-security recommendation lacks an identifiable incident or source.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 125,
+      "original_row": 126,
+      "source_id": "t3_1x9i9ri",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Speculative AI-threat/awareness recommendation without supporting evidence.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 126,
+      "original_row": 127,
+      "source_id": "t3_1x9hkp3",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests cross-device chat-sync help.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 127,
+      "original_row": 128,
+      "source_id": "t3_1x9hbs2",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Bias verdict backed only by a generated self-description, not a concrete biased-answer test.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 128,
+      "original_row": 129,
+      "source_id": "t3_1x9gmoc",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests remedy for an accidental photo upload.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 129,
+      "original_row": 130,
+      "source_id": "t3_1x9czf9",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Sweeping sycophancy verdict without a particular debate input/output pair.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 130,
+      "original_row": 131,
+      "source_id": "t3_1x9bs6u",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Observed change in file-search activity visibility supports rollout inference.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 131,
+      "original_row": 132,
+      "source_id": "t3_1x9ayp4",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests fix for iPhone chat crashes.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 132,
+      "original_row": 133,
+      "source_id": "t3_1x9au4s",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares a playful illustrative prompt rather than a general recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 133,
+      "original_row": 134,
+      "source_id": "t3_1x99o8w",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests fun prompts, including child activities.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 134,
+      "original_row": 135,
+      "source_id": "t3_1x99eim",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Reported rescue-image input and child-content refusal support forbidden-scenes inference.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 135,
+      "original_row": 136,
+      "source_id": "t3_1x991e8",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests firsthand upgrade/context comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 136,
+      "original_row": 137,
+      "source_id": "t3_1x9914y",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests restoration of WSL project listings.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 137,
+      "original_row": 138,
+      "source_id": "t3_1x98sz3",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Study-test and corrected answers plus encouragement support helpfulness verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 138,
+      "original_row": 139,
+      "source_id": "t3_1x97yre",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Same-file inconsistent handling and quoted capability response support inconsistency claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 139,
+      "original_row": 140,
+      "source_id": "t3_1x97cxh",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unsupported judgment that the community is polluted with slop/bots/children.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 140,
+      "original_row": 141,
+      "source_id": "t3_1x979qn",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal feeling-unheard story and invitation to share similar emotional use.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 141,
+      "original_row": 142,
+      "source_id": "t3_1x96z5c",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests watermark clarification and editing instructions.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 142,
+      "original_row": 143,
+      "source_id": "t3_1x96sdj",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Comparative personality verdict without a concrete response comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 143,
+      "original_row": 144,
+      "source_id": "t3_1x96jz7",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Greed/degradation causal accusation without a concrete test/source.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 144,
+      "original_row": 145,
+      "source_id": "t3_1x95fdo",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal narration-and-stopping report; no general recommendation or explanation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 145,
+      "original_row": 146,
+      "source_id": "t3_1x95akv",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Organizing recommendation without evidence.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 146,
+      "original_row": 147,
+      "source_id": "t3_1x957c2",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General more-balanced-model judgment and Gemini verdict lack a concrete comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 147,
+      "original_row": 148,
+      "source_id": "t3_1x94v9h",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific bicycle-photo request and pornography refusal support guardrail criticism.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 148,
+      "original_row": 149,
+      "source_id": "t3_1x94psz",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific attached-face/street prompt and disproportionate collage outcome support downgrade conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 149,
+      "original_row": 150,
+      "source_id": "t3_1x924p2",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Broad lost-magic verdict lacks a specific joke/input/output comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 150,
+      "original_row": 151,
+      "source_id": "t3_1xa76q7",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests tutorial-video templates.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 151,
+      "original_row": 153,
+      "source_id": "t3_1x5p4vz",
+      "original_label": "hot_take",
+      "label": "hot_take",
+      "reason": "Original cold label reviewed and retained: general commercial-software prediction without a concrete supporting test.",
+      "text_corrected": true,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 152,
+      "original_row": 159,
+      "source_id": "t3_1xba6rz",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests explanation of a new free chat limit.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 153,
+      "original_row": 160,
+      "source_id": "t3_1xa52e8",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unusable-model verdict without a specific task/output demonstration.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 154,
+      "original_row": 161,
+      "source_id": "t3_1x91xsp",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Conversational invitation to share entertaining chats.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 155,
+      "original_row": 162,
+      "source_id": "t3_1x918td",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific stalled Python command and failed stop/follow-up attempts support buggy-Pro claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 156,
+      "original_row": 163,
+      "source_id": "t3_1x916ty",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal allowance-change observation; invitation to similar experiences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 157,
+      "original_row": 164,
+      "source_id": "t3_1x910ti",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests post-cancellation access information.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 158,
+      "original_row": 165,
+      "source_id": "t3_1x8z64m",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Same-task account comparison reports 6.5 versus 26 hours, supporting usage discrepancy.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 159,
+      "original_row": 166,
+      "source_id": "t3_1x8yfcm",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Useful counterargument technique recommended without a concrete argument/result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 160,
+      "original_row": 167,
+      "source_id": "t3_1x8xn98",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal observation of cross-chat recall; no broad causal conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 161,
+      "original_row": 168,
+      "source_id": "t3_1x8x8g3",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Way-better custom-instruction recommendation lacks a tested output.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 162,
+      "original_row": 169,
+      "source_id": "t3_1x8x7zh",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Consciousness-recognition recommendation supported by analogy rather than concrete test/source.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 163,
+      "original_row": 170,
+      "source_id": "t3_1x8wsib",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Good-AI-use-case recommendation without reported implementation/test.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 164,
+      "original_row": 171,
+      "source_id": "t3_1x8wkpa",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares illustrative rent-anxiety output for its punchline.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 165,
+      "original_row": 172,
+      "source_id": "t3_1x8vf46",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Verification-process recommendation lists generic failures but no particular input and resulting artifact defect.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 166,
+      "original_row": 173,
+      "source_id": "t3_1x8v8mj",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "AI-consciousness conclusion relies on speculative analogies, no identifiable test/source fact.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 167,
+      "original_row": 174,
+      "source_id": "t3_1x8v5yi",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests explanation of AI takeover mechanisms.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 168,
+      "original_row": 175,
+      "source_id": "t3_1x8v3lv",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Recommends challenging assumptions with hypothetical examples rather than a reported test.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 169,
+      "original_row": 176,
+      "source_id": "t3_1x8uj5f",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unsupported general degradation verdict precedes downgrade request.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 170,
+      "original_row": 177,
+      "source_id": "t3_1x8udx0",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests Dots CarPlay capability confirmation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 171,
+      "original_row": 178,
+      "source_id": "t3_1x8u5rz",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific Warhammer location prompt with maps/images supports Free-versus-Plus comparison.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 172,
+      "original_row": 179,
+      "source_id": "t3_1x8tqtx",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Search-project recommendation with unspecified improvement, no concrete query/result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 173,
+      "original_row": 180,
+      "source_id": "t3_1x8te4l",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quoted sandbox policy and sudo error with local/remote contrast support privilege diagnosis.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 174,
+      "original_row": 181,
+      "source_id": "t3_1x8sltx",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific Python-game internal-server error supports the inability claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 175,
+      "original_row": 182,
+      "source_id": "t3_1x8rxf6",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Reported scam description, ChatGPT warning and FBI corroboration support the benefit claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 176,
+      "original_row": 183,
+      "source_id": "t3_1x8q1uc",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Shares enjoyment of choose-your-own-adventure stories and invites similar experiences.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 177,
+      "original_row": 184,
+      "source_id": "t3_1x8pj7w",
+      "original_label": null,
+      "label": "question",
+      "reason": "Requests real-use model comparison; vendor claims set context rather than adopted conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 178,
+      "original_row": 185,
+      "source_id": "t3_1x8p6wr",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific vet visit and coworkers response support the stigma observation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 179,
+      "original_row": 186,
+      "source_id": "t3_1x8ojsg",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Specific calibrated horror-scene cue and successful viewing support the recommendation.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 180,
+      "original_row": 187,
+      "source_id": "t3_1x8ogkc",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Playfully shares an explicitly untested generated flavor lineup; no model-capability conclusion adopted.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 181,
+      "original_row": 188,
+      "source_id": "t3_1x8nhql",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Same conversations on Android versus Chrome and two devices support regression claim.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 182,
+      "original_row": 189,
+      "source_id": "t3_1x8n07x",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Booked-hotel/spreadsheet mismatch and unwanted couch suggestion support headstrong verdict.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 183,
+      "original_row": 190,
+      "source_id": "t3_1x8mm3c",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Celebrates a surprise allowance reset.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 184,
+      "original_row": 191,
+      "source_id": "t3_1x8lvt8",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Continuity-document recommendation lacks a reported document test/outcome.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 185,
+      "original_row": 192,
+      "source_id": "t3_1x8kcrm",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Invites positive personal stories, with personal appreciation context.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 186,
+      "original_row": 193,
+      "source_id": "t3_1x8jyb0",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Stable-service recommendation without concrete tested evidence.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 187,
+      "original_row": 194,
+      "source_id": "t3_1x8jn1l",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Supplies retrieval prompt, three-turn outcome and identified target comment.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 188,
+      "original_row": 195,
+      "source_id": "t3_1x8j4cg",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Self-improvement prompt recommended without a concrete result.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 189,
+      "original_row": 196,
+      "source_id": "t3_1x8j41v",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General unhelpful-support verdict without a particular support exchange.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 190,
+      "original_row": 197,
+      "source_id": "t3_1x8j3t2",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Quoted repeated random-number prompts and retracted execution claims support failure conclusion.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 191,
+      "original_row": 198,
+      "source_id": "t3_1x8ifts",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General judgment that any academic AI assistance is wrong lacks supporting evidence.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 192,
+      "original_row": 199,
+      "source_id": "t3_1x8i3c4",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "General confidence-error judgment without a particular wrong answer.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 193,
+      "original_row": 200,
+      "source_id": "t3_1x8i297",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Movie-credit and voucher input/output examples support spying inference; inference remains unverified.",
+      "text_corrected": false,
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 194,
+      "source_id": "t3_1vryg43",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal appreciation for model interaction; no general model verdict.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 195,
+      "source_id": "t3_1ujpe27",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Thanks and personal exam success; post does not describe a concrete intervention/test to support a general conclusion.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 196,
+      "source_id": "t3_1w3u3x3",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Appreciates a personally useful UI change; no general capability verdict.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 197,
+      "source_id": "t3_1xc2ket",
+      "original_label": null,
+      "label": "reaction",
+      "reason": "Personal recovery observation and invitation to similar experiences.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 198,
+      "source_id": "t3_1xc2chf",
+      "original_label": null,
+      "label": "hot_take",
+      "reason": "Unusable-limit verdict with no named task and measurable output.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 199,
+      "source_id": "t3_1xc2bee",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Two explicit voice/tool tests and progress responses support backchanneling change conclusion.",
+      "approval_status": "user_approved"
+    },
+    {
+      "row": 200,
+      "source_id": "t3_1xc17o9",
+      "original_label": null,
+      "label": "analysis",
+      "reason": "Web/app comparison and concrete sentence-versus-word dictation behavior support regression conclusion.",
+      "approval_status": "user_approved"
+    }
+  ],
+  "provisional_training_authorized": true,
+  "authorization_date": "2026-10-21",
+  "authorization_note": "User stated this is a demonstration project and waived additional human review; AI-only annotation remains disclosed.",
+  "annotation_status": "ai_pre_labeled_user_approved",
+  "user_approval": {
+    "status": "user_approved",
+    "date": "2026-10-21",
+    "scope": "All 200 current project labels",
+    "statement": "I qualify your pre label so you can confirm and change the status to cold",
+    "provenance": "Approval of existing AI-proposed labels; not independent pre-AI cold annotation or independent second-reader agreement.",
+    "timing": "After the project training and baseline run"
+  }
+}
