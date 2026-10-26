@@ -225,26 +225,6 @@ Completed with the project .venv: python baseline.py --trained results.json. Bot
 | F1 — `question` | 0.000 | 0.522 | +0.522 |
 | F1 — `reaction` | 0.444 | 0.000 | -0.444 |
 
-This is a seed-42 demonstration against AI-reviewed labels, not independently human-reviewed gold. No training settings were changed in response to the test scores.
-
-### Measuring the value of the definitions
-
-To compare the definitions with bare label names, run the baseline twice. Both
-commands use the same held-out posts from `test_split.csv`; the second points
-at a file that does not exist, so `baseline.py` falls back to the bare label
-names. Keep separate output files so the second run does not overwrite the
-definitions run:
-
-```bash
-python baseline.py --definitions label_definitions.txt --out baseline_with_definitions.json
-python baseline.py --definitions no_label_definitions.txt --out baseline_bare_names.json
-```
-
-Compare the two printed accuracies (or their `scores.accuracy` values in the
-JSON files). Their difference measures how much the definitions helped this
-baseline on this test split. If you use the bare-names result as your reported
-baseline, identify it as a bare-names baseline; do not describe it as using
-your label definitions.
 
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
@@ -263,31 +243,51 @@ your label definitions.
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
+### Metrics by seed
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 | Spread |
+|---|---:|---:|---:|---:|
+| Overall accuracy | 0.500 | 0.433 | 0.367 | 0.133 |
+| Macro F1 | 0.411 | 0.315 | 0.273 | 0.138 |
+| F1 — `analysis` | 0.533 | 0.222 | 0.222 | 0.311 |
+| F1 — `hot_take` | 0.588 | 0.538 | 0.435 | 0.153 |
+| F1 — `question` | 0.522 | 0.500 | 0.435 | 0.087 |
+| F1 — `reaction` | 0.000 | 0.000 | 0.000 | 0.000 |
+
+Test support was the same for each seed: `analysis` 8, `hot_take` 9,
+`question` 8, `reaction` 5. Accuracy ranged from 0.367 to 0.500, a 0.133
+(13.3 percentage-point) spread—more than ten points. The dataset is too small
+or too lopsided for a stable accuracy measure.
+
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | >= 0.70 | 0.500 | 0.433 | 0.367 | MISSED |
+| 2. F1 for every label | >= 0.60 | analysis 0.533; hot_take 0.588; question 0.522; reaction 0.000 | analysis 0.222; hot_take 0.538; question 0.500; reaction 0.000 | analysis 0.222; hot_take 0.435; question 0.435; reaction 0.000 | MISSED |
+| 3. Dataset balance | >= 200 rows; each label 15%–45% | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | MET |
+| 4. Independent agreement | >= 24/30 | NOT EVALUATED | NOT EVALUATED | NOT EVALUATED | NOT EVALUATED |
+| 5. Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third | 0.700 vs 0.300 (gap 0.400) | 0.600 vs 0.300 (gap 0.300) | 0.500 vs 0.300 (gap 0.200) | MISSED |
 
 ### Confusion matrix
 
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
-|---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| true \ predicted | analysis | hot_take | question | reaction |
+|---|---:|---:|---:|---:|
+| **analysis** | 4 | 1 | 3 | 0 |
+| **hot_take** | 1 | 5 | 3 | 0 |
+| **question** | 0 | 2 | 6 | 0 |
+| **reaction** | 2 | 0 | 3 | 0 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
 
-
+The largest off-diagonal count is tied at 3 for `analysis`, `hot_take`, and
+`reaction` posts called `question`; for the section-7 tie-break pair, 3 real
+`analysis` posts were called `question` and 0 real `question` posts were called
+`analysis`, so that confusion is asymmetric.
 
 ---
 
@@ -327,7 +327,7 @@ your label definitions.
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 30 / 30 = 100%
 
 <!-- Nobody grades this number. A 60% who argues every disagreement from the
      stated rules beats a 95% who wrote "staff was right" nine times. Several
@@ -349,27 +349,13 @@ your label definitions.
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
-**1.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
-
-**2.**
-> *The post:*
->
-> *Staff said / I said:*
->
-> *My call, and why:*
->
-> *Which pile:*
+There were no disagreements to adjudicate.
 
 **What the pattern in my disagreements tells me:**
 
-
+All 30 labels matched staff under the staff taxonomy, so this check found no
+inconsistencies on this selected set. It does not independently validate the
+labels on the separate 200-post project dataset.
 
 ---
 
