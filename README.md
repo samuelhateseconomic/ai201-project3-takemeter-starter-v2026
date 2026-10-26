@@ -227,6 +227,25 @@ Completed with the project .venv: python baseline.py --trained results.json. Bot
 
 This is a seed-42 demonstration against AI-reviewed labels, not independently human-reviewed gold. No training settings were changed in response to the test scores.
 
+### Measuring the value of the definitions
+
+To compare the definitions with bare label names, run the baseline twice. Both
+commands use the same held-out posts from `test_split.csv`; the second points
+at a file that does not exist, so `baseline.py` falls back to the bare label
+names. Keep separate output files so the second run does not overwrite the
+definitions run:
+
+```bash
+python baseline.py --definitions label_definitions.txt --out baseline_with_definitions.json
+python baseline.py --definitions no_label_definitions.txt --out baseline_bare_names.json
+```
+
+Compare the two printed accuracies (or their `scores.accuracy` values in the
+JSON files). Their difference measures how much the definitions helped this
+baseline on this test split. If you use the bare-names result as your reported
+baseline, identify it as a bare-names baseline; do not describe it as using
+your label definitions.
+
 **What I predicted before I looked:**
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->

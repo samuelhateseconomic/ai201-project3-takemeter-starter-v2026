@@ -81,8 +81,7 @@ There is nothing to upload and nothing to download. `labels.csv` is already
 here; `results.json`, `test_split.csv` and `results_three_seeds_*.json` land
 here when the notebook writes them.
 
-**Commit them yourself**, the way you commit anything else. Nothing is pushed
-for you.
+**Commit them yourself**, the way you commit anything else. Nothing is pushed for you.
 
 - Section 5 writes `results.json` and `test_split.csv` — **unit 5**
 - Section 6 writes `results_three_seeds_<label>.json` — **unit 6**.

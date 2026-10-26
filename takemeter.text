@@ -1,0 +1,10 @@
+device: cpu  (CPU)
+torch:  2.14.1+cu130
+
+⚠️  WRITE THIS DOWN. Your results depend on it.
+
+Two people running this notebook on the same data with the same seed can
+get different numbers, because different hardware does the arithmetic in
+a slightly different order. That is not a bug and it is not one of you
+being wrong — it is a real property of the thing you are building, and
+unit 6 asks you to report it alongside your three seeds.
