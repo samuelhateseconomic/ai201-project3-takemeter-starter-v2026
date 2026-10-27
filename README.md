@@ -471,6 +471,21 @@ loss for that underrepresented label would help.
 | 4. Independent agreement | >= 24/30 on the same project posts | 15/30 (single check) | — | — | MISSED |
 | 5. Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third | 0.400 vs 0.300 (gap 0.100) | 0.800 vs 0.300 (gap 0.500) | 0.500 vs 0.200 (gap 0.300) | MISSED |
 
+### Before / After Comparison
+
+Each cell shows `before → after`; the after run changes only the loss to use
+inverse-frequency class weights.
+
+| Measure | Seed 42 | Seed 7 | Seed 2024 |
+|---|---:|---:|---:|
+| Overall accuracy | 0.500 → 0.333 | 0.433 → 0.467 | 0.367 → 0.400 |
+| Macro F1 | 0.411 → 0.312 | 0.315 → 0.392 | 0.273 → 0.317 |
+| F1 — `analysis` | 0.533 → 0.500 | 0.222 → 0.714 | 0.222 → 0.500 |
+| F1 — `hot_take` | 0.588 → 0.000 | 0.538 → 0.333 | 0.435 → 0.250 |
+| F1 — `question` | 0.522 → 0.400 | 0.500 → 0.522 | 0.435 → 0.519 |
+| F1 — `reaction` | 0.000 → 0.348 | 0.000 → 0.000 | 0.000 → 0.000 |
+| Most-confident-third accuracy | 0.700 → 0.400 | 0.600 → 0.800 | 0.500 → 0.500 |
+
 **Did it help, and how do I know:** Not reliably. `reaction` F1 rose from
 0.000 to 0.348 for seed 42, but stayed at 0.000 for seeds 7 and 2024. Seed
 42's `hot_take` F1 fell from 0.588 to 0.000 as eight true `hot_take` posts
