@@ -298,11 +298,11 @@ The largest off-diagonal count is tied at 3 for `analysis`, `hot_take`, and
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 | Overall accuracy | >= 0.70 on every seed | MISSED | 0.500, 0.433, and 0.367; none reaches 0.70. |
+| 2 | F1 for every label | >= 0.60 for all labels and seeds | MISSED | No seed meets all four F1 floors; `reaction` is 0.000 in all three. |
+| 3 | Dataset balance | >= 200 rows; every label 15%–45% | MET | 200 eligible rows; counts 54/60/56/30 are 27%/30%/28%/15%. |
+| 4 | Independent agreement on our taxonomy | >= 24/30 with a second human reader | NOT EVALUATED | The 30/30 staff comparison used staff's different taxonomy; it is not an independent reader applying my project taxonomy. |
+| 5 | Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third, on every seed | MISSED | Gaps pass (0.400, 0.300, 0.200), but most-confident-third accuracy is only 0.700, 0.600, and 0.500. |
 
 **Diagnoses**
 
@@ -315,6 +315,55 @@ The largest off-diagonal count is tied at 3 for `analysis`, `hot_take`, and
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
 
+**1. Overall accuracy — MISSED.** All three scores are below 0.70, and they
+span 0.133 on only 30 held-out posts per seed. The seed-42 matrix shows errors
+between `analysis`/`hot_take` and `question`, and every `reaction` post is
+misclassified; the different seeds move those errors around. This points to a
+small test set and a model that has not reliably separated these labels, not a
+single isolated boundary. The 30/30 staff agreement is evidence only for
+applying the staff taxonomy: because it is a different taxonomy, it cannot
+rule out inconsistent labels in my 200-post project dataset. Since those
+project labels were AI-reviewed rather than independently human-reviewed,
+label inconsistency remains unresolved rather than proven.
+
+**2. Per-label F1 — MISSED.** `reaction` has F1 0.000 for every seed: the model
+never predicts `reaction`, despite five gold reaction posts in each test split.
+There are only 30 reaction examples in the full dataset and 20 in the
+seed-42 training split, so too few examples for this class are a concrete
+limitation. The model instead sends reaction posts to `question`, `analysis`,
+or `hot_take`, depending on the seed. `analysis` is also unstable: its recall
+falls to 0.125 for seeds 7 and 2024, when most true analysis posts become
+`question` or `hot_take`. The staff-taxonomy 30/30 result does not test the
+project taxonomy, so it cannot establish that these are model errors rather
+than project-label inconsistencies. The evidence supports class scarcity and
+confusable boundaries; it does not isolate one as the only cause.
+
+**3. Dataset balance — MET.** The 200-row dataset meets the 15%–45% limits:
+`analysis` 54 (27%), `hot_take` 60 (30%), `question` 56 (28%), and `reaction`
+30 (15%). Meeting this count target does not mean each class has enough
+examples to learn reliably; the reaction results show that it may not.
+
+**4. Independent agreement — NOT EVALUATED.** My labels matched staff on
+30/30 posts, but that exercise used staff's three-label taxonomy, not my
+four-label project taxonomy, and staff labels are not a second human's
+independent labeling pass on my selected project posts. It therefore cannot
+be counted toward this criterion or used to validate my project gold labels.
+The agreement artifact documents the staff comparison only.
+
+**5. Confidence — MISSED.** The most-confident third is below the required
+0.80 in every seed: 7/10 correct for seed 42, 6/10 for seed 7, and 5/10 for
+seed 2024. The confidence gap does exceed 0.10 each time, so ranking separates
+the easier cases somewhat, but even the selected high-confidence cases are
+not accurate enough. With ten posts in each third, a single post changes the
+rate by 0.10; this small evaluation set and the underlying classification
+errors limit how firmly confidence can be judged. The staff-taxonomy
+agreement does not test confidence or validate the project labels.
+
+None of the targets was lowered or revised: all five were measurable as
+filed, and the measured failures remain MISSED. The 30/30 staff-taxonomy
+agreement is useful evidence that I could apply those staff rules on that
+selected set, but it does not answer whether the AI-reviewed project labels
+are consistent under my own taxonomy.
 
 
 ---
