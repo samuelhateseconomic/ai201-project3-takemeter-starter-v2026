@@ -264,7 +264,7 @@ or too lopsided for a stable accuracy measure.
 | 1. Overall accuracy | >= 0.70 | 0.500 | 0.433 | 0.367 | MISSED |
 | 2. F1 for every label | >= 0.60 | analysis 0.533; hot_take 0.588; question 0.522; reaction 0.000 | analysis 0.222; hot_take 0.538; question 0.500; reaction 0.000 | analysis 0.222; hot_take 0.435; question 0.435; reaction 0.000 | MISSED |
 | 3. Dataset balance | >= 200 rows; each label 15%–45% | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | MET |
-| 4. Independent agreement | >= 24/30 | NOT EVALUATED | NOT EVALUATED | NOT EVALUATED | NOT EVALUATED |
+| 4. Independent agreement | >= 24/30 | 15/30 (single check) | — | — | MISSED |
 | 5. Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third | 0.700 vs 0.300 (gap 0.400) | 0.600 vs 0.300 (gap 0.300) | 0.500 vs 0.300 (gap 0.200) | MISSED |
 
 ### Confusion matrix
@@ -301,7 +301,7 @@ The largest off-diagonal count is tied at 3 for `analysis`, `hot_take`, and
 | 1 | Overall accuracy | >= 0.70 on every seed | MISSED | 0.500, 0.433, and 0.367; none reaches 0.70. |
 | 2 | F1 for every label | >= 0.60 for all labels and seeds | MISSED | No seed meets all four F1 floors; `reaction` is 0.000 in all three. |
 | 3 | Dataset balance | >= 200 rows; every label 15%–45% | MET | 200 eligible rows; counts 54/60/56/30 are 27%/30%/28%/15%. |
-| 4 | Independent agreement on our taxonomy | >= 24/30 with a second human reader | NOT EVALUATED | The 30/30 staff comparison used staff's different taxonomy; it is not an independent reader applying my project taxonomy. |
+| 4 | Independent agreement on our taxonomy | >= 24/30 with a second human reader | MISSED | The second reader matched 15/30 sampled project posts (50%), below 24/30. My primary labels were AI-prelabeled/reviewed and user-approved, not an independent cold human pass, so interpret this as agreement with the frozen labels rather than a clean human-human reliability estimate. |
 | 5 | Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third, on every seed | MISSED | Gaps pass (0.400, 0.300, 0.200), but most-confident-third accuracy is only 0.700, 0.600, and 0.500. |
 
 **Diagnoses**
@@ -320,11 +320,11 @@ span 0.133 on only 30 held-out posts per seed. The seed-42 matrix shows errors
 between `analysis`/`hot_take` and `question`, and every `reaction` post is
 misclassified; the different seeds move those errors around. This points to a
 small test set and a model that has not reliably separated these labels, not a
-single isolated boundary. The 30/30 staff agreement is evidence only for
-applying the staff taxonomy: because it is a different taxonomy, it cannot
-rule out inconsistent labels in my 200-post project dataset. Since those
-project labels were AI-reviewed rather than independently human-reviewed,
-label inconsistency remains unresolved rather than proven.
+single isolated boundary. The second-reader comparison matched only 15/30
+sampled project posts, which flags substantial disagreement with the frozen
+labels; however, because those primary labels were AI-reviewed rather than
+independently cold-labeled by me, the comparison does not isolate whether the
+disagreements come from my labeling or the second reader's interpretation.
 
 **2. Per-label F1 — MISSED.** `reaction` has F1 0.000 for every seed: the model
 never predicts `reaction`, despite five gold reaction posts in each test split.
@@ -333,22 +333,28 @@ seed-42 training split, so too few examples for this class are a concrete
 limitation. The model instead sends reaction posts to `question`, `analysis`,
 or `hot_take`, depending on the seed. `analysis` is also unstable: its recall
 falls to 0.125 for seeds 7 and 2024, when most true analysis posts become
-`question` or `hot_take`. The staff-taxonomy 30/30 result does not test the
-project taxonomy, so it cannot establish that these are model errors rather
-than project-label inconsistencies. The evidence supports class scarcity and
-confusable boundaries; it does not isolate one as the only cause.
+`question` or `hot_take`. The project-taxonomy second-reader comparison is
+only 15/30, which is evidence that the frozen labels and second reader often
+disagree on this sample. Since my primary labels were AI-reviewed and then
+user-approved, this comparison cannot by itself establish which reader is
+right or separate annotation disagreement from model error. The evidence
+supports class scarcity and confusable boundaries; it does not isolate one as
+the only cause.
 
 **3. Dataset balance — MET.** The 200-row dataset meets the 15%–45% limits:
 `analysis` 54 (27%), `hot_take` 60 (30%), `question` 56 (28%), and `reaction`
 30 (15%). Meeting this count target does not mean each class has enough
 examples to learn reliably; the reaction results show that it may not.
 
-**4. Independent agreement — NOT EVALUATED.** My labels matched staff on
-30/30 posts, but that exercise used staff's three-label taxonomy, not my
-four-label project taxonomy, and staff labels are not a second human's
-independent labeling pass on my selected project posts. It therefore cannot
-be counted toward this criterion or used to validate my project gold labels.
-The agreement artifact documents the staff comparison only.
+**4. Independent agreement — MISSED.** On the 30 posts selected from my
+project dataset, the second reader matched the frozen primary labels on
+15/30 (50%), below the 24/30 target. The reader assigned no posts to
+`question` (their counts were analysis 9, hot_take 4, reaction 17), which
+accounts for several of the disagreements. This is a real mismatch signal,
+but the primary labels were AI-prelabeled and AI-reviewed before I approved
+them; this is not a clean comparison between two independent human labeling
+passes. The staff-taxonomy 30/30 result is separate and does not change this
+project-taxonomy rate.
 
 **5. Confidence — MISSED.** The most-confident third is below the required
 0.80 in every seed: 7/10 correct for seed 42, 6/10 for seed 7, and 5/10 for
@@ -359,11 +365,12 @@ rate by 0.10; this small evaluation set and the underlying classification
 errors limit how firmly confidence can be judged. The staff-taxonomy
 agreement does not test confidence or validate the project labels.
 
-None of the targets was lowered or revised: all five were measurable as
-filed, and the measured failures remain MISSED. The 30/30 staff-taxonomy
-agreement is useful evidence that I could apply those staff rules on that
-selected set, but it does not answer whether the AI-reviewed project labels
-are consistent under my own taxonomy.
+None of the targets was lowered or revised. The project-label comparison is
+15/30 and therefore below the filed agreement target, with the caveat that my
+primary labels were AI-reviewed and user-approved rather than an independent
+cold human pass. The separate 30/30 staff-taxonomy agreement only shows a
+match under the staff definitions; it does not change this project-taxonomy
+result.
 
 
 ---
@@ -406,42 +413,117 @@ All 30 labels matched staff under the staff taxonomy, so this check found no
 inconsistencies on this selected set. It does not independently validate the
 labels on the separate 200-post project dataset.
 
+### Project-Taxonomy Agreement
+
+**Agreement rate:** 15 / 30 = 50% — **MISSED** against the 24/30 target.
+
+The 30 sampled posts are in
+[data/project_agreement_sample.csv](data/project_agreement_sample.csv); the
+second reader's matched labels are in
+[data/project_agreement_second_reader.csv](data/project_agreement_second_reader.csv).
+The matched original labels, comparison, and disagreements are saved in
+[project_agreement_results.json](project_agreement_results.json). The comparison
+was computed before discussion or adjudication. My primary labels were
+AI-prelabeled and AI-reviewed, then user-approved; therefore this measures
+agreement with the frozen project labels but is not a fully independent
+human-versus-human reliability check.
+
+| Source ID | Primary label | Second reader |
+|---|---|---|
+| t3_1w3u3x3 | `reaction` | `analysis` |
+| t3_1x8lvt8 | `hot_take` | `analysis` |
+| t3_1x8uj5f | `hot_take` | `reaction` |
+| t3_1x9914y | `question` | `reaction` |
+| t3_1x9au4s | `reaction` | `hot_take` |
+| t3_1x9kde1 | `question` | `reaction` |
+| t3_1xabzal | `question` | `reaction` |
+| t3_1xaod5p | `question` | `reaction` |
+| t3_1xaoh8e | `hot_take` | `reaction` |
+| t3_1xaqamq | `question` | `reaction` |
+| t3_1xatizb | `question` | `reaction` |
+| t3_1xb11xr | `question` | `analysis` |
+| t3_1xb1vts | `question` | `reaction` |
+| t3_1xb33a6 | `question` | `reaction` |
+| t3_1xb4h8o | `analysis` | `reaction` |
+
 ---
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** I used inverse-frequency class weights in the training loss,
+calculated separately from each seed's training split. This gives more weight
+to labels with fewer training examples; for these stratified splits, `reaction`
+received weight 1.738, compared with 0.827–0.914 for the other labels. The
+dataset, splits, seeds, model, and other training settings stayed fixed.
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** `reaction` had F1 = 0.000 in all three
+before-run seeds, with only 30 training examples in the full dataset and 20 in
+each training split. Class weighting directly tested whether increasing the
+loss for that underrepresented label would help.
 
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. Overall accuracy | >= 0.70 | 0.333 | 0.467 | 0.400 | MISSED |
+| 2. F1 for every label | >= 0.60 | analysis 0.500; hot_take 0.000; question 0.400; reaction 0.348 | analysis 0.714; hot_take 0.333; question 0.522; reaction 0.000 | analysis 0.500; hot_take 0.250; question 0.519; reaction 0.000 | MISSED |
+| 3. Dataset balance | >= 200 rows; each label 15%–45% | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | 200 rows; 54/60/56/30 | MET |
+| 4. Independent agreement | >= 24/30 on the same project posts | 15/30 (single check) | — | — | MISSED |
+| 5. Confidence | Most-confident third >= 0.80 and >= 0.10 above least-confident third | 0.400 vs 0.300 (gap 0.100) | 0.800 vs 0.300 (gap 0.500) | 0.500 vs 0.200 (gap 0.300) | MISSED |
 
-**Did it help, and how do I know:**
+**Did it help, and how do I know:** Not reliably. `reaction` F1 rose from
+0.000 to 0.348 for seed 42, but stayed at 0.000 for seeds 7 and 2024. Seed
+42's `hot_take` F1 fell from 0.588 to 0.000 as eight true `hot_take` posts
+were predicted as `reaction`; overall accuracy also fell from 0.500 to 0.333.
+Accuracy improved slightly for seeds 7 and 2024, but all three remain below
+0.70, and macro F1 moved in different directions (0.312, 0.392, 0.317 versus
+0.411, 0.315, 0.273 before). The 0.133 accuracy spread is still greater than
+ten percentage points. The weight change shifted errors between labels rather
+than producing a consistent improvement.
 
-<!-- If it didn't, say so. Relabelling that didn't help is a genuinely
-     interesting result and earns full credit. -->
-
-
+The after-run keeps the same 30-post test support per seed: `analysis` 8,
+`hot_take` 9, `question` 8, and `reaction` 5. The detailed per-seed metrics,
+confusion matrices, confidence results, and class weights are saved in
+`results_three_seeds_after.json`.
 
 ---
 
 ## What's Still Broken
 
-<!-- For each criterion still missed: what you'd do, and why you stopped. -->
+**Overall accuracy — MISSED.** All three after-run scores (0.333, 0.467, and
+0.400) remain below 0.70, and the 0.133 spread shows the result is still
+unstable across seeds. The class-weighted confusion matrices show errors
+shifting between `hot_take`, `reaction`, and `question`, rather than one
+boundary being consistently repaired.
 
+**Per-label F1 — MISSED.** `reaction` still has F1 = 0.000 in two seeds; in
+seed 42 it improved to 0.348 while `hot_take` fell to 0.000. `hot_take` is
+below 0.60 in every seed. The class weighting exposed a trade-off, not a
+solution; more independently reviewed examples and a closer look at the
+`hot_take`/`reaction` boundary are needed.
 
+**Independent agreement — MISSED.** The second reader matched the frozen
+project labels on 15/30 sampled posts, below 24/30. The sample, second-reader
+labels, and pre-adjudication comparison are saved in
+[data/project_agreement_sample.csv](data/project_agreement_sample.csv),
+[data/project_agreement_second_reader.csv](data/project_agreement_second_reader.csv),
+and [project_agreement_results.json](project_agreement_results.json). The
+primary labels were AI-prelabeled/reviewed and user-approved, so this is not
+an independent cold human-to-human comparison.
+
+**Confidence — MISSED.** Only seed 7 reached 0.80 accuracy in the
+most-confident third; seeds 42 and 2024 reached 0.400 and 0.500. The
+most-versus-least confidence gap met 0.10 in all seeds, but both parts of the
+target must hold for every seed.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
-<!-- Two sentences. Your confusion matrix is the evidence. -->
+
+The model still confuses the boundaries: class weighting sent eight of nine
+true `hot_take` posts to `reaction` in seed 42, while `reaction` posts were
+mostly sent to `hot_take` or `question` in seeds 7 and 2024. Because there is
+not yet a matched second-human labeling pass on the project posts, I cannot
+separate those model errors from possible inconsistencies in my project labels.
 
 
 

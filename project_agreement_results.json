@@ -1,0 +1,317 @@
+{
+  "sample_file": "data/project_agreement_sample.csv",
+  "second_reader_labels_file": "data/project_agreement_second_reader.csv",
+  "comparison_basis": "Frozen labels.csv project labels versus labels pasted by user for the second reader; texts normalized only for whitespace when matching.",
+  "primary_label_provenance_caveat": "The current project labels were AI-prelabeled and AI-reviewed, then user-approved; this is not an independent cold human primary-label pass.",
+  "sample_size": 30,
+  "agreed": 15,
+  "agreement_rate": 0.5,
+  "target": "at least 24 of 30 (80%)",
+  "measured_comparison_verdict": "MISSED",
+  "second_reader_label_counts": {
+    "analysis": 9,
+    "hot_take": 4,
+    "question": 0,
+    "reaction": 17
+  },
+  "confusion": {
+    "analysis": {
+      "analysis": 6,
+      "hot_take": 0,
+      "question": 0,
+      "reaction": 1
+    },
+    "hot_take": {
+      "analysis": 1,
+      "hot_take": 3,
+      "question": 0,
+      "reaction": 2
+    },
+    "question": {
+      "analysis": 1,
+      "hot_take": 0,
+      "question": 0,
+      "reaction": 8
+    },
+    "reaction": {
+      "analysis": 1,
+      "hot_take": 1,
+      "question": 0,
+      "reaction": 6
+    }
+  },
+  "records": [
+    {
+      "id": "t3_1ujpe27",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    },
+    {
+      "id": "t3_1vryg43",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    },
+    {
+      "id": "t3_1w3u3x3",
+      "primary_label": "reaction",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1x8j3t2",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1x8jn1l",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1x8lvt8",
+      "primary_label": "hot_take",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1x8q1uc",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    },
+    {
+      "id": "t3_1x8rxf6",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1x8uj5f",
+      "primary_label": "hot_take",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1x8x8g3",
+      "primary_label": "hot_take",
+      "second_reader_label": "hot_take",
+      "agree": true
+    },
+    {
+      "id": "t3_1x8yfcm",
+      "primary_label": "hot_take",
+      "second_reader_label": "hot_take",
+      "agree": true
+    },
+    {
+      "id": "t3_1x9914y",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1x99eim",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1x9au4s",
+      "primary_label": "reaction",
+      "second_reader_label": "hot_take",
+      "agree": false
+    },
+    {
+      "id": "t3_1x9bs6u",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1x9kde1",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xabzal",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaod5p",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaoh8e",
+      "primary_label": "hot_take",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaqamq",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xasfaq",
+      "primary_label": "analysis",
+      "second_reader_label": "analysis",
+      "agree": true
+    },
+    {
+      "id": "t3_1xatizb",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xav3lj",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    },
+    {
+      "id": "t3_1xaycth",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    },
+    {
+      "id": "t3_1xb11xr",
+      "primary_label": "question",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb1vts",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb33a6",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb4h8o",
+      "primary_label": "analysis",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb79qc",
+      "primary_label": "hot_take",
+      "second_reader_label": "hot_take",
+      "agree": true
+    },
+    {
+      "id": "t3_1xc2ket",
+      "primary_label": "reaction",
+      "second_reader_label": "reaction",
+      "agree": true
+    }
+  ],
+  "disagreements": [
+    {
+      "id": "t3_1w3u3x3",
+      "primary_label": "reaction",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1x8lvt8",
+      "primary_label": "hot_take",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1x8uj5f",
+      "primary_label": "hot_take",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1x9914y",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1x9au4s",
+      "primary_label": "reaction",
+      "second_reader_label": "hot_take",
+      "agree": false
+    },
+    {
+      "id": "t3_1x9kde1",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xabzal",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaod5p",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaoh8e",
+      "primary_label": "hot_take",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xaqamq",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xatizb",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb11xr",
+      "primary_label": "question",
+      "second_reader_label": "analysis",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb1vts",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb33a6",
+      "primary_label": "question",
+      "second_reader_label": "reaction",
+      "agree": false
+    },
+    {
+      "id": "t3_1xb4h8o",
+      "primary_label": "analysis",
+      "second_reader_label": "reaction",
+      "agree": false
+    }
+  ]
+}
