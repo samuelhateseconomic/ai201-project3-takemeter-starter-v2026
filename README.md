@@ -191,7 +191,7 @@ These are AI-drafted adjudications. The earlier Muse/coding hard cases concerned
 
 **Saved project artifacts:** [results.json](results.json) now records run_kind: project and dataset: labels.csv, all four classes, device/settings, dataset and definition hashes, per-post predictions/confidence and truncation counts. [test_split.csv](test_split.csv) contains the 30 project test posts used for both trained and baseline scoring. The model and tokenizer are saved locally under takemeter_out/project/model/ (ignored by Git). The notebook retains execution outputs. Earlier practice_results.json and practice_test_split.csv remain clearly separate practice evidence.
 
-**Validation:** Notebook sections 1–5 finished without error, the saved kernel path and four-class map were verified, and split membership was checked for leakage. [data/dataset_validation.json](data/dataset_validation.json) records the data checks and demonstration authorization. The filed acceptance targets have not been lowered; one seed does not evaluate the required three-seed criteria, and independent human agreement remains NOT EVALUATED.
+**Validation:** Notebook sections 1–5 finished without error, the saved kernel path and four-class map were verified, and split membership was checked for leakage. [data/dataset_validation.json](data/dataset_validation.json) records the data checks and demonstration authorization. The filed acceptance targets have not been lowered. The three-seed run and project-taxonomy comparison are now recorded below; project-label agreement was 15/30 and MISSED, with the caveat that the primary labels were AI-reviewed before approval.
 
 ---
 
@@ -206,6 +206,17 @@ I asked AI to merge my earlier 50-post collection and research examples, then co
 I asked AI to run notebook sections 1–5 in the project virtual environment. It found that the original checker ignored missing labels, added explicit checks, and completed an authorized practice run when project labels were unfinished. I later asked for project training and the baseline comparison. AI prepared the four-label project configuration and added baseline compatibility checks. Automatic review initially blocked execution because human review was pending; I then explicitly waived that review for this demonstration. The assistant completed sections 1–5 on the project data with the default settings and regenerated the required result files and completed the baseline on the same 30 held-out posts.
 
 **Pre-labeling disclosure:** In this review, AI read the complete stored title/body of all 176 blank posts, assigned labels to the 175 retained blank rows and seven replacements, and reviewed every final row against the definitions. It also revised nine retained cold-origin labels. All 200 final rows disclose AI involvement and pending human review in note. The 24 original cold annotations remain separately archived with unchanged text, labels and notes; 18 of those sources remain eligible in the current CSV. The per-post rationales and exclusions are in data/annotation_review.json. I authorized training with AI-reviewed labels for this demonstration and subsequently approved those proposed labels. This approval is recorded as user_approved; it is not a claim that the labels were assigned cold before seeing AI suggestions. The assistant's reread does not satisfy the course's human-review or independent-agreement requirement.
+
+**Moment 3 — comparing errors and recording the improvement:** I asked AI to
+compare the three-seed confusion matrices and metrics. It highlighted that the
+model never predicted `reaction` in any before-run seed, which led me to choose
+inverse-frequency class weighting as one targeted change. AI ran the same
+three seeds and helped summarize the result: `reaction` F1 improved in only one
+seed, while `hot_take` errors increased there, so the change did not help
+consistently. I also used AI to match the second reader's labels to the 30
+sampled project posts and calculate the pre-adjudication rate; it found 15/30
+agreement and recorded the primary-label provenance caveat. I reviewed the
+calculation and kept the result separate from the 30/30 staff-taxonomy check.
 
 ---
 
@@ -506,39 +517,49 @@ confusion matrices, confidence results, and class weights are saved in
 ## What's Still Broken
 
 **Overall accuracy — MISSED.** All three after-run scores (0.333, 0.467, and
-0.400) remain below 0.70, and the 0.133 spread shows the result is still
-unstable across seeds. The class-weighted confusion matrices show errors
-shifting between `hot_take`, `reaction`, and `question`, rather than one
-boundary being consistently repaired.
+0.400) remain below 0.70, with a 0.133 spread. The next step would be a larger,
+independently reviewed dataset followed by a fresh fixed three-seed evaluation;
+I stopped after the one class-weighting change required for this iteration
+rather than make additional changes whose effects could not be separated.
 
-**Per-label F1 — MISSED.** `reaction` still has F1 = 0.000 in two seeds; in
-seed 42 it improved to 0.348 while `hot_take` fell to 0.000. `hot_take` is
-below 0.60 in every seed. The class weighting exposed a trade-off, not a
-solution; more independently reviewed examples and a closer look at the
-`hot_take`/`reaction` boundary are needed.
+**Per-label F1 — MISSED.** `reaction` remains at F1 = 0.000 in two seeds and
+reaches only 0.348 in the third; `hot_take` is below 0.60 in every seed. The
+next step would be to collect and human-review more examples for the weak
+`reaction`/`hot_take` boundary, not simply increase its loss weight again. I
+stopped because adding data is a separate improvement and the current set
+needs independent review before it is suitable for retraining.
 
-**Independent agreement — MISSED.** The second reader matched the frozen
-project labels on 15/30 sampled posts, below 24/30. The sample, second-reader
-labels, and pre-adjudication comparison are saved in
+**Independent agreement — MISSED in the measured comparison; formal
+human-to-human agreement remains unverified.** The second reader matched the
+frozen labels on 15/30 posts, below 24/30. The sample, second-reader labels,
+and pre-adjudication comparison are saved in
 [data/project_agreement_sample.csv](data/project_agreement_sample.csv),
 [data/project_agreement_second_reader.csv](data/project_agreement_second_reader.csv),
-and [project_agreement_results.json](project_agreement_results.json). The
-primary labels were AI-prelabeled/reviewed and user-approved, so this is not
-an independent cold human-to-human comparison.
+and [project_agreement_results.json](project_agreement_results.json). Because
+the primary labels were AI-prelabeled/reviewed before user approval, the next
+step would be a new blinded primary-human labeling pass and a second-reader
+pass on the same posts. I stopped without claiming that result: the primary
+labels were not made independently or cold, and relabeling after seeing the
+existing labels would not recreate a blind pass.
 
-**Confidence — MISSED.** Only seed 7 reached 0.80 accuracy in the
-most-confident third; seeds 42 and 2024 reached 0.400 and 0.500. The
-most-versus-least confidence gap met 0.10 in all seeds, but both parts of the
-target must hold for every seed.
+**Confidence — MISSED.** Only seed 7 reaches 0.80 in the most-confident third;
+seeds 42 and 2024 reach 0.400 and 0.500. The confidence gap passes, but the
+accuracy threshold must also hold in every seed. A next step would be a
+separately justified confidence-calibration experiment on validation data,
+then evaluation on a new held-out set. I stopped because this iteration's one
+change targeted class imbalance, not confidence, and I did not tune against
+the small test sets.
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 
-The model still confuses the boundaries: class weighting sent eight of nine
-true `hot_take` posts to `reaction` in seed 42, while `reaction` posts were
-mostly sent to `hot_take` or `question` in seeds 7 and 2024. Because there is
-not yet a matched second-human labeling pass on the project posts, I cannot
-separate those model errors from possible inconsistencies in my project labels.
+The before-run confusion matrix tied at three errors for `analysis`, `hot_take`,
+and `reaction` posts predicted as `question`, while class weighting sent eight
+of nine true `hot_take` posts to `reaction` in seed 42, showing the model's
+errors shift by seed rather than resolving one stable boundary. The 15/30
+second-reader match also shows substantial disagreement with the frozen labels,
+but because those primary labels were AI-reviewed, it does not establish which
+reader's interpretation is correct.
 
 
 
